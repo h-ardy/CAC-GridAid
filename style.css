@@ -70,3 +70,19 @@ footer { margin-top: 40px; padding: 32px 24px; font-size: 13px; color: var(--mut
 @media (max-width: 860px) {
   .table { display: block; overflow-x: auto; }
 }
+.join { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.join-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+.ways div { padding: 18px 0; border-top: 1px solid var(--line); }
+.ways div:first-child { border-top: 2px solid var(--ink); }
+.ways h2 { font: 600 22px var(--serif); margin: 0 0 6px; }
+.ways p { margin: 0; color: var(--muted); max-width: 44ch; }
+.form { display: flex; flex-direction: column; gap: 14px; }
+.form label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.form input, .form select, .form textarea { width: 100%; font: 16px var(--sans); }
+textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink); resize: vertical; }
+.form button { align-self: flex-start; font: 600 16px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 12px 22px; cursor: pointer; }
+.form button:hover { background: var(--ink); }
+
+@media (max-width: 860px) {
+  .join-grid { grid-template-columns: 1fr; }
+}

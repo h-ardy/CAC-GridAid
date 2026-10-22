@@ -62,7 +62,7 @@ function cleanBuildings(buildings, countyOutline) {
 
 function pickSites(zips, sites, k, R) {
      const reaches = sites.map((s) =>
-        zips.map((z, zi) => zi).filter((zi) => ___1___)
+        zips.map((z, zi) => zi).filter((zi) =>  zips.map((z, zi) => zi).filter((zi) => miles(s.lat, s.lon, zips[zi].lat, zips[zi].lon) <= R))
     );
 
     const covered = zips.map(() => false);
@@ -76,15 +76,16 @@ function pickSites(zips, sites, k, R) {
             if (chosen.includes(s)) continue;
             let gain = 0;
             for(const zi of reaches[s]) {
-                if (___2___) gain += ___3___;
+                if (!covered[zi]) gain += zips[zi].people;
             }
             if (gain > bestGain) {
-                ___4___
+                best = s;
+                bestGain = gain;
             }
         }
         if (best === -1) break;
         chosen.push(best);
-        for(const zi of reaches[best]) ___5___;
+        for(const zi of reaches[best]) covered[zi] = true;
     }
 
   return chosen;

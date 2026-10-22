@@ -5,8 +5,6 @@ const METERS_PER_MILE = 1609.34;
 
 const els = {
   county: document.getElementById("county"),
-  k: document.getElementById("k"),
-  reach: document.getElementById("reach"),
   coverage: document.getElementById("coverage"),
   coverageNote: document.getElementById("coverageNote"),
   siteList: document.getElementById("siteList"),
@@ -21,11 +19,11 @@ const zipLayer = L.layerGroup().addTo(map);
 const siteLayer = L.layerGroup().addTo(map);
 
 let county = null;
+let costs = null;
 
 
 async function loadCounty(fips) {
   county = await loadCountyData(fips);
-  els.reach.value = fips === "39009" ? 10 : 3;
   draw(true);
 }
 
@@ -52,9 +50,9 @@ function shadeClass(values) {
 
 function draw(fit = false) {
   if (!county) return;
-  const k = Math.max(1, Number(els.k.value) || 1);
-  const R = Math.max(0.5, Number(els.reach.value) || 10);
-  const chosen = pickSites(county.zips, county.sites, k, R);
+    const plan = costs.counties[county.fips];
+  const k = plan ? plan.sites.recommended : 3;
+  const R = plan ? plan.reach : 10;  const chosen = pickSites(county.zips, county.sites, k, R);
   const { nearest, total, reached } = evaluate(county.zips, county.sites, chosen, R);
   const classOf = shadeClass(county.zips.map((z) => z.people));
 
@@ -86,8 +84,7 @@ function draw(fit = false) {
 
   const pct = total ? (100 * reached) / total : 0;
   els.coverage.textContent = `${pct.toFixed(1)}%`;
-  els.coverageNote.textContent = `${reached.toLocaleString()} of ${total.toLocaleString()} people who rely on powered medical equipment are within ${R} miles of a site.`;
-
+  els.coverageNote.textContent = `With ${chosen.length} sites, ${reached.toLocaleString()} of ${total.toLocaleString()} people who rely on powered medical equipment are within ${R} miles of one.`;
   els.siteList.innerHTML = chosen.length
     ? chosen.map((s) => `<li>${esc(county.sites[s].name)}<span>${county.sites[s].type.replace("_", " ")}</span></li>`).join("")
     : `<li class="muted">No sites picked yet.</li>`;
@@ -103,10 +100,13 @@ function draw(fit = false) {
 }
 
 els.county.addEventListener("change", () => loadCounty(els.county.value));
-els.k.addEventListener("input", () => draw());
-els.reach.addEventListener("input", () => draw());
 
-loadCounty(els.county.value).catch((e) => {
-  els.coverage.textContent = "Couldn't load data";
-  els.coverageNote.textContent = e.message;
+async function start() {
+    costs = await getJSON("data/costs.json");
+    await loadCounty(els.county.value);
+}
+
+start().catch((e) => {
+    els.coverage.textContent = "Couldn't load data";
+    els.coverageNote.textContent = e.message;
 });

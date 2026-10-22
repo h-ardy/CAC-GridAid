@@ -55,9 +55,36 @@ function miles(lat1, lon1, lat2, lon2) {
     Math.cos(lat1 * rad) * Math.cos(lat2 * rad) * Math.sin(((lon2 - lon1) * rad) / 2) ** 2;
   return 3958.8 * 2 * Math.asin(Math.sqrt(a));
 }
+function insideRing(lat, lon, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    const crosses = (yi > lat) !== (yj > lat) && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi;
+    if (crosses) inside = !inside;
+  }
+  return inside;
+}
+
+function insideCounty(lat, lon, geometry) {
+  const polygons = geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates;
+  return polygons.some((rings) =>
+    insideRing(lat, lon, rings[0]) && !rings.slice(1).some((hole) => insideRing(lat, lon, hole))
+  );
+}
 
 function cleanBuildings(buildings, countyOutline) {
-  return buildings.filter((b) => b.name);
+  const geometry = countyOutline.features[0].geometry;
+  const kept = [];
+  for (const b of buildings) {
+    if (!b.name) continue;
+    if (!insideCounty(b.lat, b.lon, geometry)) continue;
+    if (b.access === "private" || b.access === "no") continue;
+    const duplicate = kept.some((k) => k.name === b.name && miles(k.lat, k.lon, b.lat, b.lon) < 0.093);
+    if (duplicate) continue;
+    kept.push(b);
+  }
+  return kept;
 }
 
 function pickSites(zips, sites, k, R) {

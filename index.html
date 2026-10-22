@@ -21,68 +21,71 @@
     </nav>
   </header>
 
-   <section class="landing">
-    <canvas id="grid" aria-hidden="true"></canvas>
-    <div class="landing-copy">
-      <img class="hero-logo" src="logo.svg" alt="GridAid">
-      <p>GridAid finds the public buildings where a backup generator would reach the most people who depend on powered medical equipment.</p>
-     
-    </div>
-    <div class="launch" aria-hidden="true">
-      <svg class="tower" viewBox="0 0 80 320">
-        <defs>
-          <pattern id="brace" width="34" height="20" patternUnits="userSpaceOnUse">
-            <path d="M0 0L34 20M34 0L0 20" stroke="#7d868f" stroke-width="1.2"/>
-          </pattern>
-        </defs>
-        <rect x="4" y="20" width="34" height="300" fill="url(#brace)"/>
-        <path d="M4 20V320M38 20V320M0 20H42" stroke="#b9c0c7" stroke-width="3"/>
-        <path class="arm" d="M38 96H78" stroke="#b9c0c7" stroke-width="5"/>
-        <path d="M0 318H80" stroke="#b9c0c7" stroke-width="4"/>
-      </svg>
-      <div class="ship">
-        <svg viewBox="0 0 60 200">
-          <path d="M30 2C44 20 48 42 48 66V160H12V66C12 42 16 20 30 2Z" fill="#f4f1ea" stroke="#1b1d1f" stroke-width="1.5"/>
-          <circle cx="30" cy="64" r="7" fill="#1b3a5c" stroke="#1b1d1f" stroke-width="1.5"/>
-          <rect x="12" y="104" width="36" height="10" fill="#be5602"/>
-          <path d="M12 128L1 170L12 160Z M48 128L59 170L48 160Z" fill="#be5602" stroke="#1b1d1f" stroke-width="1.2"/>
-          <path d="M19 160H41L37 174H23Z" fill="#55606c" stroke="#1b1d1f" stroke-width="1.2"/>
-        </svg>
-        <svg class="flame" viewBox="0 0 24 46">
-          <path d="M12 0C22 10 24 26 12 46C0 26 2 10 12 0Z" fill="#e0431b"/>
-          <path d="M12 3C19 12 20 24 12 38C4 24 5 12 12 3Z" fill="#f59a23"/>
-          <path d="M12 6C16 12 16 20 12 28C8 20 8 12 12 6Z" fill="#fde68a"/>
-        </svg>
+     <section class="stage">
+    <div class="stage-pin">
+      <div class="sky"></div>
+      <canvas id="grid" aria-hidden="true"></canvas>
+
+      <div class="hero">
+        <img class="hero-logo" src="logo.svg" alt="GridAid">
+        <p class="hero-line">Where should backup power go when the grid fails?</p>
       </div>
-      <div class="smoke">
-        <i style="--dx: -70px"></i><i style="--dx: -40px"></i><i style="--dx: -10px"></i><i style="--dx: 20px"></i><i style="--dx: 50px"></i>
+
+      <div class="launch" aria-hidden="true">
+        <svg class="tower" viewBox="0 0 80 320">
+          <defs>
+            <pattern id="brace" width="34" height="20" patternUnits="userSpaceOnUse">
+              <path d="M0 0L34 20M34 0L0 20" stroke="#7d868f" stroke-width="1.2"/>
+            </pattern>
+          </defs>
+          <rect x="4" y="20" width="34" height="300" fill="url(#brace)"/>
+          <path d="M4 20V320M38 20V320M0 20H42" stroke="#b9c0c7" stroke-width="3"/>
+          <path class="arm" d="M38 96H78" stroke="#b9c0c7" stroke-width="5"/>
+          <path d="M0 318H80" stroke="#b9c0c7" stroke-width="4"/>
+        </svg>
+        <div class="ship">
+          <svg viewBox="0 0 60 200">
+            <path d="M30 2C44 20 48 42 48 66V160H12V66C12 42 16 20 30 2Z" fill="#f4f1ea" stroke="#1b1d1f" stroke-width="1.5"/>
+            <circle cx="30" cy="64" r="7" fill="#1b3a5c" stroke="#1b1d1f" stroke-width="1.5"/>
+            <rect x="12" y="104" width="36" height="10" fill="#be5602"/>
+            <path d="M12 128L1 170L12 160Z M48 128L59 170L48 160Z" fill="#be5602" stroke="#1b1d1f" stroke-width="1.2"/>
+            <path d="M19 160H41L37 174H23Z" fill="#55606c" stroke="#1b1d1f" stroke-width="1.2"/>
+          </svg>
+          <svg class="flame" viewBox="0 0 24 46">
+            <path d="M12 0C22 10 24 26 12 46C0 26 2 10 12 0Z" fill="#e0431b"/>
+            <path d="M12 3C19 12 20 24 12 38C4 24 5 12 12 3Z" fill="#f59a23"/>
+            <path d="M12 6C16 12 16 20 12 28C8 20 8 12 12 6Z" fill="#fde68a"/>
+          </svg>
+        </div>
+        <div class="smoke">
+          <i style="--dx: -70px"></i><i style="--dx: -40px"></i><i style="--dx: -10px"></i><i style="--dx: 20px"></i><i style="--dx: 50px"></i>
+        </div>
       </div>
+
+      <main id="planner" class="planner">
+        <div class="controls" data-dock="top">
+          <label>County
+            <select id="county">
+              <option value="39009">Athens County, OH</option>
+              <option value="48201">Harris County, TX</option>
+              <option value="06037">Los Angeles County, CA</option>
+            </select>
+          </label>
+        </div>
+        <div class="layout">
+          <div class="map-shell"><div id="map"></div></div>
+          <aside class="panel" data-dock="right">
+            <p class="big" id="coverage">Loading</p>
+            <p class="note" id="coverageNote"></p>
+            <h2>Sites</h2>
+            <ol id="siteList"></ol>
+            <h2>Still out of reach</h2>
+            <ul id="gapList"></ul>
+          </aside>
+        </div>
+      </main>
     </div>
   </section>
-
-  <main id="planner" class="planner">
-    <div class="controls">
-      <label>County
-        <select id="county">
-          <option value="39009">Athens County, OH</option>
-          <option value="48201">Harris County, TX</option>
-          <option value="06037">Los Angeles County, CA</option>
-        </select>
-      </label>
-    </div>
-
-    <div class="layout">
-      <div id="map"></div>
-      <aside class="panel">
-        <p class="big" id="coverage">Loading</p>
-        <p class="note" id="coverageNote"></p>
-        <h2>Site</h2>
-        <ol id="siteList"></ol>
-        <h2>Still out of reach</h2>
-        <ul id="gapList"></ul>
-      </aside>
-    </div>
-  </main>
 
   <footer>Data: HHS emPOWER (Medicare), U.S. Census Bureau, OpenStreetMap contributors. See DATA.md.</footer>
 

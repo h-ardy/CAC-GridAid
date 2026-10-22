@@ -14,9 +14,8 @@ const els = {
 };
 
 const map = L.map("map", { scrollWheelZoom: false });
-L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-  maxZoom: 18,
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+  attribution: "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors",  maxZoom: 16,
 }).addTo(map);
 const zipLayer = L.layerGroup().addTo(map);
 const siteLayer = L.layerGroup().addTo(map);
@@ -88,8 +87,8 @@ function cleanBuildings(buildings, countyOutline) {
 }
 
 function pickSites(zips, sites, k, R) {
-     const reaches = sites.map((s) =>
-        zips.map((z, zi) => zi).filter((zi) =>  zips.map((z, zi) => zi).filter((zi) => miles(s.lat, s.lon, zips[zi].lat, zips[zi].lon) <= R))
+       const reaches = sites.map((s) =>
+        zips.map((z, zi) => zi).filter((zi) => miles(s.lat, s.lon, zips[zi].lat, zips[zi].lon) <= R)
     );
 
     const covered = zips.map(() => false);

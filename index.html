@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridAid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="index.html">GridAid</a>
+    <nav>
+      <a href="index.html" aria-current="page">Map</a>
+      <a href="logistics.html">Logistics</a>
+      <a href="join.html">Join us</a>
+    </nav>
+  </header>
+
+  <section class="landing">
+    <h1>When the power goes out, where do people on oxygen go?</h1>
+    <p>GridAid finds the public buildings where a backup generator would reach the most people who depend on powered medical equipment.</p>
+    <a class="down" href="#planner">Open the map</a>
+  </section>
+
+  <main id="planner" class="planner">
+    <div class="controls">
+      <label>County
+        <select id="county">
+          <option value="39009">Athens County, OH</option>
+          <option value="48201">Harris County, TX</option>
+          <option value="06037">Los Angeles County, CA</option>
+        </select>
+      </label>
+      <label>Sites
+        <input id="k" type="number" min="1" max="30" value="3">
+      </label>
+      <label>Reach (miles)
+        <input id="reach" type="number" min="0.5" max="30" step="0.5" value="10">
+      </label>
+    </div>
+
+    <div class="layout">
+      <div id="map"></div>
+      <aside class="panel">
+        <p class="big" id="coverage">Loading</p>
+        <p class="note" id="coverageNote"></p>
+        <h2>Sites</h2>
+        <ol id="siteList"></ol>
+        <h2>Still out of reach</h2>
+        <ul id="gapList"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer>Data: HHS emPOWER (Medicare), U.S. Census Bureau, OpenStreetMap contributors. See DATA.md.</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

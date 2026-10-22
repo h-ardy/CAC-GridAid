@@ -119,7 +119,6 @@ function draw() {
     })
     .join("");
 
-  els.fine.textContent = `People served = people whose nearest site is this one. Expected visitors assume ${Math.round(inp.turnout * 100)}% of people come to a site (a placeholder the county should set) and ${inp.wattsLow} to ${inp.wattsHigh} watts per person. Costs are planning estimates, not quotes.`;
 }
 
 els.county.addEventListener("change", () => loadCounty(els.county.value));

@@ -1,0 +1,192 @@
+{
+ "source": "GridAid_County_Plans.xlsx (Hardy Wang)",
+ "generators": {
+  "hookup": {
+   "name": "Hookup only",
+   "cost": 10000,
+   "fuel": "Diesel (rented unit)",
+   "fuelPerDay": 1097.39,
+   "rentPerWeek": 1569
+  },
+  "diesel": {
+   "name": "Permanent generator, diesel",
+   "cost": 58333,
+   "fuel": "Diesel",
+   "fuelPerDay": 1097.39,
+   "rentPerWeek": null
+  },
+  "gas": {
+   "name": "Permanent generator, natural gas",
+   "cost": 104643.75,
+   "fuel": "Natural gas",
+   "fuelPerDay": 429.68,
+   "rentPerWeek": null
+  },
+  "solar": {
+   "name": "Solar panels plus battery",
+   "cost": 589147,
+   "fuel": "Sun",
+   "fuelPerDay": 0,
+   "rentPerWeek": null
+  }
+ },
+ "inputs": {
+  "fema": 0.75,
+  "turnout": 0.25,
+  "wattsLow": 275,
+  "wattsHigh": 550,
+  "reachRural": 10,
+  "reachUrban": 3,
+  "days": 3,
+  "kwPerSite": 100
+ },
+ "counties": {
+  "06037": {
+   "name": "Los Angeles County, CA",
+   "type": "Urban",
+   "pop": 10014009,
+   "medicare": 1716142,
+   "rely": 67311,
+   "reach": 3,
+   "expected": 16827.75,
+   "kw": [
+    4627.63,
+    9255.26
+   ],
+   "sites": {
+    "recommended": 47,
+    "high": 93
+   },
+   "budget": {
+    "recommended": {
+     "hookup": 470000,
+     "diesel": 2741651,
+     "gas": 4918256.25,
+     "solar": 27689909
+    },
+    "high": {
+     "hookup": 930000,
+     "diesel": 5424969,
+     "gas": 9731868.75,
+     "solar": 54790671
+    }
+   },
+   "localShareDiesel": 685412.75,
+   "running": {
+    "hookup": 228475.05,
+    "diesel": 154732.05,
+    "gas": 60584.5,
+    "solar": 0
+   },
+   "services": {
+    "oxygen": 13254,
+    "dialysis": 13765,
+    "homeHealth": 16517,
+    "hospice": 2735
+   },
+   "outage": {
+    "date": "Jan 8, 2025",
+    "what": "Wildfires and Santa Ana winds: 40,573 SCE customers in the county under public safety power shutoffs; 123,335 more considered",
+    "src": "https://patch.com/california/los-angeles/140k-lose-electricity-public-safety-power-shutoffs-amid-fires"
+   }
+  },
+  "48201": {
+   "name": "Harris County, TX",
+   "type": "Urban",
+   "pop": 4731145,
+   "medicare": 672080,
+   "rely": 28811,
+   "reach": 3,
+   "expected": 7202.75,
+   "kw": [
+    1980.76,
+    3961.51
+   ],
+   "sites": {
+    "recommended": 20,
+    "high": 40
+   },
+   "budget": {
+    "recommended": {
+     "hookup": 200000,
+     "diesel": 1166660,
+     "gas": 2092875,
+     "solar": 11782940
+    },
+    "high": {
+     "hookup": 400000,
+     "diesel": 2333320,
+     "gas": 4185750,
+     "solar": 23565880
+    }
+   },
+   "localShareDiesel": 291665,
+   "running": {
+    "hookup": 97223.42,
+    "diesel": 65843.42,
+    "gas": 25780.64,
+    "solar": 0
+   },
+   "services": {
+    "oxygen": 4366,
+    "dialysis": 6987,
+    "homeHealth": 5164,
+    "hospice": 1335
+   },
+   "outage": {
+    "date": "Jul 8, 2024",
+    "what": "Hurricane Beryl: more than 2.2 million CenterPoint customers lost power during a heat advisory; 1.1 million still out 3 days later",
+    "src": "https://www.axios.com/local/houston/2024/07/11/houston-power-outage-storm-beryl-centerpoint"
+   }
+  },
+  "39009": {
+   "name": "Athens County, OH",
+   "type": "Rural",
+   "pop": 62431,
+   "medicare": 12713,
+   "rely": 845,
+   "reach": 10,
+   "expected": 211.25,
+   "kw": [
+    58.09,
+    116.19
+   ],
+   "sites": {
+    "recommended": 3,
+    "high": 4
+   },
+   "budget": {
+    "recommended": {
+     "hookup": 30000,
+     "diesel": 174999,
+     "gas": 313931.25,
+     "solar": 1767441
+    },
+    "high": {
+     "hookup": 40000,
+     "diesel": 233332,
+     "gas": 418575,
+     "solar": 2356588
+    }
+   },
+   "localShareDiesel": 43749.75,
+   "running": {
+    "hookup": 14583.51,
+    "diesel": 9876.51,
+    "gas": 3867.1,
+    "solar": 0
+   },
+   "services": {
+    "oxygen": 284,
+    "dialysis": 88,
+    "homeHealth": 148,
+    "hospice": 77
+   },
+   "outage": {
+    "date": "Jun 29, 2012",
+    "what": "Windstorm: about 87 to 91% of AEP customers without power; 90% restoration not expected until Jul 6",
+    "src": "https://woub.org/?p=5527"
+   }
+  }
+ }
+}

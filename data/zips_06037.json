@@ -1,0 +1,2286 @@
+{
+ "fips": "06037",
+ "name": "Los Angeles County, CA",
+ "zips": [
+  {
+   "zip": "90001",
+   "lat": 33.973659,
+   "lon": -118.249448,
+   "people": 278,
+   "medicare": 6039,
+   "masked": false
+  },
+  {
+   "zip": "90002",
+   "lat": 33.949055,
+   "lon": -118.246853,
+   "people": 277,
+   "medicare": 5487,
+   "masked": false
+  },
+  {
+   "zip": "90003",
+   "lat": 33.964311,
+   "lon": -118.273827,
+   "people": 363,
+   "medicare": 7109,
+   "masked": false
+  },
+  {
+   "zip": "90004",
+   "lat": 34.076075,
+   "lon": -118.308394,
+   "people": 225,
+   "medicare": 8234,
+   "masked": false
+  },
+  {
+   "zip": "90005",
+   "lat": 34.061241,
+   "lon": -118.301622,
+   "people": 131,
+   "medicare": 5318,
+   "masked": false
+  },
+  {
+   "zip": "90006",
+   "lat": 34.04808,
+   "lon": -118.293824,
+   "people": 188,
+   "medicare": 7625,
+   "masked": false
+  },
+  {
+   "zip": "90007",
+   "lat": 34.028674,
+   "lon": -118.285827,
+   "people": 136,
+   "medicare": 3751,
+   "masked": false
+  },
+  {
+   "zip": "90008",
+   "lat": 34.009152,
+   "lon": -118.347426,
+   "people": 306,
+   "medicare": 6717,
+   "masked": false
+  },
+  {
+   "zip": "90010",
+   "lat": 34.06234,
+   "lon": -118.310299,
+   "people": 60,
+   "medicare": 1276,
+   "masked": false
+  },
+  {
+   "zip": "90011",
+   "lat": 34.007519,
+   "lon": -118.259017,
+   "people": 414,
+   "medicare": 9073,
+   "masked": false
+  },
+  {
+   "zip": "90012",
+   "lat": 34.065653,
+   "lon": -118.238255,
+   "people": 144,
+   "medicare": 5449,
+   "masked": false
+  },
+  {
+   "zip": "90013",
+   "lat": 34.044314,
+   "lon": -118.241639,
+   "people": 71,
+   "medicare": 2412,
+   "masked": false
+  },
+  {
+   "zip": "90014",
+   "lat": 34.043148,
+   "lon": -118.252293,
+   "people": 53,
+   "medicare": 1747,
+   "masked": false
+  },
+  {
+   "zip": "90015",
+   "lat": 34.039668,
+   "lon": -118.266681,
+   "people": 64,
+   "medicare": 2573,
+   "masked": false
+  },
+  {
+   "zip": "90016",
+   "lat": 34.028066,
+   "lon": -118.354648,
+   "people": 317,
+   "medicare": 7508,
+   "masked": false
+  },
+  {
+   "zip": "90017",
+   "lat": 34.053104,
+   "lon": -118.264921,
+   "people": 96,
+   "medicare": 2751,
+   "masked": false
+  },
+  {
+   "zip": "90018",
+   "lat": 34.028297,
+   "lon": -118.317698,
+   "people": 311,
+   "medicare": 8578,
+   "masked": false
+  },
+  {
+   "zip": "90019",
+   "lat": 34.049355,
+   "lon": -118.33857,
+   "people": 308,
+   "medicare": 9822,
+   "masked": false
+  },
+  {
+   "zip": "90020",
+   "lat": 34.068357,
+   "lon": -118.321816,
+   "people": 135,
+   "medicare": 6008,
+   "masked": false
+  },
+  {
+   "zip": "90021",
+   "lat": 34.028935,
+   "lon": -118.238843,
+   "people": 14,
+   "medicare": 423,
+   "masked": false
+  },
+  {
+   "zip": "90022",
+   "lat": 34.024687,
+   "lon": -118.156251,
+   "people": 383,
+   "medicare": 8952,
+   "masked": false
+  },
+  {
+   "zip": "90023",
+   "lat": 34.020532,
+   "lon": -118.199443,
+   "people": 263,
+   "medicare": 5606,
+   "masked": false
+  },
+  {
+   "zip": "90024",
+   "lat": 34.065056,
+   "lon": -118.435174,
+   "people": 254,
+   "medicare": 6150,
+   "masked": false
+  },
+  {
+   "zip": "90025",
+   "lat": 34.045085,
+   "lon": -118.446586,
+   "people": 189,
+   "medicare": 6665,
+   "masked": false
+  },
+  {
+   "zip": "90026",
+   "lat": 34.078702,
+   "lon": -118.26296,
+   "people": 243,
+   "medicare": 7984,
+   "masked": false
+  },
+  {
+   "zip": "90027",
+   "lat": 34.124699,
+   "lon": -118.29091,
+   "people": 262,
+   "medicare": 7328,
+   "masked": false
+  },
+  {
+   "zip": "90028",
+   "lat": 34.099765,
+   "lon": -118.327259,
+   "people": 160,
+   "medicare": 4793,
+   "masked": false
+  },
+  {
+   "zip": "90029",
+   "lat": 34.090019,
+   "lon": -118.294324,
+   "people": 198,
+   "medicare": 5325,
+   "masked": false
+  },
+  {
+   "zip": "90031",
+   "lat": 34.077488,
+   "lon": -118.2095,
+   "people": 205,
+   "medicare": 5588,
+   "masked": false
+  },
+  {
+   "zip": "90032",
+   "lat": 34.081012,
+   "lon": -118.178539,
+   "people": 289,
+   "medicare": 7144,
+   "masked": false
+  },
+  {
+   "zip": "90033",
+   "lat": 34.050225,
+   "lon": -118.210927,
+   "people": 274,
+   "medicare": 5825,
+   "masked": false
+  },
+  {
+   "zip": "90034",
+   "lat": 34.030748,
+   "lon": -118.399355,
+   "people": 200,
+   "medicare": 6804,
+   "masked": false
+  },
+  {
+   "zip": "90035",
+   "lat": 34.051777,
+   "lon": -118.383887,
+   "people": 203,
+   "medicare": 5410,
+   "masked": false
+  },
+  {
+   "zip": "90036",
+   "lat": 34.070555,
+   "lon": -118.349173,
+   "people": 168,
+   "medicare": 4806,
+   "masked": false
+  },
+  {
+   "zip": "90037",
+   "lat": 34.00312,
+   "lon": -118.287079,
+   "people": 341,
+   "medicare": 7206,
+   "masked": false
+  },
+  {
+   "zip": "90038",
+   "lat": 34.088871,
+   "lon": -118.326472,
+   "people": 98,
+   "medicare": 3385,
+   "masked": false
+  },
+  {
+   "zip": "90039",
+   "lat": 34.111687,
+   "lon": -118.260729,
+   "people": 146,
+   "medicare": 4856,
+   "masked": false
+  },
+  {
+   "zip": "90040",
+   "lat": 33.993302,
+   "lon": -118.150737,
+   "people": 85,
+   "medicare": 2092,
+   "masked": false
+  },
+  {
+   "zip": "90041",
+   "lat": 34.13726,
+   "lon": -118.207437,
+   "people": 187,
+   "medicare": 5302,
+   "masked": false
+  },
+  {
+   "zip": "90042",
+   "lat": 34.114834,
+   "lon": -118.191706,
+   "people": 324,
+   "medicare": 8490,
+   "masked": false
+  },
+  {
+   "zip": "90043",
+   "lat": 33.988887,
+   "lon": -118.33519,
+   "people": 432,
+   "medicare": 9327,
+   "masked": false
+  },
+  {
+   "zip": "90044",
+   "lat": 33.953235,
+   "lon": -118.291628,
+   "people": 620,
+   "medicare": 11769,
+   "masked": false
+  },
+  {
+   "zip": "90045",
+   "lat": 33.952856,
+   "lon": -118.400123,
+   "people": 211,
+   "medicare": 7482,
+   "masked": false
+  },
+  {
+   "zip": "90046",
+   "lat": 34.106895,
+   "lon": -118.363963,
+   "people": 296,
+   "medicare": 7519,
+   "masked": false
+  },
+  {
+   "zip": "90047",
+   "lat": 33.953832,
+   "lon": -118.308912,
+   "people": 515,
+   "medicare": 9625,
+   "masked": false
+  },
+  {
+   "zip": "90048",
+   "lat": 34.073018,
+   "lon": -118.372877,
+   "people": 123,
+   "medicare": 3771,
+   "masked": false
+  },
+  {
+   "zip": "90049",
+   "lat": 34.090277,
+   "lon": -118.503535,
+   "people": 266,
+   "medicare": 7974,
+   "masked": false
+  },
+  {
+   "zip": "90056",
+   "lat": 33.993237,
+   "lon": -118.372564,
+   "people": 103,
+   "medicare": 2485,
+   "masked": false
+  },
+  {
+   "zip": "90057",
+   "lat": 34.062166,
+   "lon": -118.277298,
+   "people": 129,
+   "medicare": 5107,
+   "masked": false
+  },
+  {
+   "zip": "90058",
+   "lat": 34.001556,
+   "lon": -118.216299,
+   "people": 24,
+   "medicare": 416,
+   "masked": false
+  },
+  {
+   "zip": "90059",
+   "lat": 33.926024,
+   "lon": -118.249401,
+   "people": 254,
+   "medicare": 4972,
+   "masked": false
+  },
+  {
+   "zip": "90061",
+   "lat": 33.920287,
+   "lon": -118.27366,
+   "people": 226,
+   "medicare": 3680,
+   "masked": false
+  },
+  {
+   "zip": "90062",
+   "lat": 34.003078,
+   "lon": -118.308806,
+   "people": 237,
+   "medicare": 4918,
+   "masked": false
+  },
+  {
+   "zip": "90063",
+   "lat": 34.044798,
+   "lon": -118.185763,
+   "people": 273,
+   "medicare": 6765,
+   "masked": false
+  },
+  {
+   "zip": "90064",
+   "lat": 34.037139,
+   "lon": -118.424068,
+   "people": 177,
+   "medicare": 5884,
+   "masked": false
+  },
+  {
+   "zip": "90065",
+   "lat": 34.108599,
+   "lon": -118.228635,
+   "people": 287,
+   "medicare": 7647,
+   "masked": false
+  },
+  {
+   "zip": "90066",
+   "lat": 34.003602,
+   "lon": -118.432448,
+   "people": 240,
+   "medicare": 9193,
+   "masked": false
+  },
+  {
+   "zip": "90067",
+   "lat": 34.059722,
+   "lon": -118.415445,
+   "people": 61,
+   "medicare": 1531,
+   "masked": false
+  },
+  {
+   "zip": "90068",
+   "lat": 34.128135,
+   "lon": -118.330127,
+   "people": 87,
+   "medicare": 3615,
+   "masked": false
+  },
+  {
+   "zip": "90069",
+   "lat": 34.108603,
+   "lon": -118.387686,
+   "people": 99,
+   "medicare": 3881,
+   "masked": false
+  },
+  {
+   "zip": "90071",
+   "lat": 34.052357,
+   "lon": -118.255449,
+   "people": 0,
+   "medicare": 74,
+   "masked": false
+  },
+  {
+   "zip": "90077",
+   "lat": 34.105285,
+   "lon": -118.453765,
+   "people": 78,
+   "medicare": 2354,
+   "masked": false
+  },
+  {
+   "zip": "90089",
+   "lat": 34.021353,
+   "lon": -118.286742,
+   "people": 0,
+   "medicare": 11,
+   "masked": false
+  },
+  {
+   "zip": "90094",
+   "lat": 33.976396,
+   "lon": -118.419857,
+   "people": 49,
+   "medicare": 1426,
+   "masked": false
+  },
+  {
+   "zip": "90095",
+   "lat": 34.070367,
+   "lon": -118.444317,
+   "people": 0,
+   "medicare": 11,
+   "masked": false
+  },
+  {
+   "zip": "90201",
+   "lat": 33.968447,
+   "lon": -118.171876,
+   "people": 471,
+   "medicare": 11108,
+   "masked": false
+  },
+  {
+   "zip": "90210",
+   "lat": 34.101702,
+   "lon": -118.415685,
+   "people": 212,
+   "medicare": 5825,
+   "masked": false
+  },
+  {
+   "zip": "90211",
+   "lat": 34.064756,
+   "lon": -118.382765,
+   "people": 63,
+   "medicare": 2030,
+   "masked": false
+  },
+  {
+   "zip": "90212",
+   "lat": 34.06215,
+   "lon": -118.401386,
+   "people": 86,
+   "medicare": 2996,
+   "masked": false
+  },
+  {
+   "zip": "90220",
+   "lat": 33.880593,
+   "lon": -118.237305,
+   "people": 378,
+   "medicare": 7091,
+   "masked": false
+  },
+  {
+   "zip": "90221",
+   "lat": 33.885783,
+   "lon": -118.20683,
+   "people": 331,
+   "medicare": 6473,
+   "masked": false
+  },
+  {
+   "zip": "90222",
+   "lat": 33.912455,
+   "lon": -118.235846,
+   "people": 219,
+   "medicare": 4039,
+   "masked": false
+  },
+  {
+   "zip": "90230",
+   "lat": 33.99408,
+   "lon": -118.399488,
+   "people": 188,
+   "medicare": 6399,
+   "masked": false
+  },
+  {
+   "zip": "90232",
+   "lat": 34.018244,
+   "lon": -118.392019,
+   "people": 127,
+   "medicare": 2967,
+   "masked": false
+  },
+  {
+   "zip": "90240",
+   "lat": 33.954547,
+   "lon": -118.113481,
+   "people": 171,
+   "medicare": 4592,
+   "masked": false
+  },
+  {
+   "zip": "90241",
+   "lat": 33.941183,
+   "lon": -118.131547,
+   "people": 302,
+   "medicare": 6975,
+   "masked": false
+  },
+  {
+   "zip": "90242",
+   "lat": 33.922217,
+   "lon": -118.142019,
+   "people": 235,
+   "medicare": 6346,
+   "masked": false
+  },
+  {
+   "zip": "90245",
+   "lat": 33.919683,
+   "lon": -118.397312,
+   "people": 106,
+   "medicare": 3161,
+   "masked": false
+  },
+  {
+   "zip": "90247",
+   "lat": 33.891966,
+   "lon": -118.297155,
+   "people": 303,
+   "medicare": 8509,
+   "masked": false
+  },
+  {
+   "zip": "90248",
+   "lat": 33.877485,
+   "lon": -118.283921,
+   "people": 106,
+   "medicare": 2505,
+   "masked": false
+  },
+  {
+   "zip": "90249",
+   "lat": 33.901533,
+   "lon": -118.317121,
+   "people": 209,
+   "medicare": 5222,
+   "masked": false
+  },
+  {
+   "zip": "90250",
+   "lat": 33.914069,
+   "lon": -118.349644,
+   "people": 491,
+   "medicare": 12707,
+   "masked": false
+  },
+  {
+   "zip": "90254",
+   "lat": 33.864494,
+   "lon": -118.396598,
+   "people": 89,
+   "medicare": 3085,
+   "masked": false
+  },
+  {
+   "zip": "90255",
+   "lat": 33.976823,
+   "lon": -118.217882,
+   "people": 375,
+   "medicare": 9458,
+   "masked": false
+  },
+  {
+   "zip": "90260",
+   "lat": 33.887899,
+   "lon": -118.349719,
+   "people": 169,
+   "medicare": 4702,
+   "masked": false
+  },
+  {
+   "zip": "90262",
+   "lat": 33.923398,
+   "lon": -118.201334,
+   "people": 342,
+   "medicare": 8344,
+   "masked": false
+  },
+  {
+   "zip": "90263",
+   "lat": 34.039255,
+   "lon": -118.70815,
+   "people": 0,
+   "medicare": 0,
+   "masked": false
+  },
+  {
+   "zip": "90265",
+   "lat": 34.077117,
+   "lon": -118.854969,
+   "people": 93,
+   "medicare": 3572,
+   "masked": false
+  },
+  {
+   "zip": "90266",
+   "lat": 33.895255,
+   "lon": -118.401404,
+   "people": 198,
+   "medicare": 7430,
+   "masked": false
+  },
+  {
+   "zip": "90270",
+   "lat": 33.988369,
+   "lon": -118.187879,
+   "people": 125,
+   "medicare": 3123,
+   "masked": false
+  },
+  {
+   "zip": "90272",
+   "lat": 34.069064,
+   "lon": -118.552423,
+   "people": 102,
+   "medicare": 3360,
+   "masked": false
+  },
+  {
+   "zip": "90274",
+   "lat": 33.088762,
+   "lon": -118.461205,
+   "people": 243,
+   "medicare": 8166,
+   "masked": false
+  },
+  {
+   "zip": "90275",
+   "lat": 33.749571,
+   "lon": -118.355784,
+   "people": 373,
+   "medicare": 11513,
+   "masked": false
+  },
+  {
+   "zip": "90277",
+   "lat": 33.83061,
+   "lon": -118.383656,
+   "people": 231,
+   "medicare": 8315,
+   "masked": false
+  },
+  {
+   "zip": "90278",
+   "lat": 33.873409,
+   "lon": -118.370507,
+   "people": 224,
+   "medicare": 7165,
+   "masked": false
+  },
+  {
+   "zip": "90280",
+   "lat": 33.944578,
+   "lon": -118.193283,
+   "people": 478,
+   "medicare": 13355,
+   "masked": false
+  },
+  {
+   "zip": "90290",
+   "lat": 34.103149,
+   "lon": -118.61092,
+   "people": 34,
+   "medicare": 1402,
+   "masked": false
+  },
+  {
+   "zip": "90291",
+   "lat": 33.994668,
+   "lon": -118.46433,
+   "people": 105,
+   "medicare": 4064,
+   "masked": false
+  },
+  {
+   "zip": "90292",
+   "lat": 33.979025,
+   "lon": -118.447951,
+   "people": 157,
+   "medicare": 5334,
+   "masked": false
+  },
+  {
+   "zip": "90293",
+   "lat": 33.950071,
+   "lon": -118.437756,
+   "people": 74,
+   "medicare": 2429,
+   "masked": false
+  },
+  {
+   "zip": "90301",
+   "lat": 33.955654,
+   "lon": -118.353586,
+   "people": 249,
+   "medicare": 6100,
+   "masked": false
+  },
+  {
+   "zip": "90302",
+   "lat": 33.972755,
+   "lon": -118.352304,
+   "people": 178,
+   "medicare": 4448,
+   "masked": false
+  },
+  {
+   "zip": "90303",
+   "lat": 33.936248,
+   "lon": -118.331107,
+   "people": 177,
+   "medicare": 3797,
+   "masked": false
+  },
+  {
+   "zip": "90304",
+   "lat": 33.9382,
+   "lon": -118.357668,
+   "people": 111,
+   "medicare": 3150,
+   "masked": false
+  },
+  {
+   "zip": "90305",
+   "lat": 33.958704,
+   "lon": -118.325633,
+   "people": 156,
+   "medicare": 3652,
+   "masked": false
+  },
+  {
+   "zip": "90401",
+   "lat": 34.015576,
+   "lon": -118.492373,
+   "people": 64,
+   "medicare": 1932,
+   "masked": false
+  },
+  {
+   "zip": "90402",
+   "lat": 34.036034,
+   "lon": -118.500984,
+   "people": 102,
+   "medicare": 3245,
+   "masked": false
+  },
+  {
+   "zip": "90403",
+   "lat": 34.031113,
+   "lon": -118.490267,
+   "people": 158,
+   "medicare": 5646,
+   "masked": false
+  },
+  {
+   "zip": "90404",
+   "lat": 34.026816,
+   "lon": -118.473767,
+   "people": 133,
+   "medicare": 3709,
+   "masked": false
+  },
+  {
+   "zip": "90405",
+   "lat": 34.012191,
+   "lon": -118.467842,
+   "people": 156,
+   "medicare": 6127,
+   "masked": false
+  },
+  {
+   "zip": "90501",
+   "lat": 33.833638,
+   "lon": -118.314338,
+   "people": 256,
+   "medicare": 7251,
+   "masked": false
+  },
+  {
+   "zip": "90502",
+   "lat": 33.834896,
+   "lon": -118.293005,
+   "people": 146,
+   "medicare": 3838,
+   "masked": false
+  },
+  {
+   "zip": "90503",
+   "lat": 33.840557,
+   "lon": -118.353111,
+   "people": 299,
+   "medicare": 9568,
+   "masked": false
+  },
+  {
+   "zip": "90504",
+   "lat": 33.866848,
+   "lon": -118.331299,
+   "people": 259,
+   "medicare": 6841,
+   "masked": false
+  },
+  {
+   "zip": "90505",
+   "lat": 33.808852,
+   "lon": -118.348244,
+   "people": 278,
+   "medicare": 8717,
+   "masked": false
+  },
+  {
+   "zip": "90506",
+   "lat": 33.88432,
+   "lon": -118.330186,
+   "people": 0,
+   "medicare": 0,
+   "masked": false
+  },
+  {
+   "zip": "90601",
+   "lat": 34.004148,
+   "lon": -118.03509,
+   "people": 255,
+   "medicare": 6420,
+   "masked": false
+  },
+  {
+   "zip": "90602",
+   "lat": 33.971162,
+   "lon": -118.023083,
+   "people": 160,
+   "medicare": 3807,
+   "masked": false
+  },
+  {
+   "zip": "90603",
+   "lat": 33.945923,
+   "lon": -117.992353,
+   "people": 214,
+   "medicare": 4302,
+   "masked": false
+  },
+  {
+   "zip": "90604",
+   "lat": 33.930169,
+   "lon": -118.012963,
+   "people": 295,
+   "medicare": 6752,
+   "masked": false
+  },
+  {
+   "zip": "90605",
+   "lat": 33.948446,
+   "lon": -118.02532,
+   "people": 253,
+   "medicare": 6591,
+   "masked": false
+  },
+  {
+   "zip": "90606",
+   "lat": 33.977482,
+   "lon": -118.067038,
+   "people": 245,
+   "medicare": 5794,
+   "masked": false
+  },
+  {
+   "zip": "90638",
+   "lat": 33.902416,
+   "lon": -118.009434,
+   "people": 388,
+   "medicare": 11184,
+   "masked": false
+  },
+  {
+   "zip": "90640",
+   "lat": 34.014992,
+   "lon": -118.110983,
+   "people": 482,
+   "medicare": 11713,
+   "masked": false
+  },
+  {
+   "zip": "90650",
+   "lat": 33.90628,
+   "lon": -118.083012,
+   "people": 723,
+   "medicare": 17476,
+   "masked": false
+  },
+  {
+   "zip": "90660",
+   "lat": 33.992051,
+   "lon": -118.088988,
+   "people": 513,
+   "medicare": 11790,
+   "masked": false
+  },
+  {
+   "zip": "90662",
+   "lat": 33.969115,
+   "lon": -118.099421,
+   "people": 11,
+   "medicare": 40,
+   "masked": true
+  },
+  {
+   "zip": "90670",
+   "lat": 33.932892,
+   "lon": -118.062639,
+   "people": 138,
+   "medicare": 3318,
+   "masked": false
+  },
+  {
+   "zip": "90701",
+   "lat": 33.867576,
+   "lon": -118.080598,
+   "people": 122,
+   "medicare": 3155,
+   "masked": false
+  },
+  {
+   "zip": "90703",
+   "lat": 33.867706,
+   "lon": -118.068043,
+   "people": 462,
+   "medicare": 13567,
+   "masked": false
+  },
+  {
+   "zip": "90704",
+   "lat": 33.382081,
+   "lon": -118.433296,
+   "people": 23,
+   "medicare": 602,
+   "masked": false
+  },
+  {
+   "zip": "90706",
+   "lat": 33.887853,
+   "lon": -118.127485,
+   "people": 528,
+   "medicare": 11714,
+   "masked": false
+  },
+  {
+   "zip": "90710",
+   "lat": 33.797323,
+   "lon": -118.298216,
+   "people": 191,
+   "medicare": 5348,
+   "masked": false
+  },
+  {
+   "zip": "90712",
+   "lat": 33.849025,
+   "lon": -118.146941,
+   "people": 217,
+   "medicare": 6418,
+   "masked": false
+  },
+  {
+   "zip": "90713",
+   "lat": 33.847935,
+   "lon": -118.112253,
+   "people": 210,
+   "medicare": 5569,
+   "masked": false
+  },
+  {
+   "zip": "90715",
+   "lat": 33.840288,
+   "lon": -118.078313,
+   "people": 109,
+   "medicare": 3421,
+   "masked": false
+  },
+  {
+   "zip": "90716",
+   "lat": 33.830045,
+   "lon": -118.073142,
+   "people": 83,
+   "medicare": 2056,
+   "masked": false
+  },
+  {
+   "zip": "90717",
+   "lat": 33.793823,
+   "lon": -118.316814,
+   "people": 131,
+   "medicare": 4423,
+   "masked": false
+  },
+  {
+   "zip": "90723",
+   "lat": 33.897365,
+   "lon": -118.165292,
+   "people": 261,
+   "medicare": 6692,
+   "masked": false
+  },
+  {
+   "zip": "90731",
+   "lat": 33.743235,
+   "lon": -118.291352,
+   "people": 354,
+   "medicare": 10143,
+   "masked": false
+  },
+  {
+   "zip": "90732",
+   "lat": 33.732522,
+   "lon": -118.313215,
+   "people": 181,
+   "medicare": 5373,
+   "masked": false
+  },
+  {
+   "zip": "90744",
+   "lat": 33.777396,
+   "lon": -118.241776,
+   "people": 321,
+   "medicare": 7286,
+   "masked": false
+  },
+  {
+   "zip": "90745",
+   "lat": 33.82292,
+   "lon": -118.263206,
+   "people": 576,
+   "medicare": 12523,
+   "masked": false
+  },
+  {
+   "zip": "90746",
+   "lat": 33.859146,
+   "lon": -118.258171,
+   "people": 299,
+   "medicare": 6440,
+   "masked": false
+  },
+  {
+   "zip": "90747",
+   "lat": 33.863296,
+   "lon": -118.257395,
+   "people": 0,
+   "medicare": 11,
+   "masked": false
+  },
+  {
+   "zip": "90755",
+   "lat": 33.803084,
+   "lon": -118.168427,
+   "people": 65,
+   "medicare": 1899,
+   "masked": false
+  },
+  {
+   "zip": "90802",
+   "lat": 33.752473,
+   "lon": -118.231079,
+   "people": 207,
+   "medicare": 5392,
+   "masked": false
+  },
+  {
+   "zip": "90803",
+   "lat": 33.762108,
+   "lon": -118.125411,
+   "people": 185,
+   "medicare": 7734,
+   "masked": false
+  },
+  {
+   "zip": "90804",
+   "lat": 33.781963,
+   "lon": -118.149532,
+   "people": 166,
+   "medicare": 4151,
+   "masked": false
+  },
+  {
+   "zip": "90805",
+   "lat": 33.862626,
+   "lon": -118.181733,
+   "people": 540,
+   "medicare": 12552,
+   "masked": false
+  },
+  {
+   "zip": "90806",
+   "lat": 33.801355,
+   "lon": -118.191474,
+   "people": 298,
+   "medicare": 6104,
+   "masked": false
+  },
+  {
+   "zip": "90807",
+   "lat": 33.830639,
+   "lon": -118.180659,
+   "people": 220,
+   "medicare": 6631,
+   "masked": false
+  },
+  {
+   "zip": "90808",
+   "lat": 33.823165,
+   "lon": -118.119121,
+   "people": 295,
+   "medicare": 8589,
+   "masked": false
+  },
+  {
+   "zip": "90810",
+   "lat": 33.819196,
+   "lon": -118.222367,
+   "people": 305,
+   "medicare": 6691,
+   "masked": false
+  },
+  {
+   "zip": "90813",
+   "lat": 33.782631,
+   "lon": -118.185644,
+   "people": 262,
+   "medicare": 6258,
+   "masked": false
+  },
+  {
+   "zip": "90814",
+   "lat": 33.771672,
+   "lon": -118.14356,
+   "people": 96,
+   "medicare": 3285,
+   "masked": false
+  },
+  {
+   "zip": "90815",
+   "lat": 33.796013,
+   "lon": -118.118309,
+   "people": 265,
+   "medicare": 8055,
+   "masked": false
+  },
+  {
+   "zip": "91001",
+   "lat": 34.205661,
+   "lon": -118.1144,
+   "people": 202,
+   "medicare": 5653,
+   "masked": false
+  },
+  {
+   "zip": "91006",
+   "lat": 34.133774,
+   "lon": -118.025321,
+   "people": 189,
+   "medicare": 7524,
+   "masked": false
+  },
+  {
+   "zip": "91007",
+   "lat": 34.128615,
+   "lon": -118.048436,
+   "people": 217,
+   "medicare": 7154,
+   "masked": false
+  },
+  {
+   "zip": "91008",
+   "lat": 34.15343,
+   "lon": -117.9683,
+   "people": 13,
+   "medicare": 342,
+   "masked": false
+  },
+  {
+   "zip": "91010",
+   "lat": 34.15447,
+   "lon": -117.955018,
+   "people": 245,
+   "medicare": 5964,
+   "masked": false
+  },
+  {
+   "zip": "91011",
+   "lat": 34.221045,
+   "lon": -118.200797,
+   "people": 159,
+   "medicare": 5098,
+   "masked": false
+  },
+  {
+   "zip": "91016",
+   "lat": 34.17169,
+   "lon": -117.989568,
+   "people": 301,
+   "medicare": 8286,
+   "masked": false
+  },
+  {
+   "zip": "91020",
+   "lat": 34.211334,
+   "lon": -118.230492,
+   "people": 48,
+   "medicare": 1628,
+   "masked": false
+  },
+  {
+   "zip": "91023",
+   "lat": 34.297379,
+   "lon": -117.9917,
+   "people": 0,
+   "medicare": 11,
+   "masked": false
+  },
+  {
+   "zip": "91024",
+   "lat": 34.217221,
+   "lon": -118.046248,
+   "people": 71,
+   "medicare": 3129,
+   "masked": false
+  },
+  {
+   "zip": "91030",
+   "lat": 34.110435,
+   "lon": -118.157221,
+   "people": 124,
+   "medicare": 5023,
+   "masked": false
+  },
+  {
+   "zip": "91040",
+   "lat": 34.260887,
+   "lon": -118.330462,
+   "people": 217,
+   "medicare": 5064,
+   "masked": false
+  },
+  {
+   "zip": "91042",
+   "lat": 34.318151,
+   "lon": -118.242879,
+   "people": 309,
+   "medicare": 6407,
+   "masked": false
+  },
+  {
+   "zip": "91101",
+   "lat": 34.146803,
+   "lon": -118.138717,
+   "people": 102,
+   "medicare": 3459,
+   "masked": false
+  },
+  {
+   "zip": "91103",
+   "lat": 34.167536,
+   "lon": -118.164473,
+   "people": 241,
+   "medicare": 5704,
+   "masked": false
+  },
+  {
+   "zip": "91104",
+   "lat": 34.167917,
+   "lon": -118.123343,
+   "people": 279,
+   "medicare": 7523,
+   "masked": false
+  },
+  {
+   "zip": "91105",
+   "lat": 34.139868,
+   "lon": -118.167447,
+   "people": 132,
+   "medicare": 3822,
+   "masked": false
+  },
+  {
+   "zip": "91106",
+   "lat": 34.138679,
+   "lon": -118.127623,
+   "people": 139,
+   "medicare": 4076,
+   "masked": false
+  },
+  {
+   "zip": "91107",
+   "lat": 34.208911,
+   "lon": -118.1169,
+   "people": 241,
+   "medicare": 7699,
+   "masked": false
+  },
+  {
+   "zip": "91108",
+   "lat": 34.122281,
+   "lon": -118.113717,
+   "people": 87,
+   "medicare": 3616,
+   "masked": false
+  },
+  {
+   "zip": "91201",
+   "lat": 34.17644,
+   "lon": -118.284708,
+   "people": 189,
+   "medicare": 5070,
+   "masked": false
+  },
+  {
+   "zip": "91202",
+   "lat": 34.184443,
+   "lon": -118.262814,
+   "people": 214,
+   "medicare": 5052,
+   "masked": false
+  },
+  {
+   "zip": "91203",
+   "lat": 34.152475,
+   "lon": -118.263924,
+   "people": 115,
+   "medicare": 2923,
+   "masked": false
+  },
+  {
+   "zip": "91204",
+   "lat": 34.136132,
+   "lon": -118.260678,
+   "people": 112,
+   "medicare": 2870,
+   "masked": false
+  },
+  {
+   "zip": "91205",
+   "lat": 34.136382,
+   "lon": -118.243149,
+   "people": 379,
+   "medicare": 7670,
+   "masked": false
+  },
+  {
+   "zip": "91206",
+   "lat": 34.160341,
+   "lon": -118.213849,
+   "people": 324,
+   "medicare": 7374,
+   "masked": false
+  },
+  {
+   "zip": "91207",
+   "lat": 34.167024,
+   "lon": -118.243165,
+   "people": 131,
+   "medicare": 2667,
+   "masked": false
+  },
+  {
+   "zip": "91208",
+   "lat": 34.196009,
+   "lon": -118.237899,
+   "people": 154,
+   "medicare": 4086,
+   "masked": false
+  },
+  {
+   "zip": "91210",
+   "lat": 34.144893,
+   "lon": -118.259089,
+   "people": 0,
+   "medicare": 65,
+   "masked": false
+  },
+  {
+   "zip": "91214",
+   "lat": 34.239937,
+   "lon": -118.245071,
+   "people": 246,
+   "medicare": 6862,
+   "masked": false
+  },
+  {
+   "zip": "91301",
+   "lat": 34.128441,
+   "lon": -118.773373,
+   "people": 207,
+   "medicare": 6169,
+   "masked": false
+  },
+  {
+   "zip": "91302",
+   "lat": 34.121224,
+   "lon": -118.68177,
+   "people": 199,
+   "medicare": 6213,
+   "masked": false
+  },
+  {
+   "zip": "91303",
+   "lat": 34.197977,
+   "lon": -118.601601,
+   "people": 156,
+   "medicare": 3499,
+   "masked": false
+  },
+  {
+   "zip": "91304",
+   "lat": 34.223611,
+   "lon": -118.628489,
+   "people": 415,
+   "medicare": 9142,
+   "masked": false
+  },
+  {
+   "zip": "91306",
+   "lat": 34.209644,
+   "lon": -118.575449,
+   "people": 338,
+   "medicare": 8102,
+   "masked": false
+  },
+  {
+   "zip": "91311",
+   "lat": 34.28237,
+   "lon": -118.611086,
+   "people": 399,
+   "medicare": 9197,
+   "masked": false
+  },
+  {
+   "zip": "91316",
+   "lat": 34.153845,
+   "lon": -118.519987,
+   "people": 295,
+   "medicare": 6857,
+   "masked": false
+  },
+  {
+   "zip": "91321",
+   "lat": 34.361997,
+   "lon": -118.42864,
+   "people": 306,
+   "medicare": 6123,
+   "masked": false
+  },
+  {
+   "zip": "91324",
+   "lat": 34.238617,
+   "lon": -118.550088,
+   "people": 282,
+   "medicare": 5738,
+   "masked": false
+  },
+  {
+   "zip": "91325",
+   "lat": 34.23473,
+   "lon": -118.516415,
+   "people": 286,
+   "medicare": 6389,
+   "masked": false
+  },
+  {
+   "zip": "91326",
+   "lat": 34.294265,
+   "lon": -118.565331,
+   "people": 339,
+   "medicare": 9377,
+   "masked": false
+  },
+  {
+   "zip": "91330",
+   "lat": 34.246814,
+   "lon": -118.529356,
+   "people": 0,
+   "medicare": 0,
+   "masked": false
+  },
+  {
+   "zip": "91331",
+   "lat": 34.257939,
+   "lon": -118.414163,
+   "people": 658,
+   "medicare": 14761,
+   "masked": false
+  },
+  {
+   "zip": "91335",
+   "lat": 34.201014,
+   "lon": -118.540778,
+   "people": 633,
+   "medicare": 13287,
+   "masked": false
+  },
+  {
+   "zip": "91340",
+   "lat": 34.286827,
+   "lon": -118.434999,
+   "people": 231,
+   "medicare": 5128,
+   "masked": false
+  },
+  {
+   "zip": "91342",
+   "lat": 34.308235,
+   "lon": -118.395023,
+   "people": 700,
+   "medicare": 15283,
+   "masked": false
+  },
+  {
+   "zip": "91343",
+   "lat": 34.238404,
+   "lon": -118.480828,
+   "people": 458,
+   "medicare": 9263,
+   "masked": false
+  },
+  {
+   "zip": "91344",
+   "lat": 34.289556,
+   "lon": -118.504935,
+   "people": 524,
+   "medicare": 11653,
+   "masked": false
+  },
+  {
+   "zip": "91345",
+   "lat": 34.26646,
+   "lon": -118.460038,
+   "people": 180,
+   "medicare": 3760,
+   "masked": false
+  },
+  {
+   "zip": "91350",
+   "lat": 34.429999,
+   "lon": -118.500381,
+   "people": 328,
+   "medicare": 7642,
+   "masked": false
+  },
+  {
+   "zip": "91351",
+   "lat": 34.436556,
+   "lon": -118.458652,
+   "people": 233,
+   "medicare": 5225,
+   "masked": false
+  },
+  {
+   "zip": "91352",
+   "lat": 34.232076,
+   "lon": -118.351959,
+   "people": 364,
+   "medicare": 8217,
+   "masked": false
+  },
+  {
+   "zip": "91354",
+   "lat": 34.479171,
+   "lon": -118.564101,
+   "people": 213,
+   "medicare": 5561,
+   "masked": false
+  },
+  {
+   "zip": "91355",
+   "lat": 34.419766,
+   "lon": -118.570192,
+   "people": 313,
+   "medicare": 6980,
+   "masked": false
+  },
+  {
+   "zip": "91356",
+   "lat": 34.158836,
+   "lon": -118.54791,
+   "people": 259,
+   "medicare": 6979,
+   "masked": false
+  },
+  {
+   "zip": "91364",
+   "lat": 34.154585,
+   "lon": -118.592703,
+   "people": 300,
+   "medicare": 7214,
+   "masked": false
+  },
+  {
+   "zip": "91367",
+   "lat": 34.177152,
+   "lon": -118.61448,
+   "people": 406,
+   "medicare": 9461,
+   "masked": false
+  },
+  {
+   "zip": "91381",
+   "lat": 34.373878,
+   "lon": -118.609935,
+   "people": 106,
+   "medicare": 3216,
+   "masked": false
+  },
+  {
+   "zip": "91384",
+   "lat": 34.531004,
+   "lon": -118.663401,
+   "people": 168,
+   "medicare": 3908,
+   "masked": false
+  },
+  {
+   "zip": "91387",
+   "lat": 34.408263,
+   "lon": -118.368667,
+   "people": 297,
+   "medicare": 6715,
+   "masked": false
+  },
+  {
+   "zip": "91390",
+   "lat": 34.534561,
+   "lon": -118.416296,
+   "people": 198,
+   "medicare": 3827,
+   "masked": false
+  },
+  {
+   "zip": "91401",
+   "lat": 34.177995,
+   "lon": -118.431639,
+   "people": 259,
+   "medicare": 6412,
+   "masked": false
+  },
+  {
+   "zip": "91402",
+   "lat": 34.224686,
+   "lon": -118.44558,
+   "people": 473,
+   "medicare": 9931,
+   "masked": false
+  },
+  {
+   "zip": "91403",
+   "lat": 34.147609,
+   "lon": -118.459746,
+   "people": 174,
+   "medicare": 5035,
+   "masked": false
+  },
+  {
+   "zip": "91405",
+   "lat": 34.201269,
+   "lon": -118.447175,
+   "people": 335,
+   "medicare": 7488,
+   "masked": false
+  },
+  {
+   "zip": "91406",
+   "lat": 34.20158,
+   "lon": -118.490565,
+   "people": 362,
+   "medicare": 8185,
+   "masked": false
+  },
+  {
+   "zip": "91411",
+   "lat": 34.178028,
+   "lon": -118.459682,
+   "people": 130,
+   "medicare": 3114,
+   "masked": false
+  },
+  {
+   "zip": "91423",
+   "lat": 34.148192,
+   "lon": -118.430477,
+   "people": 188,
+   "medicare": 5803,
+   "masked": false
+  },
+  {
+   "zip": "91436",
+   "lat": 34.156079,
+   "lon": -118.486867,
+   "people": 143,
+   "medicare": 3943,
+   "masked": false
+  },
+  {
+   "zip": "91501",
+   "lat": 34.200853,
+   "lon": -118.296309,
+   "people": 151,
+   "medicare": 3923,
+   "masked": false
+  },
+  {
+   "zip": "91502",
+   "lat": 34.176952,
+   "lon": -118.309742,
+   "people": 121,
+   "medicare": 2532,
+   "masked": false
+  },
+  {
+   "zip": "91504",
+   "lat": 34.204763,
+   "lon": -118.328106,
+   "people": 174,
+   "medicare": 4949,
+   "masked": false
+  },
+  {
+   "zip": "91505",
+   "lat": 34.174643,
+   "lon": -118.346623,
+   "people": 236,
+   "medicare": 6013,
+   "masked": false
+  },
+  {
+   "zip": "91506",
+   "lat": 34.170315,
+   "lon": -118.323701,
+   "people": 128,
+   "medicare": 3931,
+   "masked": false
+  },
+  {
+   "zip": "91601",
+   "lat": 34.168256,
+   "lon": -118.372149,
+   "people": 198,
+   "medicare": 4978,
+   "masked": false
+  },
+  {
+   "zip": "91602",
+   "lat": 34.150663,
+   "lon": -118.366398,
+   "people": 92,
+   "medicare": 2989,
+   "masked": false
+  },
+  {
+   "zip": "91604",
+   "lat": 34.142253,
+   "lon": -118.391218,
+   "people": 154,
+   "medicare": 5370,
+   "masked": false
+  },
+  {
+   "zip": "91605",
+   "lat": 34.207444,
+   "lon": -118.400494,
+   "people": 360,
+   "medicare": 8682,
+   "masked": false
+  },
+  {
+   "zip": "91606",
+   "lat": 34.186764,
+   "lon": -118.389292,
+   "people": 324,
+   "medicare": 7285,
+   "masked": false
+  },
+  {
+   "zip": "91607",
+   "lat": 34.167346,
+   "lon": -118.400628,
+   "people": 212,
+   "medicare": 5187,
+   "masked": false
+  },
+  {
+   "zip": "91608",
+   "lat": 34.138284,
+   "lon": -118.354971,
+   "people": 0,
+   "medicare": 11,
+   "masked": false
+  },
+  {
+   "zip": "91702",
+   "lat": 34.26603,
+   "lon": -117.78842,
+   "people": 411,
+   "medicare": 9366,
+   "masked": false
+  },
+  {
+   "zip": "91706",
+   "lat": 34.097168,
+   "lon": -117.967377,
+   "people": 496,
+   "medicare": 12671,
+   "masked": false
+  },
+  {
+   "zip": "91711",
+   "lat": 34.171519,
+   "lon": -117.71767,
+   "people": 355,
+   "medicare": 8124,
+   "masked": false
+  },
+  {
+   "zip": "91722",
+   "lat": 34.097253,
+   "lon": -117.906899,
+   "people": 266,
+   "medicare": 6522,
+   "masked": false
+  },
+  {
+   "zip": "91723",
+   "lat": 34.08492,
+   "lon": -117.886476,
+   "people": 126,
+   "medicare": 3277,
+   "masked": false
+  },
+  {
+   "zip": "91724",
+   "lat": 34.088648,
+   "lon": -117.856803,
+   "people": 215,
+   "medicare": 5483,
+   "masked": false
+  },
+  {
+   "zip": "91731",
+   "lat": 34.079412,
+   "lon": -118.039995,
+   "people": 196,
+   "medicare": 5372,
+   "masked": false
+  },
+  {
+   "zip": "91732",
+   "lat": 34.066736,
+   "lon": -118.01452,
+   "people": 340,
+   "medicare": 9671,
+   "masked": false
+  },
+  {
+   "zip": "91733",
+   "lat": 34.048234,
+   "lon": -118.051519,
+   "people": 236,
+   "medicare": 6439,
+   "masked": false
+  },
+  {
+   "zip": "91740",
+   "lat": 34.118753,
+   "lon": -117.853994,
+   "people": 220,
+   "medicare": 5555,
+   "masked": false
+  },
+  {
+   "zip": "91741",
+   "lat": 34.161239,
+   "lon": -117.841296,
+   "people": 207,
+   "medicare": 5939,
+   "masked": false
+  },
+  {
+   "zip": "91744",
+   "lat": 34.028979,
+   "lon": -117.937079,
+   "people": 581,
+   "medicare": 13798,
+   "masked": false
+  },
+  {
+   "zip": "91745",
+   "lat": 34.001414,
+   "lon": -117.97725,
+   "people": 445,
+   "medicare": 12819,
+   "masked": false
+  },
+  {
+   "zip": "91746",
+   "lat": 34.044939,
+   "lon": -117.985135,
+   "people": 233,
+   "medicare": 5414,
+   "masked": false
+  },
+  {
+   "zip": "91748",
+   "lat": 33.975174,
+   "lon": -117.897371,
+   "people": 301,
+   "medicare": 10318,
+   "masked": false
+  },
+  {
+   "zip": "91750",
+   "lat": 34.149755,
+   "lon": -117.777045,
+   "people": 391,
+   "medicare": 8987,
+   "masked": false
+  },
+  {
+   "zip": "91754",
+   "lat": 34.051243,
+   "lon": -118.144343,
+   "people": 220,
+   "medicare": 8029,
+   "masked": false
+  },
+  {
+   "zip": "91755",
+   "lat": 34.048071,
+   "lon": -118.114954,
+   "people": 159,
+   "medicare": 6261,
+   "masked": false
+  },
+  {
+   "zip": "91765",
+   "lat": 33.99983,
+   "lon": -117.811189,
+   "people": 302,
+   "medicare": 10818,
+   "masked": false
+  },
+  {
+   "zip": "91766",
+   "lat": 34.041282,
+   "lon": -117.757188,
+   "people": 446,
+   "medicare": 9842,
+   "masked": false
+  },
+  {
+   "zip": "91767",
+   "lat": 34.081275,
+   "lon": -117.738474,
+   "people": 339,
+   "medicare": 7697,
+   "masked": false
+  },
+  {
+   "zip": "91768",
+   "lat": 34.06498,
+   "lon": -117.787732,
+   "people": 214,
+   "medicare": 4790,
+   "masked": false
+  },
+  {
+   "zip": "91770",
+   "lat": 34.063857,
+   "lon": -118.083312,
+   "people": 385,
+   "medicare": 13113,
+   "masked": false
+  },
+  {
+   "zip": "91773",
+   "lat": 34.107779,
+   "lon": -117.809258,
+   "people": 340,
+   "medicare": 8197,
+   "masked": false
+  },
+  {
+   "zip": "91775",
+   "lat": 34.114549,
+   "lon": -118.089324,
+   "people": 138,
+   "medicare": 5256,
+   "masked": false
+  },
+  {
+   "zip": "91776",
+   "lat": 34.089941,
+   "lon": -118.095394,
+   "people": 204,
+   "medicare": 7543,
+   "masked": false
+  },
+  {
+   "zip": "91780",
+   "lat": 34.101576,
+   "lon": -118.055713,
+   "people": 217,
+   "medicare": 7967,
+   "masked": false
+  },
+  {
+   "zip": "91789",
+   "lat": 34.025191,
+   "lon": -117.8543,
+   "people": 306,
+   "medicare": 11438,
+   "masked": false
+  },
+  {
+   "zip": "91790",
+   "lat": 34.066773,
+   "lon": -117.937276,
+   "people": 395,
+   "medicare": 9904,
+   "masked": false
+  },
+  {
+   "zip": "91791",
+   "lat": 34.060192,
+   "lon": -117.893587,
+   "people": 262,
+   "medicare": 7283,
+   "masked": false
+  },
+  {
+   "zip": "91792",
+   "lat": 34.021244,
+   "lon": -117.899587,
+   "people": 204,
+   "medicare": 5835,
+   "masked": false
+  },
+  {
+   "zip": "91801",
+   "lat": 34.091354,
+   "lon": -118.128241,
+   "people": 349,
+   "medicare": 11668,
+   "masked": false
+  },
+  {
+   "zip": "91803",
+   "lat": 34.0749,
+   "lon": -118.146708,
+   "people": 179,
+   "medicare": 6298,
+   "masked": false
+  },
+  {
+   "zip": "93243",
+   "lat": 34.746159,
+   "lon": -118.785553,
+   "people": 13,
+   "medicare": 323,
+   "masked": false
+  },
+  {
+   "zip": "93510",
+   "lat": 34.461956,
+   "lon": -118.217685,
+   "people": 87,
+   "medicare": 1942,
+   "masked": false
+  },
+  {
+   "zip": "93532",
+   "lat": 34.688503,
+   "lon": -118.59688,
+   "people": 34,
+   "medicare": 566,
+   "masked": false
+  },
+  {
+   "zip": "93534",
+   "lat": 34.733848,
+   "lon": -118.150322,
+   "people": 678,
+   "medicare": 7739,
+   "masked": false
+  },
+  {
+   "zip": "93535",
+   "lat": 34.731173,
+   "lon": -117.889592,
+   "people": 824,
+   "medicare": 11017,
+   "masked": false
+  },
+  {
+   "zip": "93536",
+   "lat": 34.746704,
+   "lon": -118.356357,
+   "people": 771,
+   "medicare": 12056,
+   "masked": false
+  },
+  {
+   "zip": "93543",
+   "lat": 34.50279,
+   "lon": -117.960791,
+   "people": 153,
+   "medicare": 2401,
+   "masked": false
+  },
+  {
+   "zip": "93544",
+   "lat": 34.502244,
+   "lon": -117.751757,
+   "people": 26,
+   "medicare": 398,
+   "masked": false
+  },
+  {
+   "zip": "93550",
+   "lat": 34.506543,
+   "lon": -118.074248,
+   "people": 697,
+   "medicare": 10629,
+   "masked": false
+  },
+  {
+   "zip": "93551",
+   "lat": 34.59908,
+   "lon": -118.237411,
+   "people": 529,
+   "medicare": 10104,
+   "masked": false
+  },
+  {
+   "zip": "93552",
+   "lat": 34.548973,
+   "lon": -118.034052,
+   "people": 332,
+   "medicare": 5693,
+   "masked": false
+  },
+  {
+   "zip": "93553",
+   "lat": 34.416671,
+   "lon": -117.892667,
+   "people": 33,
+   "medicare": 484,
+   "masked": false
+  },
+  {
+   "zip": "93563",
+   "lat": 34.409022,
+   "lon": -117.744787,
+   "people": 11,
+   "medicare": 34,
+   "masked": true
+  },
+  {
+   "zip": "93591",
+   "lat": 34.602093,
+   "lon": -117.85045,
+   "people": 72,
+   "medicare": 1088,
+   "masked": false
+  }
+ ]
+}

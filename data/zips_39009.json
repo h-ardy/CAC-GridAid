@@ -1,0 +1,110 @@
+{
+ "fips": "39009",
+ "name": "Athens County, OH",
+ "zips": [
+  {
+   "zip": "45701",
+   "lat": 39.31061,
+   "lon": -82.084876,
+   "people": 194,
+   "medicare": 4310,
+   "masked": false
+  },
+  {
+   "zip": "45711",
+   "lat": 39.41817,
+   "lon": -81.92794,
+   "people": 24,
+   "medicare": 268,
+   "masked": false
+  },
+  {
+   "zip": "45716",
+   "lat": 39.459206,
+   "lon": -82.186457,
+   "people": 11,
+   "medicare": 136,
+   "masked": true
+  },
+  {
+   "zip": "45719",
+   "lat": 39.400051,
+   "lon": -82.126305,
+   "people": 26,
+   "medicare": 221,
+   "masked": false
+  },
+  {
+   "zip": "45723",
+   "lat": 39.224452,
+   "lon": -81.826733,
+   "people": 72,
+   "medicare": 1045,
+   "masked": false
+  },
+  {
+   "zip": "45732",
+   "lat": 39.520623,
+   "lon": -82.080948,
+   "people": 83,
+   "medicare": 1106,
+   "masked": false
+  },
+  {
+   "zip": "45735",
+   "lat": 39.24991,
+   "lon": -81.933408,
+   "people": 23,
+   "medicare": 448,
+   "masked": false
+  },
+  {
+   "zip": "45740",
+   "lat": 39.476078,
+   "lon": -82.079753,
+   "people": 16,
+   "medicare": 125,
+   "masked": false
+  },
+  {
+   "zip": "45761",
+   "lat": 39.42627,
+   "lon": -82.091179,
+   "people": 22,
+   "medicare": 376,
+   "masked": false
+  },
+  {
+   "zip": "45766",
+   "lat": 39.327,
+   "lon": -82.255022,
+   "people": 19,
+   "medicare": 349,
+   "masked": false
+  },
+  {
+   "zip": "45778",
+   "lat": 39.340674,
+   "lon": -81.896338,
+   "people": 12,
+   "medicare": 224,
+   "masked": false
+  },
+  {
+   "zip": "45780",
+   "lat": 39.359479,
+   "lon": -82.128221,
+   "people": 57,
+   "medicare": 820,
+   "masked": false
+  },
+  {
+   "zip": "45782",
+   "lat": 39.485187,
+   "lon": -82.07824,
+   "people": 11,
+   "medicare": 63,
+   "masked": true
+  }
+ ]
+}

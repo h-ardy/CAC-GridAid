@@ -1,0 +1,412 @@
+{
+ "fips": "39009",
+ "name": "Athens County, OH",
+ "note": "Raw OpenStreetMap results inside the county's bounding box. Not yet filtered to the county outline, private sites or duplicates.",
+ "buildings": [
+  {
+   "name": "Cutler Elementary School",
+   "type": "school",
+   "lat": 39.35313,
+   "lon": -81.789023,
+   "osm": "node/357424884"
+  },
+  {
+   "name": "Moody",
+   "type": "school",
+   "lat": 39.528682,
+   "lon": -81.967919,
+   "osm": "node/357426887"
+  },
+  {
+   "name": "Nelsonville Elementary School",
+   "type": "school",
+   "lat": 39.465903,
+   "lon": -82.23876,
+   "osm": "node/357452504"
+  },
+  {
+   "name": "Nelsonville-York High School",
+   "type": "school",
+   "lat": 39.46257,
+   "lon": -82.188759,
+   "osm": "node/357452511"
+  },
+  {
+   "name": "York Elementary School",
+   "type": "school",
+   "lat": 39.463959,
+   "lon": -82.188759,
+   "osm": "node/357452514"
+  },
+  {
+   "name": "Trimble High School",
+   "type": "school",
+   "lat": 39.481182,
+   "lon": -82.076533,
+   "osm": "node/357452529"
+  },
+  {
+   "name": "Alexander Middle School",
+   "type": "school",
+   "lat": 39.320628,
+   "lon": -82.220704,
+   "osm": "node/357452539"
+  },
+  {
+   "name": "Shade Community Center.",
+   "type": "school",
+   "lat": 39.227575,
+   "lon": -82.039308,
+   "osm": "node/357452635"
+  },
+  {
+   "name": "Cutler School",
+   "type": "school",
+   "lat": 39.349519,
+   "lon": -81.796523,
+   "osm": "node/357483180"
+  },
+  {
+   "name": "York Township School",
+   "type": "school",
+   "lat": 39.463126,
+   "lon": -82.188759,
+   "osm": "node/357485272"
+  },
+  {
+   "name": "Trimble Township High School",
+   "type": "school",
+   "lat": 39.481182,
+   "lon": -82.076811,
+   "osm": "node/357485278"
+  },
+  {
+   "name": "Morrison Elementary School",
+   "type": "school",
+   "lat": 39.319518,
+   "lon": -82.139497,
+   "osm": "node/357501160"
+  },
+  {
+   "name": "Poston Elementary School",
+   "type": "school",
+   "lat": 39.417015,
+   "lon": -82.22876,
+   "osm": "node/357501573"
+  },
+  {
+   "name": "Union-Homer Elementary School",
+   "type": "school",
+   "lat": 39.54146,
+   "lon": -81.997086,
+   "osm": "node/357509108"
+  },
+  {
+   "name": "Athens County Law Library",
+   "type": "library",
+   "lat": 39.328831,
+   "lon": -82.101531,
+   "osm": "node/368153346"
+  },
+  {
+   "name": "Dairy Barn Arts Center",
+   "type": "community_centre",
+   "lat": 39.314529,
+   "lon": -82.115143,
+   "osm": "node/10595331754",
+   "phone": "+1-740-592-4981",
+   "website": "https://dairybarn.org/",
+   "address": "8000 Dairy Lane"
+  },
+  {
+   "type": "community_centre",
+   "lat": 39.332424,
+   "lon": -82.107518,
+   "osm": "node/10595331755"
+  },
+  {
+   "name": "Headstart Athens",
+   "type": "school",
+   "lat": 39.306441,
+   "lon": -82.104127,
+   "osm": "node/12627499997",
+   "operator": "HAPCAP"
+  },
+  {
+   "name": "Athens Public Library",
+   "type": "library",
+   "lat": 39.33446,
+   "lon": -82.084053,
+   "osm": "way/255628148",
+   "phone": "+1-740-592-4272",
+   "website": "https://www.myacpl.org/",
+   "address": "30 Home Street, Athens",
+   "operator": "Athens County Public Library System"
+  },
+  {
+   "name": "Athens Community Center",
+   "type": "community_centre",
+   "lat": 39.336455,
+   "lon": -82.075299,
+   "osm": "way/286836229"
+  },
+  {
+   "name": "Athens High School",
+   "type": "school",
+   "lat": 39.371983,
+   "lon": -82.127411,
+   "osm": "way/286839154",
+   "website": "http://ahs.athenscity.k12.oh.us/",
+   "operator": "Athens City School District"
+  },
+  {
+   "name": "Alden Library",
+   "type": "library",
+   "lat": 39.325406,
+   "lon": -82.100231,
+   "osm": "way/287807342",
+   "website": "https://www.ohio.edu/library/",
+   "address": "30 Park Place, Athens",
+   "operator": "Ohio University Libraries"
+  },
+  {
+   "name": "Chauncey Public Library",
+   "type": "library",
+   "lat": 39.399125,
+   "lon": -82.128677,
+   "osm": "way/441361168",
+   "address": "29 Converse Street, Chauncey"
+  },
+  {
+   "type": "school",
+   "lat": 39.498627,
+   "lon": -82.088308,
+   "osm": "way/456271018"
+  },
+  {
+   "type": "school",
+   "lat": 39.470842,
+   "lon": -82.078679,
+   "osm": "way/456271154"
+  },
+  {
+   "type": "school",
+   "lat": 39.463498,
+   "lon": -82.189968,
+   "osm": "way/456272102"
+  },
+  {
+   "name": "Athens City School District Administrative Offices",
+   "type": "school",
+   "lat": 39.398898,
+   "lon": -82.125671,
+   "osm": "way/456272149"
+  },
+  {
+   "type": "school",
+   "lat": 39.402712,
+   "lon": -81.957438,
+   "osm": "way/537860260"
+  },
+  {
+   "name": "Station 2",
+   "type": "fire_station",
+   "lat": 39.337208,
+   "lon": -82.089437,
+   "osm": "way/553373407"
+  },
+  {
+   "type": "fire_station",
+   "lat": 39.310347,
+   "lon": -82.103784,
+   "osm": "way/656111959"
+  },
+  {
+   "name": "Nelsonville Public Library",
+   "type": "library",
+   "lat": 39.460781,
+   "lon": -82.23389,
+   "osm": "way/843595740",
+   "address": "95 West Washington Street, Nelsonville"
+  },
+  {
+   "name": "Chauncey Senior Center",
+   "type": "community_centre",
+   "lat": 39.401957,
+   "lon": -82.128786,
+   "osm": "way/916446954"
+  },
+  {
+   "name": "Dover Volunteer Fire Station",
+   "type": "fire_station",
+   "lat": 39.399855,
+   "lon": -82.129244,
+   "osm": "way/1025253218"
+  },
+  {
+   "name": "The Hive",
+   "type": "community_centre",
+   "lat": 39.459924,
+   "lon": -82.233691,
+   "osm": "way/1056458390"
+  },
+  {
+   "name": "Bartlett Elementary School",
+   "type": "school",
+   "lat": 39.418729,
+   "lon": -81.811723,
+   "osm": "way/1191524908"
+  },
+  {
+   "type": "school",
+   "lat": 39.330368,
+   "lon": -82.10418,
+   "osm": "way/1220419797"
+  },
+  {
+   "name": "East Elementary School",
+   "type": "school",
+   "lat": 39.334588,
+   "lon": -82.095018,
+   "osm": "way/1243523689"
+  },
+  {
+   "name": "Windsor Elementary School",
+   "type": "school",
+   "lat": 39.5479,
+   "lon": -81.796207,
+   "osm": "way/1271520062"
+  },
+  {
+   "name": "Alexander Elementary School",
+   "type": "school",
+   "lat": 39.225998,
+   "lon": -82.206447,
+   "osm": "way/1273817346"
+  },
+  {
+   "name": "The Plains Volunteer Fire Department",
+   "type": "fire_station",
+   "lat": 39.369039,
+   "lon": -82.135155,
+   "osm": "way/1280065460"
+  },
+  {
+   "name": "Federal Valley Resource Center",
+   "type": "community_centre",
+   "lat": 39.307424,
+   "lon": -81.896177,
+   "osm": "way/1288143611",
+   "website": "https://federalvalleyresourcecenter.org/",
+   "address": "8225 SR 329, Stewart"
+  },
+  {
+   "name": "Glouster Public Library",
+   "type": "library",
+   "lat": 39.500152,
+   "lon": -82.087228,
+   "osm": "way/1296215662",
+   "website": "https://www.myacpl.org/glouster/",
+   "address": "20 Toledo Street, Glouster",
+   "operator": "Athens County Public Libraries"
+  },
+  {
+   "name": "Rescue Squad",
+   "type": "fire_station",
+   "lat": 39.502952,
+   "lon": -82.080855,
+   "osm": "way/1296440652",
+   "address": "32 Water Street, Glouster",
+   "operator": "Trimble Village"
+  },
+  {
+   "name": "Wells Public Library",
+   "type": "library",
+   "lat": 39.225418,
+   "lon": -82.205756,
+   "osm": "way/1296701624",
+   "address": "5200 Washington Road, Albany",
+   "operator": "Athens County Public Libraries"
+  },
+  {
+   "name": "Saint Paul\u2019s School",
+   "type": "school",
+   "lat": 39.331108,
+   "lon": -82.097712,
+   "osm": "way/1304709610"
+  },
+  {
+   "name": "Athens Fire Department Headquarters",
+   "type": "fire_station",
+   "lat": 39.331869,
+   "lon": -82.088164,
+   "osm": "way/1358375954",
+   "address": "120 Stimson Avenue"
+  },
+  {
+   "name": "Alexander Local Schools",
+   "type": "school",
+   "lat": 39.23964,
+   "lon": -82.186396,
+   "osm": "way/1426518195",
+   "address": "Ayers Road, Albany",
+   "operator": "Alexander Local Schools"
+  },
+  {
+   "name": "Nelsonville Senior Center",
+   "type": "community_centre",
+   "lat": 39.453135,
+   "lon": -82.222896,
+   "osm": "way/1456157414"
+  },
+  {
+   "type": "school",
+   "lat": 39.319741,
+   "lon": -82.140482,
+   "osm": "way/1460151310"
+  },
+  {
+   "type": "fire_station",
+   "lat": 39.231611,
+   "lon": -82.199048,
+   "osm": "way/1476345564",
+   "address": "Washington Road, Albany"
+  },
+  {
+   "name": "Chesterhill Branch",
+   "type": "library",
+   "lat": 39.488363,
+   "lon": -81.865893,
+   "osm": "way/1504466722",
+   "phone": "+1-740-554-7104",
+   "website": "https://www.morgan.lib.oh.us/content/chesterhill-branch",
+   "address": "7520 Marion Street, Chesterhill",
+   "operator": "Morgan County Library"
+  },
+  {
+   "name": "Murray City Volunteer Fire Department",
+   "type": "fire_station",
+   "lat": 39.510384,
+   "lon": -82.163549,
+   "osm": "way/1508451159",
+   "address": "Locust Street"
+  },
+  {
+   "name": "Village of Chesterhill",
+   "type": "community_centre",
+   "lat": 39.489021,
+   "lon": -81.870034,
+   "osm": "way/1508692872",
+   "address": "7470 College Street, Chesterhill"
+  },
+  {
+   "name": "Chesterhill Fire Department",
+   "type": "fire_station",
+   "lat": 39.487206,
+   "lon": -81.863475,
+   "osm": "way/1509526526",
+   "address": "1495 Coal Street, Chesterhill",
+   "operator": "Village of Chesterhill"
+  }
+ ]
+}

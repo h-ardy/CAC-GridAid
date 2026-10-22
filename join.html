@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GridAid: Join us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="index.html">GridAid</a>
+    <nav>
+      <a href="index.html">Map</a>
+      <a href="logistics.html">Logistics</a>
+      <a href="join.html" aria-current="page">Join us</a>
+    </nav>
+  </header>
+
+  <main class="join">
+    <h1 class="page-title">Help get backup power where it is needed</h1>
+
+    <div class="join-grid">
+      <section class="ways">
+        <div>
+          <h2>Offer a building</h2>
+          <p>Run a library, school, church or community center? Tell us if your building could host a generator or a hookup during long outages.</p>
+        </div>
+        <div>
+          <h2>Plan for your county</h2>
+          <p>Emergency managers and county staff can ask for a plan for their county, using the same data and costs shown on this site.</p>
+        </div>
+        <div>
+          <h2>Volunteer</h2>
+          <p>Check building details, call sites, or help map buildings in your area on OpenStreetMap.</p>
+        </div>
+      </section>
+
+      <form class="form" action="https://formspree.io/f/xjygnzkq" method="POST">
+        <label>Name
+          <input name="name" required>
+        </label>
+        <label>Email
+          <input name="email" type="email" required>
+        </label>
+        <label>I want to
+          <select name="role" required>
+            <option value="">Choose one</option>
+            <option>Offer a building</option>
+            <option>Plan for my county</option>
+            <option>Volunteer</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>County and state
+          <input name="county" placeholder="Athens County, OH">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5"></textarea>
+        </label>
+        <input type="hidden" name="_subject" value="New GridAid sign-up">
+        <button type="submit">Send</button>
+        <p class="fine">We only use this to reply to you. Please don't include medical information.</p>
+      </form>
+    </div>
+  </main>
+
+  <footer>GridAid is a student project. Data: HHS emPOWER, U.S. Census Bureau, OpenStreetMap contributors.</footer>
+</body>
+</html>

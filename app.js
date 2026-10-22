@@ -109,4 +109,5 @@ async function start() {
 start().catch((e) => {
     els.coverage.textContent = "Couldn't load data";
     els.coverageNote.textContent = e.message;
+    if (plan) els.coverageNote.textContent += ` That is what the county's estimated budget of ${plan.budget.recommended.diesel >= 1e6 ? `$${(plan.budget.recommended.diesel / 1e6).toFixed(2)}M` : `$${Math.round(plan.budget.recommended.diesel).toLocaleString()}`} buys in diesel generators.`;
 });

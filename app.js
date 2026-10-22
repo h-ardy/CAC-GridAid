@@ -61,7 +61,33 @@ function cleanBuildings(buildings, countyOutline) {
 }
 
 function pickSites(zips, sites, k, R) {
-  return [];
+     const reaches = sites.map((s) =>
+        zips.map((z, zi) => zi).filter((zi) => ___1___)
+    );
+
+    const covered = zips.map(() => false);
+    const chosen = [];
+
+    for (let round = 0; round < k; round++) {
+        let best = -1;
+        let bestGain = 0;
+
+        for (let s = 0; s < sites.length; s++) {
+            if (chosen.includes(s)) continue;
+            let gain = 0;
+            for(const zi of reaches[s]) {
+                if (___2___) gain += ___3___;
+            }
+            if (gain > bestGain) {
+                ___4___
+            }
+        }
+        if (best === -1) break;
+        chosen.push(best);
+        for(const zi of reaches[best]) ___5___;
+    }
+
+  return chosen;
 }
 
 function evaluate(zips, sites, chosen, R) {

@@ -215,5 +215,5 @@ function reset() {
   playing = false;
 }
 
-document.getElementById("county").addEventListener("change", reset);
+document.addEventListener("countychange", reset);
 })();

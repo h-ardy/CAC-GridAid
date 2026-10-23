@@ -22,6 +22,10 @@ L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_L
   attribution: "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors",
   maxZoom: 16,
 }).addTo(map);
+
+map.on("click", () => map.scrollWheelZoom.enable());    
+map.on("mouseout", () => map.scrollWheelZoom.disable());
+
 const zipLayer = L.layerGroup().addTo(map);
 const siteLayer = L.layerGroup().addTo(map);
 
@@ -35,6 +39,7 @@ let nearestNow = [];
 const money = (v) => (v >= 1e6 ? `$${(v / 1e6).toFixed(2)}M` : `$${Math.round(v).toLocaleString()}`);
 
 async function loadCounty(fips) {
+document.dispatchEvent(new Event("county-change"));
   county = await loadCountyData(fips);
   els.county.value = fips;
   els.zipFound.innerHTML = "";

@@ -21,6 +21,18 @@ result.className = "astro-result";
 result.hidden = true;
 shellEl.appendChild(result);
 
+
+const reopen = document.createElement("button");
+reopen.type = "button";
+reopen.className = "astro-reopen";
+reopen.textContent = "Show storm results";
+reopen.hidden = true;
+shellEl.appendChild(reopen);
+reopen.addEventListener("click", () => {
+  reopen.hidden = true;
+  result.hidden = false;
+});
+
 const gameLayer = L.layerGroup().addTo(map);
 let ghost = null;
 let dragFrom = null;
@@ -126,6 +138,7 @@ function showResult() {
   const n = plan.chosen.length;
 
   result.innerHTML = `
+    <button type="button" class="astro-close" aria-label="Close">&times;</button>
     <p class="storm-name">${storm.name}: power is out in ${zipsOut} of ${county.zips.length} ZIP codes</p>
     <p>${lost.toLocaleString()} people who rely on powered medical equipment just lost power.</p>
     <div class="power-back">
@@ -135,12 +148,15 @@ function showResult() {
     <p id="powerPeople"></p>
     <p id="astroStatus"></p>
     <p class="fine">${storm.note}</p>
-    <button type="button">Try again</button>`;
+    <button type="button" class="try-again">Try again</button>`;
   result.hidden = false;
   game.lost = lost;
   result.querySelector("#powerBack").addEventListener("input", (e) => setRunning(Number(e.target.value)));
-  result.querySelector("button").addEventListener("click", reset);
-  setRunning(0);
+  result.querySelector(".try-again").addEventListener("click", reset);
+  result.querySelector(".astro-close").addEventListener("click", () => {
+    result.hidden = true;
+    reopen.hidden = false;
+  });  setRunning(0);
 }
 
 function setRunning(v) {
@@ -194,6 +210,7 @@ function reset() {
   gameLayer.clearLayers();
   sitePins.forEach((pin) => pin.getElement()?.classList.remove("lit"));
   result.hidden = true;
+  reopen.hidden = true;
   dock.classList.remove("busy");
   playing = false;
 }

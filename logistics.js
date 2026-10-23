@@ -44,13 +44,33 @@ function runningCost(g, n, days) {
 
 function flagsFor(site, people, visitors, genKey) {
   const out = [];
-  if (people === 0) out.push("Reaches no one new");
-  if (visitors >= 50) out.push(`Check room for about ${Math.round(visitors)} people at once`);
+  if (people === 0) out.push("Backup only: everyone near it is closer to another site");  if (visitors >= 50) out.push(`Check room for about ${Math.round(visitors)} people at once`);
   if (site.type === "school") out.push("Confirm access on weekends and breaks");
   if (site.type === "fire_station") out.push("Crews may be out during the disaster");
   if (genKey === "gas") out.push("Confirm a gas line reaches the building");
   if (genKey === "solar") out.push("Enough for oxygen, medicine and phones only");
   return out;
+}
+
+function pickExactly(zips, sites, k, R) {
+  const chosen = pickSites(zips, sites, k, R);
+  const reach = sites.map((s) => zips.map((z, i) => (miles(z.lat, z.lon, s.lat, s.lon) <= R ? i : -1)).filter((i) => i >= 0));
+  const count = zips.map(() => 0);
+  chosen.forEach((s) => reach[s].forEach((i) => count[i]++));
+  const taken = new Set(chosen);
+  while (chosen.length < Math.min(k, sites.length)) {
+    let best = -1;
+    let bestGain = -1;
+    reach.forEach((list, s) => {
+      if (taken.has(s)) return;
+      const gain = list.reduce((sum, i) => sum + zips[i].people / (1 + count[i]), 0);
+      if (gain > bestGain) { bestGain = gain; best = s; }
+    });
+    chosen.push(best);
+    taken.add(best);
+    reach[best].forEach((i) => count[i]++);
+  }
+  return chosen;
 }
 
 function shadeClass(values) {
@@ -87,8 +107,7 @@ async function loadCounty(fips) {
   const plan = costs.counties[fips];
   const recR = plan ? plan.reach : 10;
   const recK = pickSites(county.zips, county.sites, plan ? plan.sites.recommended : 3, recR).length;
-  els.k.max = Math.min(county.sites.length, Math.max(10, plan ? plan.sites.high : 10));
-  els.k.value = recK;
+  els.k.max = county.sites.length;  els.k.value = recK;
   els.reach.value = recR;
   els.kRec.textContent = `recommended ${recK}`;
   els.reachRec.textContent = `recommended ${recR} mi`;  fitNext = true;
@@ -140,7 +159,7 @@ function draw() {
   const g = costs.generators[genKey];
   const inp = costs.inputs;
 
-  const chosen = pickSites(county.zips, county.sites, k, R);
+  const chosen = pickExactly(county.zips, county.sites, k, R);
   const served = chosen.map(() => 0);
   let reached = 0;
   let total = 0;

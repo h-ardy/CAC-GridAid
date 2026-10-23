@@ -1,7 +1,7 @@
 # Data
 
 Data for three counties: Los Angeles County, CA (06037), Harris County, TX (48201) and Athens County, OH (39009).
-All of it comes from public sources. None of it is app code.
+All data is public. 
 
 | File | What it holds | Source |
 | --- | --- | --- |

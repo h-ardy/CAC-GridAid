@@ -258,3 +258,8 @@ footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; hei
 @media (max-width: 860px) {
   .info { grid-template-columns: 1fr; gap: 8px; }
 }
+
+.rover { position: absolute; left: 24px; bottom: 100%; width: 112px; margin-bottom: -2px; }
+.rover .dish { transform-box: fill-box; transform-origin: 50% 100%; animation: scan 4s ease-in-out infinite alternate; }
+@keyframes scan { from { transform: rotate(-12deg); } to { transform: rotate(10deg); } }
+@media (prefers-reduced-motion: reduce) { .rover .dish { animation: none; } }

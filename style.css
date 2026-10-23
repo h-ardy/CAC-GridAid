@@ -189,3 +189,26 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .slide em { font-style: normal; font-size: 12px; color: var(--muted); }
 .slide input[type="range"] { min-width: 0; width: 100%; padding: 0; border: 0; background: none; accent-color: var(--gap); height: 36px; }
 
+.budget { margin: 28px 0 8px; padding-top: 20px; border-top: 2px solid var(--ink); }
+.budget-top { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 0; }
+.budget-top dt { font-size: 14px; color: var(--muted); }
+.budget-top dd { margin: 6px 0 0; font: 600 clamp(40px, 6vw, 68px)/1 var(--serif); color: var(--navy); }
+.budget-top .plan dd { color: var(--ink); }
+.budget-top p { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+.budget-bar { position: relative; height: 14px; margin: 22px 0 8px; background: #efe6d6; border-radius: 2px; }
+.budget-bar i { position: absolute; top: 0; bottom: 0; left: 0; background: var(--navy); border-radius: 2px; transition: width 0.3s; }
+.budget-bar.over i { background: var(--gap); }
+.budget-bar b { position: absolute; top: -6px; bottom: -6px; width: 2px; margin-left: -1px; background: var(--ink); }
+.budget-status { margin: 0; font-weight: 600; color: var(--navy); }
+.budget-status.over { color: var(--gap); }
+.gens { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 24px; margin-top: 28px; border-top: 1px solid var(--line); }
+.gens button { display: block; margin-top: -1px; padding: 14px 0; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-top: 3px solid transparent; cursor: pointer; }
+.gens button:hover .name { color: var(--ink); }
+.gens button.on { border-top-color: var(--gap); }
+.gens .name { display: block; font-size: 14px; color: var(--muted); }
+.gens .price { display: block; margin: 6px 0; font: 600 clamp(26px, 3vw, 36px)/1.1 var(--serif); color: var(--ink); }
+.gens .sub { display: block; font-size: 13px; color: var(--muted); }
+.gens .sub.over { color: var(--gap); }
+@media (max-width: 860px) {
+  .budget-top, .gens { grid-template-columns: 1fr 1fr; }
+}

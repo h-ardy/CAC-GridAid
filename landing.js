@@ -53,7 +53,7 @@ function measure() {
   const s = w / M.width;
   const h = M.height * s;
   const cx = P.width / 2;
-  const cy = P.height * 0.64;
+  const cy = P.height * 0.66;
   geo = { s, dx: cx - w / 2 - (M.left - P.left), dy: cy - h / 2 - (M.top - P.top) };
   launch.style.left = `${cx + w / 2 + 56}px`;
     launch.style.top = `${cy + h / 2 - launch.offsetHeight}px`;

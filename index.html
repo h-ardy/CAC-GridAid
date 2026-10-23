@@ -12,14 +12,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="top">
-    <a class="logo" href="index.html"><img src="logo.svg" alt="GridAid"></a>    
-    <nav>
-      <a href="index.html" aria-current="page">Map</a>
-      <a href="logistics.html">Logistics</a>
-      <a href="join.html">Join us</a>
-    </nav>
-  </header>
 
      <section class="stage">
     <div class="stage-pin">
@@ -71,12 +63,24 @@
               <option value="06037">Los Angeles County, CA</option>
             </select>
           </label>
+          <form class="zip-search" id="zipForm">
+            <label for="zipInput">Find a ZIP code</label>
+            <div>
+              <input id="zipInput" inputmode="numeric" maxlength="5" placeholder="45701" autocomplete="postal-code">
+              <button type="submit">Find</button>
+            </div>
+          </form>
+          <span class="zip-msg" id="zipMsg" role="status"></span>
+          <a class="to-logistics" href="logistics.html">Costs and logistics</a>
         </div>
         <div class="layout">
           <div class="map-shell"><div id="map"></div></div>
           <aside class="panel" data-dock="right">
             <p class="big" id="coverage">Loading</p>
             <p class="note" id="coverageNote"></p>
+            <dl class="mini-budget" id="budget"></dl>
+            <a class="panel-link" href="logistics.html">See costs for every generator type</a>
+            <div id="zipFound"></div>
             <h2>Sites</h2>
             <ol id="siteList"></ol>
             <h2>Still out of reach</h2>
@@ -84,6 +88,54 @@
           </aside>
         </div>
       </main>
+    </div>
+  </section>
+
+  <section id="join" class="home-join">
+    <h2 class="page-title">Help get backup power where it is needed</h2>
+
+    <div class="join-grid">
+      <section class="ways">
+        <div>
+          <h2>Offer a building</h2>
+          <p>Run a library, school, church or community center? Tell us if your building could host a generator or a hookup during long outages.</p>
+        </div>
+        <div>
+          <h2>Plan for your county</h2>
+          <p>Emergency managers and county staff can ask for a plan for their county, using the same data and costs shown on this site.</p>
+        </div>
+        <div>
+          <h2>Volunteer</h2>
+          <p>Check building details, call sites, or help map buildings in your area on OpenStreetMap.</p>
+        </div>
+      </section>
+
+      <form class="form" action="https://formspree.io/f/xjygnzkq" method="POST">
+        <label>Name
+          <input name="name" required>
+        </label>
+        <label>Email
+          <input name="email" type="email" required>
+        </label>
+        <label>I want to
+          <select name="role" required>
+            <option value="">Choose one</option>
+            <option>Offer a building</option>
+            <option>Plan for my county</option>
+            <option>Volunteer</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>County and state
+          <input name="county" placeholder="Athens County, OH">
+        </label>
+        <label>Message
+          <textarea name="message" rows="5"></textarea>
+        </label>
+        <input type="hidden" name="_subject" value="New GridAid sign-up">
+        <button type="submit">Send</button>
+        <p class="fine">We only use this to reply to you. Please don't include medical information.</p>
+      </form>
     </div>
   </section>
 

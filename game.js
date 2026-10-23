@@ -7,6 +7,8 @@ const STORMS = {
   "39009": { name: "Windstorm", note: "Like the June 2012 windstorm that knocked out power to most of Athens County for days." },
 };
 const STORM_MS = 2400;
+const OUTAGE_SHARE = 0.8;
+const DARK = "#2b2f33";
 
 const shellEl = document.querySelector(".map-shell");
 const dock = document.createElement("div");
@@ -23,7 +25,7 @@ const gameLayer = L.layerGroup().addTo(map);
 let ghost = null;
 let dragFrom = null;
 let playing = false;
-let darkened = [];
+let game = null;
 
 function moveGhost(e) {
   ghost.style.left = `${e.clientX}px`;
@@ -34,6 +36,7 @@ dock.querySelector(".astro").addEventListener("pointerdown", (e) => {
   if (playing || !county || !plan) return;
   e.preventDefault();
   dragFrom = { x: e.clientX, y: e.clientY };
+  dock.classList.add("busy");
   ghost = document.createElement("div");
   ghost.className = "astro-ghost";
   ghost.innerHTML = ASTRO;
@@ -52,7 +55,10 @@ function drop(e) {
     return;
   }
   const box = map.getContainer().getBoundingClientRect();
-  if (e.clientX < box.left || e.clientX > box.right || e.clientY < box.top || e.clientY > box.bottom) return;
+  if (e.clientX < box.left || e.clientX > box.right || e.clientY < box.top || e.clientY > box.bottom) {
+    dock.classList.remove("busy");
+    return;
+  }
   play(map.mouseEventToLatLng(e));
 }
 
@@ -77,7 +83,6 @@ function zipAt(at) {
 
 function play(at) {
   playing = true;
-  dock.classList.add("busy");
   result.hidden = true;
   gameLayer.clearLayers();
   L.marker(at, { icon: L.divIcon({ className: "astro-pin", html: ASTRO, iconSize: [34, 44], iconAnchor: [17, 44] }), interactive: false }).addTo(gameLayer);
@@ -87,56 +92,107 @@ function play(at) {
   band.className = "storm";
   el.appendChild(band);
 
-  darkened = [];
+  const zips = county.zips;
+  const sites = plan.chosen.map((s) => county.sites[s]);
+  game = {
+    at,
+    zi: zipAt(at),
+    fills: zipShapes.map((layer) => layer.options.fillColor),
+    hit: zips.map(() => Math.random() < OUTAGE_SHARE),
+    zipToSite: zips.map((z) => sites.map((s) => miles(z.lat, z.lon, s.lat, s.lon))),
+    astroToSite: sites.map((s) => miles(at.lat, at.lng, s.lat, s.lon)),
+    line: null,
+  };
+
   const width = el.clientWidth;
-  zipLayer.eachLayer((layer) => {
+  zipShapes.forEach((layer, i) => {
+    if (!game.hit[i]) return;
     const center = layer.getBounds ? layer.getBounds().getCenter() : layer.getLatLng();
     const x = map.latLngToContainerPoint(center).x;
     const delay = Math.min(1, Math.max(0, x / width)) * STORM_MS;
-    darkened.push([layer, layer.options.fillColor]);
-    setTimeout(() => layer.setStyle({ fillColor: "#2b2f33" }), delay);
+    setTimeout(() => game && layer.setStyle({ fillColor: DARK }), delay);
   });
 
   setTimeout(() => {
     band.remove();
-    finish(at);
+    if (game) showResult();
   }, STORM_MS + 300);
 }
 
-function finish(at) {
+function showResult() {
   const storm = STORMS[county.fips] ?? { name: "Storm", note: "" };
+  const lost = county.zips.reduce((sum, z, i) => sum + (game.hit[i] ? z.people : 0), 0);
+  const zipsOut = game.hit.filter(Boolean).length;
+  const n = plan.chosen.length;
+
+  result.innerHTML = `
+    <p class="storm-name">${storm.name}: power is out in ${zipsOut} of ${county.zips.length} ZIP codes</p>
+    <p>${lost.toLocaleString()} people who rely on powered medical equipment just lost power.</p>
+    <div class="power-back">
+      <label for="powerBack">Backup generators running: <span class="count" id="powerCount">0 of ${n}</span></label>
+      <input id="powerBack" type="range" min="0" max="${n}" step="1" value="0">
+    </div>
+    <p id="powerPeople"></p>
+    <p id="astroStatus"></p>
+    <p class="fine">${storm.note}</p>
+    <button type="button">Try again</button>`;
+  result.hidden = false;
+  game.lost = lost;
+  result.querySelector("#powerBack").addEventListener("input", (e) => setRunning(Number(e.target.value)));
+  result.querySelector("button").addEventListener("click", reset);
+  setRunning(0);
+}
+
+function setRunning(v) {
+  const R = plan.R;
+  const n = plan.chosen.length;
+  let back = 0;
+
+  zipShapes.forEach((layer, i) => {
+    if (!game.hit[i]) return;
+    const reachable = game.zipToSite[i].some((d, j) => j < v && d <= R);
+    layer.setStyle({ fillColor: reachable ? game.fills[i] : DARK });
+    if (reachable) back += county.zips[i].people;
+  });
+  sitePins.forEach((pin, j) => pin.getElement()?.classList.toggle("lit", j < v));
+
+  result.querySelector("#powerCount").textContent = `${v} of ${n}`;
+  result.querySelector("#powerPeople").innerHTML = v === 0
+    ? "Slide to turn the backup generators on, busiest site first."
+    : `<b>${back.toLocaleString()} of ${game.lost.toLocaleString()}</b> people who lost power can now reach a running generator within ${R} miles.`;
+
+  if (game.line) { gameLayer.removeLayer(game.line); game.line = null; }
   let best = Infinity;
   let who = -1;
-  plan.chosen.forEach((s, i) => {
-    const d = miles(at.lat, at.lng, county.sites[s].lat, county.sites[s].lon);
-    if (d < best) { best = d; who = i; }
-  });
-  const ok = who >= 0 && best <= plan.R;
-  const site = who >= 0 ? county.sites[plan.chosen[who]] : null;
-  if (site) {
-    L.polyline([at, [site.lat, site.lon]], { color: ok ? "#1b3a5c" : "#c2511a", weight: 3, dashArray: "6 6", interactive: false }).addTo(gameLayer);
+  game.astroToSite.forEach((d, j) => { if (j < v && d < best) { best = d; who = j; } });
+  const z = game.zi >= 0 ? county.zips[game.zi] : null;
+  const ownHit = game.zi >= 0 ? game.hit[game.zi] : true;
+  const status = result.querySelector("#astroStatus");
+  result.classList.toggle("ok", !ownHit || best <= R);
+
+  if (who >= 0) {
+    const site = county.sites[plan.chosen[who]];
+    game.line = L.polyline([game.at, [site.lat, site.lon]], { color: best <= R ? "#1b3a5c" : GAP, weight: 3, dashArray: "6 6", interactive: false }).addTo(gameLayer);
   }
-  siteLayer.eachLayer((l) => l.getElement?.()?.classList.add("lit"));
 
-  const zi = zipAt(at);
-  const z = zi >= 0 ? county.zips[zi] : null;
-  const people = z ? (z.masked ? "1 to 10" : z.people.toLocaleString()) : null;
-  const text = ok
-    ? `<b>You made it.</b> Site ${who + 1}, ${esc(site.name)}, is ${best.toFixed(1)} miles away and still has power.`
-    : `<b>Out of reach.</b> The nearest site with power${site ? `, ${esc(site.name)}, is ${best.toFixed(1)} miles away` : " is too far"}, more than the ${plan.R} miles people can be expected to travel.`;
-  const local = z ? `<p>In ZIP ${z.zip}, ${people} people rely on powered medical equipment.</p>` : "";
-
-  result.innerHTML = `<p class="storm-name">${storm.name}: the power is out</p><p>${text}</p>${local}<p class="fine">${storm.note}</p><button type="button">Try again</button>`;
-  result.classList.toggle("ok", ok);
-  result.hidden = false;
-  result.querySelector("button").addEventListener("click", reset);
+  if (!ownHit) {
+    status.innerHTML = `<b>Lucky this time.</b> Your ZIP${z ? `, ${z.zip},` : ""} kept power.`;
+  } else if (who < 0) {
+    status.innerHTML = `<b>Your power is out.</b> No backup generators are running yet.`;
+  } else if (best <= R) {
+    const site = county.sites[plan.chosen[who]];
+    status.innerHTML = `<b>You made it.</b> Site ${who + 1}, ${esc(site.name)}, is ${best.toFixed(1)} miles away and has power.`;
+  } else {
+    status.innerHTML = `<b>Out of reach.</b> The nearest running site is ${best.toFixed(1)} miles away, more than the ${R} miles people can be expected to travel.${
+      z ? ` In ZIP ${z.zip}, ${z.masked ? "1 to 10" : z.people.toLocaleString()} people rely on powered medical equipment.` : ""}`;
+  }
 }
 
 function reset() {
-  darkened.forEach(([layer, fill]) => layer.setStyle({ fillColor: fill }));
-  darkened = [];
+  if (game) zipShapes.forEach((layer, i) => layer.setStyle({ fillColor: game.fills[i] }));
+  game = null;
   gameLayer.clearLayers();
-  siteLayer.eachLayer((l) => l.getElement?.()?.classList.remove("lit"));
+  sitePins.forEach((pin) => pin.getElement()?.classList.remove("lit"));
   result.hidden = true;
   dock.classList.remove("busy");
   playing = false;

@@ -56,7 +56,20 @@ function measure() {
   const cy = P.height * 0.64;
   geo = { s, dx: cx - w / 2 - (M.left - P.left), dy: cy - h / 2 - (M.top - P.top) };
   launch.style.left = `${cx + w / 2 + 56}px`;
-  launch.style.top = `${cy + h / 2 - launch.offsetHeight}px`;
+    launch.style.top = `${cy + h / 2 - launch.offsetHeight}px`;
+  const padX = cx + w / 2 + 56 + 165;
+  const padY = cy + h / 2;
+  puffs.forEach((pf) => {
+    const tx = pf.x * P.width;
+    const ty = pf.y * P.height;
+    pf.ox = padX - tx;
+    pf.oy = padY - ty;
+    pf.delay = Math.min(0.6, (Math.abs(pf.ox) / P.width) * 0.9);
+    pf.el.style.width = `${pf.size}px`;
+    pf.el.style.height = `${pf.size}px`;
+    pf.el.style.left = `${tx}px`;
+    pf.el.style.top = `${ty}px`;
+  });
   update();
 }
 
@@ -75,6 +88,13 @@ function update() {
   shell.style.pointerEvents = open > 0.98 ? "auto" : "none";
   shell.style.setProperty("--glow", 1 - open);
 
+  const grow = span(p, 0.02, 0.34);
+  const clear = span(p, 0.4, 0.62);
+  puffs.forEach((pf) => {
+    const t = ease(span(grow, pf.delay, pf.delay + 0.4));
+    pf.el.style.transform = `translate(-50%, -50%) translate(${pf.ox * (1 - t)}px, ${pf.oy * (1 - t) - clear * 90}px) scale(${0.12 + 0.88 * t + clear * 0.35})`;
+    pf.el.style.opacity = t * (1 - clear) * pf.alpha;
+  });
   const fade = 1 - span(p, 0.3, 0.62);
   sky.style.opacity = fade;
   canvas.style.opacity = fade;

@@ -9,6 +9,10 @@ const els = {
   gen: document.getElementById("gen"),
   k: document.getElementById("k"),
   reach: document.getElementById("reach"),
+  kVal: document.getElementById("kVal"),
+    kRec: document.getElementById("kRec"),
+    reachVal: document.getElementById("reachVal"),
+    reachRec: document.getElementById("reachRec"),
   summary: document.getElementById("summary"),
   compare: document.getElementById("compare"),
   sites: document.getElementById("sites"),
@@ -80,9 +84,13 @@ async function start() {
 async function loadCounty(fips) {
   county = await loadCountyData(fips);
   const plan = costs.counties[fips];
-  els.k.value = plan ? plan.sites.recommended : 3;
-  els.reach.value = plan ? plan.reach : 10;
-  fitNext = true;
+  const recK = plan ? plan.sites.recommended : 3;
+  const recR = plan ? plan.reach : 10;
+  els.k.max = Math.min(county.sites.length, Math.max(10, plan ? plan.sites.high : 10));
+  els.k.value = recK;
+  els.reach.value = recR;
+  els.kRec.textContent = `recommended ${recK}`;
+  els.reachRec.textContent = `recommended ${recR} mi`;  fitNext = true;
   draw();
 }
 
@@ -125,6 +133,8 @@ function draw() {
   if (!county || !costs) return;
   const k = Math.max(1, Number(els.k.value) || 1);
   const R = Math.max(0.5, Number(els.reach.value) || 10);
+  els.kVal.textContent = k;
+  els.reachVal.textContent = `${R} mi`;
   const genKey = els.gen.value;
   const g = costs.generators[genKey];
   const inp = costs.inputs;

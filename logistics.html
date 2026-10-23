@@ -34,11 +34,13 @@
       <label>Generator type
         <select id="gen"></select>
       </label>
-      <label>Sites
-        <input id="k" type="number" min="1" max="80" value="3">
+            <label class="slide">
+        <span>Sites <output id="kVal">3</output> <em id="kRec"></em></span>
+        <input id="k" type="range" min="1" max="10" step="1" value="3">
       </label>
-      <label>Reach (miles)
-        <input id="reach" type="number" min="0.5" max="30" step="0.5" value="10">
+      <label class="slide">
+        <span>Reach <output id="reachVal">10 mi</output> <em id="reachRec"></em></span>
+        <input id="reach" type="range" min="0.5" max="30" step="0.5" value="10">
       </label>
     </div>
 
@@ -50,7 +52,7 @@
     <h2 class="section">Compare generator types</h2>
     <table class="table">
       <thead>
-        <tr><th>Type</th><th>Setup cost</th><th>County share</th><th>Running cost, one long outage</th><th>Ready in</th></tr>
+        <tr><th>Type</th><th>Setup cost</th><th>County pays</th><th>Running cost, one long outage</th><th>Ready in</th></tr>
       </thead>
       <tbody id="compare"></tbody>
     </table>
@@ -66,7 +68,7 @@
     <p class="fine" id="fine"></p>
   </main>
 
-  <footer>Costs from GridAid_County_Plans.xlsx (sources listed there). Data: HHS emPOWER, U.S. Census Bureau, OpenStreetMap contributors.</footer>
+  <footer>Made by Jintong (Hardy) Wang for the CAC and Capitol. Costs from GridAid_County_Plans.xlsx (sources listed there). Data: HHS emPOWER, U.S. Census Bureau, OpenStreetMap contributors.</footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="shared.js"></script>

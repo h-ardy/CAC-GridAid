@@ -13,6 +13,7 @@ const els = {
     kRec: document.getElementById("kRec"),
     reachVal: document.getElementById("reachVal"),
     reachRec: document.getElementById("reachRec"),
+    budget: document.getElementById("budget"),
   summary: document.getElementById("summary"),
   compare: document.getElementById("compare"),
   sites: document.getElementById("sites"),

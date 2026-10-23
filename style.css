@@ -174,3 +174,9 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .astro-close { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; padding: 0 !important; font: 400 22px/1 var(--sans) !important; color: var(--muted) !important; background: none !important; border: 0; cursor: pointer; }
 .astro-close:hover { color: var(--ink) !important; }
 .astro-reopen { position: absolute; right: 12px; bottom: 12px; z-index: 900; font: 600 14px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
+
+.lg-map { height: 480px; margin: 28px 0 6px; border: 1px solid var(--line); border-radius: 4px; }
+.table tr.pick { cursor: pointer; }
+.table tr.pick:hover td { background: #faf4ea; }
+.table tr.focus td { background: #f1e6d3; }
+.table tr.focus td:first-child { box-shadow: inset 4px 0 0 var(--gap); }

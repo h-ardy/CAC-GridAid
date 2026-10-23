@@ -1,4 +1,8 @@
 const READY = { hookup: "Weeks", diesel: "Months; grants can take years", gas: "Months; needs a gas line", solar: "Months to a year" };
+const RAMP = ["#f3ead8", "#e2c79a", "#c98f4e", "#8a4b1f"];
+const GAP = "#c2511a";
+const INK = "#13202e";
+const METERS_PER_MILE = 1609.34;
 
 const els = {
   county: document.getElementById("county"),
@@ -11,8 +15,20 @@ const els = {
   fine: document.getElementById("fine"),
 };
 
+const map = L.map("map", { scrollWheelZoom: false });
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+  attribution: "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors",
+  maxZoom: 16,
+}).addTo(map);
+map.on("click", () => map.scrollWheelZoom.enable());
+map.on("mouseout", () => map.scrollWheelZoom.disable());
+const zipLayer = L.layerGroup().addTo(map);
+const siteLayer = L.layerGroup().addTo(map);
+
 let costs = null;
 let county = null;
+let pins = [];
+let fitNext = true;
 
 const money = (v) => (v >= 1e6 ? `$${(v / 1e6).toFixed(2)}M` : `$${Math.round(v).toLocaleString()}`);
 const kw = (v) => (v >= 1000 ? `${(v / 1000).toFixed(1)} MW` : `${Math.round(v)} kW`);
@@ -32,6 +48,26 @@ function flagsFor(site, people, visitors, genKey) {
   return out;
 }
 
+function shadeClass(values) {
+  const sorted = [...values].sort((a, b) => a - b);
+  const breaks = [1, 2, 3].map((i) => sorted[Math.floor((i * sorted.length) / 4)]);
+  return (v) => breaks.filter((b) => v >= b && b > sorted[0]).length;
+}
+
+function focusSite(i, fromMap) {
+  const row = document.getElementById(`site-${i}`);
+  document.querySelectorAll("#sites tr.focus").forEach((r) => r.classList.remove("focus"));
+  pins.forEach((p, j) => p.getElement()?.classList.toggle("lit", j === i));
+  if (row) row.classList.add("focus");
+  if (fromMap) {
+    row?.scrollIntoView({ behavior: "smooth", block: "center" });
+  } else {
+    map.getContainer().scrollIntoView({ behavior: "smooth", block: "center" });
+    map.flyTo(pins[i].getLatLng(), Math.max(map.getZoom(), 13), { duration: 0.6 });
+    pins[i].openTooltip();
+  }
+}
+
 async function start() {
   costs = await getJSON("data/costs.json");
   els.gen.innerHTML = Object.entries(costs.generators)
@@ -46,7 +82,43 @@ async function loadCounty(fips) {
   const plan = costs.counties[fips];
   els.k.value = plan ? plan.sites.recommended : 3;
   els.reach.value = plan ? plan.reach : 10;
+  fitNext = true;
   draw();
+}
+
+function drawMap(chosen, nearest, R) {
+  zipLayer.clearLayers();
+  siteLayer.clearLayers();
+  pins = [];
+  const bounds = L.latLngBounds([]);
+  const classOf = shadeClass(county.zips.map((z) => z.people));
+
+  county.zips.forEach((z, i) => {
+    const out = nearest[i].d > R && z.people > 0;
+    const style = { color: out ? GAP : "#ffffff", weight: out ? 2 : 0.8, fillColor: RAMP[classOf(z.people)], fillOpacity: 0.8 };
+    const shape = county.shapes[z.zip];
+    const layer = shape ? L.polygon(shape.p, style) : L.circleMarker([z.lat, z.lon], { ...style, radius: 6 });
+    const people = z.masked ? "1 to 10" : z.people.toLocaleString();
+    const where = nearest[i].who >= 0 ? ` · ${nearest[i].d.toFixed(1)} mi to site ${nearest[i].who + 1}` : "";
+    layer.bindTooltip(`<b>ZIP ${z.zip}</b><br>${people} people<br>${out ? "Out of reach" : "Covered"}${where}`, { sticky: true });
+    layer.addTo(zipLayer);
+    bounds.extend(shape ? layer.getBounds() : [z.lat, z.lon]);
+  });
+
+  chosen.forEach((s, i) => {
+    const site = county.sites[s];
+    L.circle([site.lat, site.lon], { radius: R * METERS_PER_MILE, color: INK, weight: 1, dashArray: "4 4", fill: false, interactive: false }).addTo(siteLayer);
+    const pin = L.marker([site.lat, site.lon], { icon: L.divIcon({ className: "pin", html: `<span>${i + 1}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }) })
+      .bindTooltip(`${i + 1}. ${esc(site.name)}`)
+      .on("click", () => focusSite(i, true))
+      .addTo(siteLayer);
+    pins.push(pin);
+  });
+
+  if (fitNext) {
+    map.fitBounds(bounds, { padding: [20, 20] });
+    fitNext = false;
+  }
 }
 
 function draw() {
@@ -61,16 +133,19 @@ function draw() {
   const served = chosen.map(() => 0);
   let reached = 0;
   let total = 0;
-  county.zips.forEach((z) => {
+  const nearest = county.zips.map((z) => {
     total += z.people;
-    let best = Infinity;
+    let d = Infinity;
     let who = -1;
     chosen.forEach((s, i) => {
-      const d = miles(z.lat, z.lon, county.sites[s].lat, county.sites[s].lon);
-      if (d < best) { best = d; who = i; }
+      const dist = miles(z.lat, z.lon, county.sites[s].lat, county.sites[s].lon);
+      if (dist < d) { d = dist; who = i; }
     });
-    if (best <= R) { served[who] += z.people; reached += z.people; }
+    if (d <= R) { served[who] += z.people; reached += z.people; }
+    return { d, who };
   });
+
+  drawMap(chosen, nearest, R);
 
   const n = chosen.length;
   const setup = n * g.cost;
@@ -102,25 +177,30 @@ function draw() {
       const b = county.sites[s];
       const people = served[i];
       const v = people * inp.turnout;
-      const contact = [b.phone, b.website ? `<a href="${esc(b.website)}" target="_blank" rel="noopener">Website</a>` : null]
-        .filter(Boolean)
-        .join("<br>");
+      const contact = [
+        b.phone ? esc(b.phone) : null,
+        b.website ? `<a href="${esc(b.website)}" target="_blank" rel="noopener">Website</a>` : null,
+      ].filter(Boolean).join("<br>");
       const flags = flagsFor(b, people, v, genKey);
       return `
-        <tr>
+        <tr class="pick" id="site-${i}" data-i="${i}">
           <td>${i + 1}</td>
           <td><b>${esc(b.name)}</b><span>${b.type.replace("_", " ")}${b.address ? ` · ${esc(b.address)}` : ""}</span></td>
           <td>${people.toLocaleString()}</td>
           <td>${Math.round(v).toLocaleString()}</td>
           <td>${kw((v * inp.wattsLow) / 1000)} to ${kw((v * inp.wattsHigh) / 1000)}</td>
-          <td>${contact ? (b.phone ? esc(contact).replace(/&lt;br&gt;/g, "<br>").replace(/&lt;a[^]*$/, "") + (b.website ? `<br><a href="${esc(b.website)}" target="_blank" rel="noopener">Website</a>` : "") : contact) : "None listed"}</td>
+          <td>${contact || "None listed"}</td>
           <td>${flags.length ? `<ul>${flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</td>
         </tr>`;
     })
     .join("");
-
 }
 
+els.sites.addEventListener("click", (e) => {
+  if (e.target.closest("a")) return;
+  const row = e.target.closest("tr.pick");
+  if (row) focusSite(Number(row.dataset.i), false);
+});
 els.county.addEventListener("change", () => loadCounty(els.county.value));
 [els.gen, els.k, els.reach].forEach((el) => el.addEventListener("input", draw));
 

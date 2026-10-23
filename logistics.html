@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
     <nav>
       <a href="index.html">Map</a>
       <a href="logistics.html" aria-current="page">Logistics</a>
-      <a href="join.html">Join us</a>
+      <a href="index.html#join">Join us</a>
     </nav>
   </header>
 
@@ -43,6 +44,9 @@
 
     <dl class="summary" id="summary"></dl>
 
+    <div class="lg-map" id="map"></div>
+    <p class="fine">Click a numbered site on the map or a row in the site table to find it in the other.</p>
+
     <h2 class="section">Compare generator types</h2>
     <table class="table">
       <thead>
@@ -64,6 +68,7 @@
 
   <footer>Costs from GridAid_County_Plans.xlsx (sources listed there). Data: HHS emPOWER, U.S. Census Bureau, OpenStreetMap contributors.</footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="shared.js"></script>
   <script src="logistics.js"></script>
 </body>

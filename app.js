@@ -20,6 +20,7 @@ const siteLayer = L.layerGroup().addTo(map);
 
 let county = null;
 let costs = null;
+let plan = null;
 
 
 async function loadCounty(fips) {
@@ -50,9 +51,13 @@ function shadeClass(values) {
 
 function draw(fit = false) {
   if (!county) return;
-    const plan = costs.counties[county.fips];
-  const k = plan ? plan.sites.recommended : 3;
-  const R = plan ? plan.reach : 10;  const chosen = pickSites(county.zips, county.sites, k, R);
+    const countyPlan = costs.counties[county.fips];
+  const k = countyPlan ? countyPlan.sites.recommended : 3;
+  const R = countyPlan ? countyPlan.reach : 10;
+  const chosen = pickSites(county.zips, county.sites, k, R);
+
+  plan = { chosen, R };
+
   const { nearest, total, reached } = evaluate(county.zips, county.sites, chosen, R);
   const classOf = shadeClass(county.zips.map((z) => z.people));
 
@@ -85,6 +90,13 @@ function draw(fit = false) {
   const pct = total ? (100 * reached) / total : 0;
   els.coverage.textContent = `${pct.toFixed(1)}%`;
   els.coverageNote.textContent = `With ${chosen.length} sites, ${reached.toLocaleString()} of ${total.toLocaleString()} people who rely on powered medical equipment are within ${R} miles of one.`;
+
+  if (countyPlan) {
+    const budget = countyPlan.budget.recommended.diesel;
+    const shown = budget >= 1e6 ? `$${(budget / 1e6).toFixed(2)}M` : `$${Math.round(budget).toLocaleString()}`;
+    els.coverageNote.textContent += ` That is what the county's estimated budget of ${shown} buys in diesel generators.`;
+  }
+
   els.siteList.innerHTML = chosen.length
     ? chosen.map((s) => `<li>${esc(county.sites[s].name)}<span>${county.sites[s].type.replace("_", " ")}</span></li>`).join("")
     : `<li class="muted">No sites picked yet.</li>`;
@@ -107,7 +119,6 @@ async function start() {
 }
 
 start().catch((e) => {
-    els.coverage.textContent = "Couldn't load data";
-    els.coverageNote.textContent = e.message;
-    if (plan) els.coverageNote.textContent += ` That is what the county's estimated budget of ${plan.budget.recommended.diesel >= 1e6 ? `$${(plan.budget.recommended.diesel / 1e6).toFixed(2)}M` : `$${Math.round(plan.budget.recommended.diesel).toLocaleString()}`} buys in diesel generators.`;
+  els.coverage.textContent = "Couldn't load data";
+  els.coverageNote.textContent = e.message;s
 });

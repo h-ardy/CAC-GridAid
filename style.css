@@ -87,8 +87,7 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .logo img { height: 22px; display: block; }
 
 .stage { position: relative; height: 330vh; }
-.stage-pin { position: sticky; top: 66px; height: calc(100vh - 66px); overflow: hidden; }
-.sky { position: absolute; inset: 0; background: #14181b; }
+.stage-pin { position: sticky; top: 0; height: 100vh; overflow: hidden; }.sky { position: absolute; inset: 0; background: #14181b; }
 #grid { position: absolute; inset: 0; width: 100%; height: 100%; }
 
 .hero { position: absolute; top: 5vh; left: 0; right: 0; z-index: 2; text-align: center; pointer-events: none; }
@@ -141,3 +140,25 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .astro-result p { margin: 0 0 8px; }
 .astro-result .storm-name { font: 600 18px var(--serif); color: var(--ink); }
 .astro-result button { font: 600 14px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 8px 14px; cursor: pointer; }
+
+.stage .controls { align-items: end; }
+.zip-search { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.zip-search div { display: flex; gap: 6px; }
+.zip-search input { width: 130px; min-width: 0; font: 16px var(--sans); }
+.zip-search button, .to-logistics { font: 600 15px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; text-decoration: none; }
+.to-logistics { margin-left: auto; align-self: end; }
+.zip-msg { font-size: 13px; color: var(--gap); align-self: end; padding-bottom: 10px; }
+.mini-budget { margin: 16px 0 0; border-top: 2px solid var(--ink); }
+.mini-budget div { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.mini-budget dt { color: var(--muted); }
+.mini-budget dd { margin: 0; font-weight: 600; }
+.panel-link { display: inline-block; margin-top: 10px; font-weight: 600; font-size: 14px; }
+.zip-found { margin: 12px 0 0; padding: 10px 12px; background: #f1e6d3; border-left: 3px solid var(--navy); font-size: 14px; }
+
+.astro-dock.busy .astro { visibility: hidden; }
+.power-back { margin: 10px 0; }
+.power-back label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+.power-back input[type="range"] { width: 100%; accent-color: var(--gap); }
+.power-back .count { font-weight: 600; color: var(--ink); }
+
+.home-join { max-width: 1100px; margin: 0 auto; padding: 72px 24px 24px; }

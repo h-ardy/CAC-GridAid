@@ -110,7 +110,7 @@
   },
   {
    "name": "Dairy Barn Arts Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.314529,
    "lon": -82.115143,
    "osm": "node/10595331754",
@@ -119,7 +119,7 @@
    "address": "8000 Dairy Lane"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.332424,
    "lon": -82.107518,
    "osm": "node/10595331755"
@@ -145,7 +145,7 @@
   },
   {
    "name": "Athens Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.336455,
    "lon": -82.075299,
    "osm": "way/286836229"
@@ -231,7 +231,7 @@
   },
   {
    "name": "Chauncey Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.401957,
    "lon": -82.128786,
    "osm": "way/916446954"
@@ -245,7 +245,7 @@
   },
   {
    "name": "The Hive",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.459924,
    "lon": -82.233691,
    "osm": "way/1056458390"
@@ -293,7 +293,7 @@
   },
   {
    "name": "Federal Valley Resource Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.307424,
    "lon": -81.896177,
    "osm": "way/1288143611",
@@ -354,7 +354,7 @@
   },
   {
    "name": "Nelsonville Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.453135,
    "lon": -82.222896,
    "osm": "way/1456157414"
@@ -393,7 +393,7 @@
   },
   {
    "name": "Village of Chesterhill",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 39.489021,
    "lon": -81.870034,
    "osm": "way/1508692872",

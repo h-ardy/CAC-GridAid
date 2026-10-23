@@ -5,7 +5,7 @@
  "buildings": [
   {
    "name": "YMCA of the Foothills",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.212014,
    "lon": -118.218806,
    "osm": "node/123774379",
@@ -14,7 +14,7 @@
   },
   {
    "name": "Malibu Vista",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.048343,
    "lon": -118.775372,
    "osm": "node/150938201"
@@ -4620,7 +4620,7 @@
   },
   {
    "name": "Jackie Robinson Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.163609,
    "lon": -118.150158,
    "osm": "node/358826745",
@@ -6259,7 +6259,7 @@
   },
   {
    "name": "Boys and Girls Club of Santa Monica",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.021121,
    "lon": -118.493414,
    "osm": "node/368166512"
@@ -8053,7 +8053,7 @@
   },
   {
    "name": "Claude Pepper Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.045195,
    "lon": -118.376304,
    "osm": "node/368172698",
@@ -8064,14 +8064,14 @@
   },
   {
    "name": "Edwards Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.014681,
    "lon": -118.492841,
    "osm": "node/368172703"
   },
   {
    "name": "Elsanto Nino Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.025291,
    "lon": -118.261463,
    "osm": "node/368173228"
@@ -8158,7 +8158,7 @@
   },
   {
    "name": "Silverado Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.695394,
    "lon": -117.716413,
    "osm": "node/752205436"
@@ -8269,7 +8269,7 @@
   },
   {
    "name": "J-Town Senior Connection",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.049585,
    "lon": -118.239525,
    "osm": "node/1435012195",
@@ -8305,7 +8305,7 @@
   },
   {
    "name": "Clubhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.098154,
    "lon": -117.702014,
    "osm": "node/1595842998",
@@ -8738,7 +8738,7 @@
    "osm": "node/3088548281"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.86869,
    "lon": -117.74624,
    "osm": "node/3088548283"
@@ -8766,7 +8766,7 @@
   },
   {
    "name": "University Hills Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.635983,
    "lon": -117.836024,
    "osm": "node/3466637071",
@@ -8775,7 +8775,7 @@
   },
   {
    "name": "Pasadena Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.147925,
    "lon": -118.14842,
    "osm": "node/3485293104",
@@ -8812,7 +8812,7 @@
   },
   {
    "name": "Bradley-Milken Youth and Family Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.945834,
    "lon": -118.241058,
    "osm": "node/3692839936",
@@ -8872,21 +8872,21 @@
   },
   {
    "name": "Veteran's Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.256882,
    "lon": -118.590568,
    "osm": "node/4064504869"
   },
   {
    "name": "San Fernando Valley Arts& Cultural Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.180009,
    "lon": -118.531745,
    "osm": "node/4073836739"
   },
   {
    "name": "HexLab Makerspace",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.241081,
    "lon": -118.601318,
    "osm": "node/4073871591"
@@ -8984,7 +8984,7 @@
   },
   {
    "name": "Huntington Beach Masonic Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.664179,
    "lon": -117.99802,
    "osm": "node/4263340994",
@@ -9021,7 +9021,7 @@
   },
   {
    "name": "Vet Service orgs",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.777176,
    "lon": -118.118231,
    "osm": "node/4423396861"
@@ -9035,7 +9035,7 @@
   },
   {
    "name": "Natadores Swim Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.615757,
    "lon": -117.652492,
    "osm": "node/4577518492"
@@ -9059,7 +9059,7 @@
   },
   {
    "name": "Bishops' Storehouse (LDS)",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.310113,
    "lon": -118.472075,
    "osm": "node/4698257689",
@@ -9075,14 +9075,14 @@
   },
   {
    "name": "Duarte Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.139085,
    "lon": -117.971694,
    "osm": "node/4732453965"
   },
   {
    "name": "Duarte Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.139397,
    "lon": -117.970485,
    "osm": "node/4732453967"
@@ -9206,7 +9206,7 @@
   },
   {
    "name": "Fullerton Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.869985,
    "lon": -117.930539,
    "osm": "node/5197196792",
@@ -9225,7 +9225,7 @@
   },
   {
    "name": "Pacific Ranch Clubhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.682404,
    "lon": -117.99954,
    "osm": "node/5220405664",
@@ -9272,7 +9272,7 @@
   },
   {
    "name": "Oakridge Mobile Home Park",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.32595,
    "lon": -118.467394,
    "osm": "node/5482985022",
@@ -9330,7 +9330,7 @@
   },
   {
    "name": "Freeman Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.781969,
    "lon": -118.155862,
    "osm": "node/5640829531"
@@ -9428,7 +9428,7 @@
   },
   {
    "name": "Los Angeles LGBT Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.100563,
    "lon": -118.332763,
    "osm": "node/6261884983",
@@ -9448,7 +9448,7 @@
   },
   {
    "name": "Ca Special Affairs Event Planning",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.587911,
    "lon": -118.146366,
    "osm": "node/6324300470",
@@ -9526,7 +9526,7 @@
   },
   {
    "name": "Pride Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.240082,
    "lon": -118.526963,
    "osm": "node/6653480361",
@@ -9535,7 +9535,7 @@
   },
   {
    "name": "Veteran's Resource Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.239627,
    "lon": -118.525489,
    "osm": "node/6653488159",
@@ -9560,7 +9560,7 @@
   },
   {
    "name": "senior center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.002223,
    "lon": -117.961242,
    "osm": "node/7097453199"
@@ -9626,7 +9626,7 @@
   },
   {
    "name": "United Hungarian House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.040191,
    "lon": -118.302591,
    "osm": "node/7278321649",
@@ -9667,7 +9667,7 @@
   },
   {
    "name": "San Fernando Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.280839,
    "lon": -118.434075,
    "osm": "node/7995936393"
@@ -9730,14 +9730,14 @@
   },
   {
    "name": "Culver City Scout House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.010338,
    "lon": -118.404967,
    "osm": "node/8328997962"
   },
   {
    "name": "IMAN Cultural Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.028292,
    "lon": -118.409579,
    "osm": "node/8346283514",
@@ -9753,7 +9753,7 @@
   },
   {
    "name": "Garfield Youth House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.118394,
    "lon": -118.146214,
    "osm": "node/8394916917",
@@ -9767,7 +9767,7 @@
   },
   {
    "name": "Riddick Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.038331,
    "lon": -118.421865,
    "osm": "node/8525661539"
@@ -9791,7 +9791,7 @@
   },
   {
    "name": "Buena Park Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.8433,
    "lon": -118.010338,
    "osm": "node/8815886202",
@@ -9823,7 +9823,7 @@
   },
   {
    "name": "Lincoln Heights Youth Center Complex",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.075693,
    "lon": -118.211617,
    "osm": "node/9012633006"
@@ -9873,7 +9873,7 @@
   },
   {
    "name": "Clifton C. Miller Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.742797,
    "lon": -117.819556,
    "osm": "node/9437532359",
@@ -9936,7 +9936,7 @@
   },
   {
    "name": "Masonic Temple",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.020638,
    "lon": -118.489563,
    "osm": "node/9694141589",
@@ -9951,14 +9951,14 @@
   },
   {
    "name": "Kol Torah Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.048355,
    "lon": -118.434973,
    "osm": "node/9864089985"
   },
   {
    "name": "Chabad Persian Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.055117,
    "lon": -118.388394,
    "osm": "node/9887832780",
@@ -9966,7 +9966,7 @@
   },
   {
    "name": "Gunther-Hirsh Family Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.07691,
    "lon": -118.361152,
    "osm": "node/9918178357",
@@ -10036,7 +10036,7 @@
   },
   {
    "name": "Seal Beach Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.743814,
    "lon": -118.105004,
    "osm": "node/10170576616",
@@ -10046,7 +10046,7 @@
   },
   {
    "name": "Mary Rodriguez Senior Citizen's Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.828677,
    "lon": -118.082063,
    "osm": "node/10170579245",
@@ -10057,7 +10057,7 @@
   },
   {
    "name": "H. Louis Lake Senior Citizens Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.77722,
    "lon": -117.935327,
    "osm": "node/10170605047",
@@ -10068,7 +10068,7 @@
   },
   {
    "name": "Costello Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.020544,
    "lon": -118.210677,
    "osm": "node/10175123673",
@@ -10079,7 +10079,7 @@
   },
   {
    "name": "Glassell Park Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.117695,
    "lon": -118.232326,
    "osm": "node/10175174254",
@@ -10090,7 +10090,7 @@
   },
   {
    "name": "Jim Gilliam Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.012282,
    "lon": -118.353153,
    "osm": "node/10175193530",
@@ -10101,7 +10101,7 @@
   },
   {
    "name": "La Tijera Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.979677,
    "lon": -118.369966,
    "osm": "node/10245714627"
@@ -10116,14 +10116,14 @@
   },
   {
    "name": "Girl Scouts Greater Los Angeles",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.968202,
    "lon": -118.355398,
    "osm": "node/10286197695"
   },
   {
    "name": "Sherman Oaks - East Valley Adult Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.16315,
    "lon": -118.448372,
    "osm": "node/10295441709",
@@ -10210,14 +10210,14 @@
   },
   {
    "name": "CPP Pride Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.057166,
    "lon": -117.820209,
    "osm": "node/10805405597"
   },
   {
    "name": "La Care Community Resource Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.929798,
    "lon": -118.213022,
    "osm": "node/10897964062",
@@ -10268,7 +10268,7 @@
   },
   {
    "name": "Police Activities League Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.019975,
    "lon": -118.48061,
    "osm": "node/11217156644"
@@ -10330,14 +10330,14 @@
   },
   {
    "name": "Virginia Avenue Park Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.020294,
    "lon": -118.468344,
    "osm": "node/11657406039"
   },
   {
    "name": "Morris Scout House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.869802,
    "lon": -118.369809,
    "osm": "node/11685841737"
@@ -10390,7 +10390,7 @@
   },
   {
    "name": "\u09ac\u09be\u0982\u09b2\u09be\u200c\u09a6\u09c7\u09b6 \u0985\u09cd\u09af\u09be\u0995\u09be\u200c\u09a1\u09c7\u09ae\u09bf'\u09b0 - Bangladesh Academy",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.069154,
    "lon": -118.30568,
    "osm": "node/11832175712"
@@ -10422,14 +10422,14 @@
   },
   {
    "name": "The Center Long Beach",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.771856,
    "lon": -118.167131,
    "osm": "node/11992789247"
   },
   {
    "name": "Simi Valley Masonic Lodge",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.2706,
    "lon": -118.768735,
    "osm": "node/12009080457",
@@ -10471,7 +10471,7 @@
   },
   {
    "name": "Boys & Girls Club of Costa Mesa",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.643125,
    "lon": -117.900653,
    "osm": "node/12118024501",
@@ -10480,7 +10480,7 @@
   },
   {
    "name": "Raymond & Annie Kouyoumdjian Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.165362,
    "lon": -118.233052,
    "osm": "node/12118769447"
@@ -10538,7 +10538,7 @@
   },
   {
    "name": "Bahai Comunity Center Encino",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.158834,
    "lon": -118.502732,
    "osm": "node/12491928896"
@@ -10565,7 +10565,7 @@
   },
   {
    "name": "Chinese Culture Association of Southern California",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.859615,
    "lon": -118.071974,
    "osm": "node/12674936054"
@@ -10599,7 +10599,7 @@
   },
   {
    "name": "Long Beach Japanese Culture Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.789202,
    "lon": -118.217402,
    "osm": "node/12852198160"
@@ -10691,7 +10691,7 @@
   },
   {
    "name": "La Habra Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.932502,
    "lon": -117.94706,
    "osm": "node/13314595604"
@@ -10707,7 +10707,7 @@
   },
   {
    "name": "Welcome Pavilion",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.066795,
    "lon": -118.233239,
    "osm": "node/13406701480"
@@ -10721,7 +10721,7 @@
   },
   {
    "name": "The Family Room",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.121089,
    "lon": -118.107384,
    "osm": "node/13425327853",
@@ -10730,7 +10730,7 @@
   },
   {
    "name": "San Gabriel Community Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.099075,
    "lon": -118.109365,
    "osm": "node/13461559282",
@@ -10810,7 +10810,7 @@
   },
   {
    "name": "The Dads' Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.173079,
    "lon": -118.228127,
    "osm": "node/13563697928",
@@ -10906,7 +10906,7 @@
   },
   {
    "name": "J Los Angeles",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.057184,
    "lon": -118.358914,
    "osm": "node/13954763225"
@@ -10920,7 +10920,7 @@
   },
   {
    "name": "South Asian Network",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.071529,
    "lon": -118.291222,
    "osm": "node/14050005401",
@@ -10930,7 +10930,7 @@
   },
   {
    "name": "Kalaydjian Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.205985,
    "lon": -118.34139,
    "osm": "node/14060263204"
@@ -10947,7 +10947,7 @@
   },
   {
    "name": "Scribble",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.119629,
    "lon": -118.196798,
    "osm": "node/14086408901",
@@ -10971,7 +10971,7 @@
   },
   {
    "name": "Pomona Valley Pride",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.055172,
    "lon": -117.750857,
    "osm": "node/14130532401",
@@ -10980,7 +10980,7 @@
   },
   {
    "name": "Felicia Mahood Multipurpose Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.045728,
    "lon": -118.449617,
    "osm": "node/14159829929",
@@ -10999,7 +10999,7 @@
   },
   {
    "name": "The Loved One",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.068145,
    "lon": -118.261853,
    "osm": "node/14167904333",
@@ -11014,14 +11014,14 @@
   },
   {
    "name": "The Japan Foundation, Los Angeles",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.061288,
    "lon": -118.354021,
    "osm": "node/14269668008"
   },
   {
    "name": "East Wind Foundation",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.061465,
    "lon": -118.23984,
    "osm": "node/14272234035",
@@ -11088,7 +11088,7 @@
   },
   {
    "name": "Conejo Valley Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.193036,
    "lon": -118.880172,
    "osm": "way/23891245"
@@ -11111,7 +11111,7 @@
   },
   {
    "name": "Asian Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.097603,
    "lon": -118.100262,
    "osm": "way/25205966",
@@ -11588,7 +11588,7 @@
   },
   {
    "name": "McCambridge Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.193224,
    "lon": -118.320805,
    "osm": "way/31967807",
@@ -12072,7 +12072,7 @@
   },
   {
    "name": "Chino Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.994893,
    "lon": -117.67667,
    "osm": "way/42176243"
@@ -13718,7 +13718,7 @@
   },
   {
    "name": "Balearic Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.674697,
    "lon": -117.939016,
    "osm": "way/79581876",
@@ -13738,7 +13738,7 @@
   },
   {
    "name": "Vinyard Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.028272,
    "lon": -118.346353,
    "osm": "way/79858126",
@@ -13894,7 +13894,7 @@
   },
   {
    "name": "Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.263648,
    "lon": -118.496806,
    "osm": "way/96128093"
@@ -14130,7 +14130,7 @@
   },
   {
    "name": "Brea Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.916251,
    "lon": -117.890662,
    "osm": "way/107395191",
@@ -14803,7 +14803,7 @@
   },
   {
    "name": "Maher Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.996481,
    "lon": -117.730973,
    "osm": "way/136037531",
@@ -14812,7 +14812,7 @@
   },
   {
    "name": "Laguna Hills Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.592,
    "lon": -117.700216,
    "osm": "way/138195089",
@@ -15121,7 +15121,7 @@
   },
   {
    "name": "Boys and Girls Club of Huntington Valley - Kingston Branch",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.722086,
    "lon": -117.95372,
    "osm": "way/162932457"
@@ -15199,7 +15199,7 @@
   },
   {
    "name": "Norma Hertzog Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.641885,
    "lon": -117.922216,
    "osm": "way/166296045",
@@ -17641,7 +17641,7 @@
    "osm": "way/191501722"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.89507,
    "lon": -118.384477,
    "osm": "way/192168969"
@@ -18680,7 +18680,7 @@
   },
   {
    "name": "Oasis Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.599662,
    "lon": -117.866268,
    "osm": "way/195210886",
@@ -19719,7 +19719,7 @@
   },
   {
    "name": "Antelope Valley Family YMCA",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.664358,
    "lon": -118.148907,
    "osm": "way/207405969",
@@ -19791,7 +19791,7 @@
   },
   {
    "name": "Jane Reynolds Park Activity Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.691818,
    "lon": -118.141682,
    "osm": "way/209281991"
@@ -19843,7 +19843,7 @@
   },
   {
    "name": "Pasadena Conference Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.144174,
    "lon": -118.143423,
    "osm": "way/209720643",
@@ -19852,7 +19852,7 @@
   },
   {
    "name": "Pasadena Convention Center - Hall C",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.143305,
    "lon": -118.144303,
    "osm": "way/209720644",
@@ -19860,7 +19860,7 @@
   },
   {
    "name": "Pasadena Convention Center - A, B and Ballroom",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.143783,
    "lon": -118.145259,
    "osm": "way/209720649",
@@ -20486,7 +20486,7 @@
   },
   {
    "name": "Lakeview Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.675965,
    "lon": -117.803022,
    "osm": "way/214487693",
@@ -20783,7 +20783,7 @@
   },
   {
    "name": "Thousand Oaks Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.213433,
    "lon": -118.870221,
    "osm": "way/236347364",
@@ -20869,7 +20869,7 @@
   },
   {
    "name": "Ramona Hall Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.09784,
    "lon": -118.205102,
    "osm": "way/240573799",
@@ -20895,7 +20895,7 @@
   },
   {
    "name": "Plummer Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.091504,
    "lon": -118.350835,
    "osm": "way/243866639"
@@ -21946,7 +21946,7 @@
   },
   {
    "name": "South Gate Girls Club House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.945953,
    "lon": -118.184387,
    "osm": "way/262639040",
@@ -21954,7 +21954,7 @@
   },
   {
    "name": "Margaret Travis Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.942671,
    "lon": -118.185675,
    "osm": "way/262639051",
@@ -22236,7 +22236,7 @@
   },
   {
    "name": "Rancho Santa Susana Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.272933,
    "lon": -118.693967,
    "osm": "way/280669360",
@@ -22290,7 +22290,7 @@
   },
   {
    "name": "Weingart Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.852245,
    "lon": -118.144433,
    "osm": "way/289864586"
@@ -22476,7 +22476,7 @@
   },
   {
    "name": "La Verne Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.111783,
    "lon": -117.76417,
    "osm": "way/294123801"
@@ -22979,7 +22979,7 @@
   },
   {
    "name": "Anderson Park Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.882634,
    "lon": -118.37038,
    "osm": "way/306965809",
@@ -23042,7 +23042,7 @@
   },
   {
    "name": "Kubo LB",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.830649,
    "lon": -118.184705,
    "osm": "way/309018714",
@@ -23129,7 +23129,7 @@
   },
   {
    "name": "Borchard Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.180877,
    "lon": -118.951628,
    "osm": "way/315569445",
@@ -23725,7 +23725,7 @@
   },
   {
    "name": "Norman P. Murray Community & Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.601413,
    "lon": -117.651642,
    "osm": "way/338155865",
@@ -23804,7 +23804,7 @@
   },
   {
    "name": "Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.66341,
    "lon": -117.657203,
    "osm": "way/339837055",
@@ -24080,7 +24080,7 @@
   },
   {
    "name": "Orange Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.786501,
    "lon": -117.854505,
    "osm": "way/348493696",
@@ -24207,7 +24207,7 @@
   },
   {
    "name": "Watts Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.946424,
    "lon": -118.243912,
    "osm": "way/351589838",
@@ -24495,7 +24495,7 @@
   },
   {
    "name": "Lakeview Terrace Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.275142,
    "lon": -118.371094,
    "osm": "way/376604587",
@@ -24524,7 +24524,7 @@
    "osm": "way/377120737"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.27683,
    "lon": -118.396613,
    "osm": "way/377123888"
@@ -24553,7 +24553,7 @@
   },
   {
    "name": "Veterans Park Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.838048,
    "lon": -118.388949,
    "osm": "way/378576288"
@@ -24696,7 +24696,7 @@
   },
   {
    "name": "Goebel Adult Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.200858,
    "lon": -118.853863,
    "osm": "way/381153199",
@@ -24705,7 +24705,7 @@
   },
   {
    "name": "Thousand Oaks Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.200532,
    "lon": -118.854821,
    "osm": "way/381153202"
@@ -24742,7 +24742,7 @@
   },
   {
    "name": "Century CSC",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.02627,
    "lon": -118.289582,
    "osm": "way/381381987",
@@ -24915,7 +24915,7 @@
   },
   {
    "name": "Rocky & Lon Morton Boys & Girls Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.179205,
    "lon": -118.936101,
    "osm": "way/389489991",
@@ -24962,7 +24962,7 @@
   },
   {
    "name": "Roxbury Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.05759,
    "lon": -118.406136,
    "osm": "way/390902856",
@@ -24979,13 +24979,13 @@
   },
   {
    "name": "Saint Augustine Parish Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.020519,
    "lon": -118.400191,
    "osm": "way/391226507"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.187261,
    "lon": -118.534021,
    "osm": "way/391254341"
@@ -25239,7 +25239,7 @@
   },
   {
    "name": "Agoura Hills - Calabasas Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.13622,
    "lon": -118.713065,
    "osm": "way/399567951"
@@ -25291,7 +25291,7 @@
    "operator": "Los Angeles Public Library"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.053629,
    "lon": -118.300262,
    "osm": "way/401911153"
@@ -25328,7 +25328,7 @@
    "operator": "Simi Valley Unified School District"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.879892,
    "lon": -118.050466,
    "osm": "way/403831617"
@@ -25485,7 +25485,7 @@
   },
   {
    "name": "Betty Hill Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.023028,
    "lon": -118.304435,
    "osm": "way/407080505",
@@ -25516,7 +25516,7 @@
   },
   {
    "name": "Wigwam Sequoia Tribe Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.70676,
    "lon": -118.288999,
    "osm": "way/407341862"
@@ -25560,7 +25560,7 @@
   },
   {
    "name": "Ahmanson Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.011547,
    "lon": -118.289863,
    "osm": "way/407372807",
@@ -25571,7 +25571,7 @@
   },
   {
    "name": "Anderson Memorial Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.73628,
    "lon": -118.285281,
    "osm": "way/407396547",
@@ -25582,7 +25582,7 @@
   },
   {
    "name": "ILWU local 56 Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.738098,
    "lon": -118.284246,
    "osm": "way/407397964",
@@ -25664,7 +25664,7 @@
   },
   {
    "name": "Wilmington Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.791277,
    "lon": -118.256826,
    "osm": "way/407808844"
@@ -25681,7 +25681,7 @@
   },
   {
    "name": "Fred Roberts Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.001191,
    "lon": -118.243665,
    "osm": "way/408020981"
@@ -25711,7 +25711,7 @@
   },
   {
    "name": "Banning\u2019s Landing Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.766615,
    "lon": -118.2604,
    "osm": "way/408512120",
@@ -25735,7 +25735,7 @@
   },
   {
    "name": "Parish Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.828833,
    "lon": -117.841362,
    "osm": "way/409116395",
@@ -25764,7 +25764,7 @@
   },
   {
    "name": "Slauson Senior Multipurpose Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.994439,
    "lon": -118.247295,
    "osm": "way/409363969",
@@ -25955,7 +25955,7 @@
   },
   {
    "name": "Estelle Van Meter Multipurpose Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.970948,
    "lon": -118.264852,
    "osm": "way/410396916"
@@ -26028,7 +26028,7 @@
   },
   {
    "name": "YWCA Greater Los Angeles",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.003953,
    "lon": -118.320674,
    "osm": "way/411204975",
@@ -26252,7 +26252,7 @@
    "operator": "Los Angeles Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.922437,
    "lon": -118.431885,
    "osm": "way/413226275",
@@ -26285,7 +26285,7 @@
   },
   {
    "name": "Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.86042,
    "lon": -118.078913,
    "osm": "way/414583402"
@@ -26341,7 +26341,7 @@
   },
   {
    "name": "Disability Community Resource Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.999984,
    "lon": -118.441663,
    "osm": "way/415376452",
@@ -26406,7 +26406,7 @@
   },
   {
    "name": "Signal Hill Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.796131,
    "lon": -118.169479,
    "osm": "way/418099816",
@@ -26416,7 +26416,7 @@
   },
   {
    "name": "Sepulveda Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.230086,
    "lon": -118.458318,
    "osm": "way/418111054",
@@ -26424,7 +26424,7 @@
   },
   {
    "name": "Mid-Valley Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.229904,
    "lon": -118.457855,
    "osm": "way/418111055",
@@ -26508,7 +26508,7 @@
   },
   {
    "name": "Boyle Heights Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.039055,
    "lon": -118.205354,
    "osm": "way/419942331",
@@ -26538,7 +26538,7 @@
   },
   {
    "name": "Rosalind Wyman Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.03306,
    "lon": -118.417552,
    "osm": "way/419960458"
@@ -26557,14 +26557,14 @@
   },
   {
    "name": "Saint Joan of Arc Parish Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.032118,
    "lon": -118.442573,
    "osm": "way/419966841"
   },
   {
    "name": "James M Wood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.044322,
    "lon": -118.244985,
    "osm": "way/419967766"
@@ -26601,7 +26601,7 @@
   },
   {
    "name": "Nolte Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.024077,
    "lon": -118.436568,
    "osm": "way/420288629"
@@ -26627,7 +26627,7 @@
   },
   {
    "name": "Silverlake / Los Feliz Independent Jewish Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.094763,
    "lon": -118.282285,
    "osm": "way/420674299",
@@ -26644,7 +26644,7 @@
   },
   {
    "name": "Westchester Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.958625,
    "lon": -118.417322,
    "osm": "way/420984273",
@@ -26680,7 +26680,7 @@
   },
   {
    "name": "Culver City Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.012542,
    "lon": -118.401854,
    "osm": "way/422232804",
@@ -26688,7 +26688,7 @@
   },
   {
    "name": "Culver City Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.013889,
    "lon": -118.403322,
    "osm": "way/422269845",
@@ -26728,7 +26728,7 @@
   },
   {
    "name": "Student Activities Center (SAC)",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.071468,
    "lon": -118.444094,
    "osm": "way/422876645",
@@ -26780,7 +26780,7 @@
   },
   {
    "name": "Pan Pacific Senior Activity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.072295,
    "lon": -118.353594,
    "osm": "way/423517423",
@@ -26911,7 +26911,7 @@
   },
   {
    "name": "St. Paul the Apostle Parish Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.055493,
    "lon": -118.437658,
    "osm": "way/424947740",
@@ -26937,7 +26937,7 @@
   },
   {
    "name": "Westwood Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.053246,
    "lon": -118.448079,
    "osm": "way/425139610",
@@ -26966,7 +26966,7 @@
   },
   {
    "name": "Saint Andrew\u2019s Parish Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.077679,
    "lon": -118.251236,
    "osm": "way/425652821"
@@ -26982,14 +26982,14 @@
   },
   {
    "name": "Harry and Frances Rubinfeld Russian Jewish Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.090516,
    "lon": -118.356174,
    "osm": "way/425665688"
   },
   {
    "name": "Fairfax Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.084041,
    "lon": -118.362346,
    "osm": "way/425737662",
@@ -27072,7 +27072,7 @@
   },
   {
    "name": "Joan & Ephraim Sales Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.04818,
    "lon": -118.414394,
    "osm": "way/426842310",
@@ -27093,7 +27093,7 @@
   },
   {
    "name": "Latvian Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.098522,
    "lon": -118.247836,
    "osm": "way/427280893"
@@ -27140,7 +27140,7 @@
   },
   {
    "name": "La Kretz Innovation Center (LACI)",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.040949,
    "lon": -118.235513,
    "osm": "way/427629035",
@@ -27190,7 +27190,7 @@
   },
   {
    "name": "Japanese American Cultural And Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.047785,
    "lon": -118.241796,
    "osm": "way/427817671",
@@ -27228,7 +27228,7 @@
   },
   {
    "name": "Heartwell Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.830576,
    "lon": -118.119971,
    "osm": "way/428326076",
@@ -27236,7 +27236,7 @@
   },
   {
    "name": "Snack Bar",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.831612,
    "lon": -118.122975,
    "osm": "way/428326080"
@@ -27250,7 +27250,7 @@
   },
   {
    "name": "Glassell Park Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.115004,
    "lon": -118.233577,
    "osm": "way/428426811",
@@ -27307,7 +27307,7 @@
   },
   {
    "name": "Lincoln Heights Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.072591,
    "lon": -118.214702,
    "osm": "way/429172373",
@@ -27318,7 +27318,7 @@
   },
   {
    "name": "El Sereno Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.074836,
    "lon": -118.179528,
    "osm": "way/429177920",
@@ -27328,14 +27328,14 @@
    "operator": "City of Los Angeles"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.071488,
    "lon": -118.223812,
    "osm": "way/429187523"
   },
   {
    "name": "Montecito Heights Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.095769,
    "lon": -118.202947,
    "osm": "way/429202351",
@@ -27346,7 +27346,7 @@
   },
   {
    "name": "Montecito Heights Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.095763,
    "lon": -118.203402,
    "osm": "way/429202467",
@@ -27355,7 +27355,7 @@
   },
   {
    "name": "Alpine Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.06401,
    "lon": -118.241058,
    "osm": "way/429320594",
@@ -27387,7 +27387,7 @@
   },
   {
    "name": "La Cienega Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.062168,
    "lon": -118.375667,
    "osm": "way/429349405",
@@ -27395,7 +27395,7 @@
   },
   {
    "name": "Syd Kronenthal Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.028068,
    "lon": -118.377395,
    "osm": "way/429377622"
@@ -27450,7 +27450,7 @@
   },
   {
    "name": "North Hollywood Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.167492,
    "lon": -118.379951,
    "osm": "way/429644297",
@@ -27473,7 +27473,7 @@
   },
   {
    "name": "North Hollywood Senior Citizens Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.167681,
    "lon": -118.379373,
    "osm": "way/429644873",
@@ -27493,7 +27493,7 @@
   },
   {
    "name": "Mailboxes, Package Room, Common / Performance Space",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.211212,
    "lon": -118.500783,
    "osm": "way/429852158"
@@ -27517,14 +27517,14 @@
    "operator": "Los Angeles Public Library"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.257629,
    "lon": -118.61459,
    "osm": "way/430017003"
   },
   {
    "name": "Chatsworth Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.261055,
    "lon": -118.617398,
    "osm": "way/430017056",
@@ -27547,14 +27547,14 @@
   },
   {
    "name": "Hidden Hills Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.167978,
    "lon": -118.659866,
    "osm": "way/430140013"
   },
   {
    "name": "Branford Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.232843,
    "lon": -118.423656,
    "osm": "way/430301874",
@@ -27577,7 +27577,7 @@
   },
   {
    "name": "Bernardi Multipurpose Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.189056,
    "lon": -118.446287,
    "osm": "way/430341704",
@@ -27586,7 +27586,7 @@
   },
   {
    "name": "Brand Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.272107,
    "lon": -118.461049,
    "osm": "way/430342493",
@@ -27634,14 +27634,14 @@
    "operator": "Los Angeles Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.268796,
    "lon": -118.415458,
    "osm": "way/430776645"
   },
   {
    "name": "David Gonzales Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.269286,
    "lon": -118.413177,
    "osm": "way/430778321"
@@ -27657,7 +27657,7 @@
   },
   {
    "name": "El Cariso Park Gymnasium and Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.316998,
    "lon": -118.417652,
    "osm": "way/430900643"
@@ -27672,7 +27672,7 @@
   },
   {
    "name": "Devonshire LAPD Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.228968,
    "lon": -118.545482,
    "osm": "way/430962956"
@@ -27695,7 +27695,7 @@
   },
   {
    "name": "Canoga Park Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.203665,
    "lon": -118.602616,
    "osm": "way/431110892",
@@ -27706,21 +27706,21 @@
   },
   {
    "name": "West Valley Boys and Girls Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.202409,
    "lon": -118.600637,
    "osm": "way/431110935"
   },
   {
    "name": "West Valley Museum",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.202509,
    "lon": -118.601259,
    "osm": "way/431111420"
   },
   {
    "name": "Robert M. Wilkinson Multipurpose Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.233332,
    "lon": -118.548625,
    "osm": "way/431117357",
@@ -27730,14 +27730,14 @@
    "operator": "City of Los Angeles"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.179624,
    "lon": -118.531743,
    "osm": "way/431164235"
   },
   {
    "name": "Sepulveda Garden Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.165465,
    "lon": -118.495411,
    "osm": "way/431167455"
@@ -27751,28 +27751,28 @@
   },
   {
    "name": "IAC Shepher Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.189668,
    "lon": -118.570324,
    "osm": "way/431185860"
   },
   {
    "name": "Encino Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.160185,
    "lon": -118.501411,
    "osm": "way/431374231"
   },
   {
    "name": "Encino Women's Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.160241,
    "lon": -118.501921,
    "osm": "way/431374285"
   },
   {
    "name": "ONE Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.187236,
    "lon": -118.531247,
    "osm": "way/431416232"
@@ -27790,7 +27790,7 @@
   },
   {
    "name": "Victory Vineland Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.187182,
    "lon": -118.372931,
    "osm": "way/431816686",
@@ -27822,7 +27822,7 @@
    "osm": "way/431875691"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.145761,
    "lon": -118.367169,
    "osm": "way/431899842"
@@ -27847,7 +27847,7 @@
   },
   {
    "name": "Church Multi-Purpose Room",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.174149,
    "lon": -118.612014,
    "osm": "way/432114910"
@@ -27863,7 +27863,7 @@
   },
   {
    "name": "Valley Plaza Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.191849,
    "lon": -118.400829,
    "osm": "way/432137919",
@@ -27887,7 +27887,7 @@
   },
   {
    "name": "Sunland Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.261126,
    "lon": -118.321451,
    "osm": "way/432340077",
@@ -28031,7 +28031,7 @@
   },
   {
    "name": "Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.919769,
    "lon": -118.412069,
    "osm": "way/439745461",
@@ -28040,7 +28040,7 @@
   },
   {
    "name": "Scout House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.919617,
    "lon": -118.412805,
    "osm": "way/439745520",
@@ -28056,7 +28056,7 @@
   },
   {
    "name": "Bixby Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.765907,
    "lon": -118.167405,
    "osm": "way/440271893",
@@ -28072,7 +28072,7 @@
   },
   {
    "name": "County Sheriff's Youth Activity League",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.967014,
    "lon": -118.248123,
    "osm": "way/440284258"
@@ -28087,7 +28087,7 @@
   },
   {
    "name": "Joslyn Park Community Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.008124,
    "lon": -118.481609,
    "osm": "way/440292455"
@@ -28118,7 +28118,7 @@
   },
   {
    "name": "Jenny Oropeza Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.77171,
    "lon": -118.202394,
    "osm": "way/440732497",
@@ -28152,7 +28152,7 @@
   },
   {
    "name": "E Los Angeles Community Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.032916,
    "lon": -118.155286,
    "osm": "way/440797517",
@@ -28160,7 +28160,7 @@
   },
   {
    "name": "Highland Park Adult Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.114456,
    "lon": -118.184602,
    "osm": "way/440804935",
@@ -28171,7 +28171,7 @@
   },
   {
    "name": "The Park Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.020658,
    "lon": -118.468216,
    "osm": "way/440861800",
@@ -28179,7 +28179,7 @@
   },
   {
    "name": "California-Mexico Studies Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.786541,
    "lon": -118.100167,
    "osm": "way/441052273"
@@ -28216,7 +28216,7 @@
   },
   {
    "name": "Long Beach Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.771275,
    "lon": -118.176976,
    "osm": "way/441260314",
@@ -28226,7 +28226,7 @@
    "operator": "City of Long Beach"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.832806,
    "lon": -118.261288,
    "osm": "way/441307862"
@@ -28242,13 +28242,13 @@
   },
   {
    "name": "Mark Taper Vista Lodge",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.841813,
    "lon": -118.097625,
    "osm": "way/441454127"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.855501,
    "lon": -118.100071,
    "osm": "way/441464147"
@@ -28300,7 +28300,7 @@
   },
   {
    "name": "McMaster Community Center East",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.872577,
    "lon": -118.335816,
    "osm": "way/442219215"
@@ -28314,7 +28314,7 @@
   },
   {
    "name": "McMaster Community Center West",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.872565,
    "lon": -118.336341,
    "osm": "way/442219348"
@@ -28328,7 +28328,7 @@
   },
   {
    "name": "Manhattan Heights Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.886983,
    "lon": -118.384834,
    "osm": "way/442249466"
@@ -28345,7 +28345,7 @@
   },
   {
    "name": "Kiyoto \"Ken\" Nakaoka Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.883176,
    "lon": -118.306642,
    "osm": "way/442273871",
@@ -28390,7 +28390,7 @@
   },
   {
    "name": "Perry Park Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.86933,
    "lon": -118.370342,
    "osm": "way/442285054",
@@ -28400,7 +28400,7 @@
   },
   {
    "name": "Perry Park Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.869776,
    "lon": -118.369886,
    "osm": "way/442285173",
@@ -28408,14 +28408,14 @@
   },
   {
    "name": "Anderson Girl Scout House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.883568,
    "lon": -118.370339,
    "osm": "way/442297929",
    "address": "2228 Farrell Avenue"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.874405,
    "lon": -118.369542,
    "osm": "way/442298120",
@@ -28453,7 +28453,7 @@
   },
   {
    "name": "SCLS Club House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.824938,
    "lon": -118.319769,
    "osm": "way/442336692"
@@ -28467,7 +28467,7 @@
   },
   {
    "name": "Kiwanis Club of Lomita and Harbor City",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.798973,
    "lon": -118.31963,
    "osm": "way/442350760",
@@ -28483,7 +28483,7 @@
   },
   {
    "name": "Kiwanis Club of Hermosa Beach",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.873123,
    "lon": -118.399598,
    "osm": "way/442653198",
@@ -28491,7 +28491,7 @@
   },
   {
    "name": "Hermosa Beach Rotary Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.873303,
    "lon": -118.399699,
    "osm": "way/442653320",
@@ -28637,7 +28637,7 @@
   },
   {
    "name": "Parnell Park Community and Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.937242,
    "lon": -118.002714,
    "osm": "way/443132871",
@@ -28655,7 +28655,7 @@
   },
   {
    "name": "Judith And Thomas L. Beckman Yola Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.962702,
    "lon": -118.353761,
    "osm": "way/443396883"
@@ -28774,7 +28774,7 @@
   },
   {
    "name": "Cerritos Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.858049,
    "lon": -118.068454,
    "osm": "way/449909225",
@@ -28784,7 +28784,7 @@
   },
   {
    "name": "Progress Plaza",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.891843,
    "lon": -118.150586,
    "osm": "way/449925523",
@@ -28792,7 +28792,7 @@
   },
   {
    "name": "Mariposa Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.892596,
    "lon": -118.149538,
    "osm": "way/449925751",
@@ -28800,7 +28800,7 @@
   },
   {
    "name": "Kolar Family YMCA",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.937039,
    "lon": -118.135748,
    "osm": "way/449973623",
@@ -28811,7 +28811,7 @@
   },
   {
    "name": "Liberty Community Plaza",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.928767,
    "lon": -118.02925,
    "osm": "way/449981972",
@@ -28885,7 +28885,7 @@
    "operator": "Los Angeles County Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.954525,
    "lon": -118.213227,
    "osm": "way/450835972"
@@ -29009,7 +29009,7 @@
   },
   {
    "name": "Robert Henning Lynwood Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.926756,
    "lon": -118.205711,
    "osm": "way/455807550",
@@ -29088,7 +29088,7 @@
   },
   {
    "name": "Michael Landon Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.033946,
    "lon": -118.703921,
    "osm": "way/459112582"
@@ -29140,14 +29140,14 @@
    "operator": "Walnut Valley Unified School District"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.387038,
    "lon": -118.556421,
    "osm": "way/461230758",
    "address": "24060 Oak Vale Drive, Valencia"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.395577,
    "lon": -118.549219,
    "osm": "way/461230761"
@@ -29428,7 +29428,7 @@
   },
   {
    "name": "Hacienda Heights Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.012978,
    "lon": -117.978948,
    "osm": "way/470022059"
@@ -29450,7 +29450,7 @@
    "address": "7830 Dorothy Street, Rosemead"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.115365,
    "lon": -117.73317,
    "osm": "way/470265954"
@@ -29542,7 +29542,7 @@
   },
   {
    "name": "Arcadia Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.131507,
    "lon": -118.043659,
    "osm": "way/470606282",
@@ -29581,7 +29581,7 @@
    "operator": "Los Angeles County Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.024687,
    "lon": -117.913852,
    "osm": "way/471159667",
@@ -29589,7 +29589,7 @@
    "address": "17350 Temple Avenue"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.022673,
    "lon": -117.915544,
    "osm": "way/471160035",
@@ -29608,7 +29608,7 @@
   },
   {
    "name": "Rosemead Community Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.079255,
    "lon": -118.076909,
    "osm": "way/471256169",
@@ -29628,7 +29628,7 @@
   },
   {
    "name": "Esther Snyder Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.087144,
    "lon": -117.963759,
    "osm": "way/471416029"
@@ -29647,7 +29647,7 @@
   },
   {
    "name": "Mariners Church Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.632624,
    "lon": -117.832628,
    "osm": "way/471516491",
@@ -29671,7 +29671,7 @@
   },
   {
    "name": "Teen Club Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.969164,
    "lon": -118.037644,
    "osm": "way/471564005",
@@ -29679,7 +29679,7 @@
   },
   {
    "name": "Whittier Transportation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.974526,
    "lon": -118.037871,
    "osm": "way/471607977",
@@ -29716,7 +29716,7 @@
   },
   {
    "name": "Glendale Civic Auditorium",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.16644,
    "lon": -118.231667,
    "osm": "way/471755078",
@@ -29726,7 +29726,7 @@
   },
   {
    "name": "Altadena Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.189768,
    "lon": -118.133399,
    "osm": "way/471771830",
@@ -29762,7 +29762,7 @@
   },
   {
    "name": "Maple Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.138534,
    "lon": -118.244869,
    "osm": "way/471848155",
@@ -29773,7 +29773,7 @@
   },
   {
    "name": "Pacific Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.139224,
    "lon": -118.264802,
    "osm": "way/471859555",
@@ -29811,7 +29811,7 @@
   },
   {
    "name": "Betsy Lueke Creative Arts Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.172676,
    "lon": -118.318544,
    "osm": "way/471924821",
@@ -29819,7 +29819,7 @@
   },
   {
    "name": "Olive Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.172159,
    "lon": -118.319053,
    "osm": "way/471924836",
@@ -29837,7 +29837,7 @@
   },
   {
    "name": "Ovrom Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.176908,
    "lon": -118.30373,
    "osm": "way/471940695",
@@ -29848,7 +29848,7 @@
   },
   {
    "name": "Glendale Adult Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.143204,
    "lon": -118.253142,
    "osm": "way/471957234",
@@ -29857,14 +29857,14 @@
    "address": "201 East Colorado Street, Glendale"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.185767,
    "lon": -118.344959,
    "osm": "way/471957930"
   },
   {
    "name": "Sparr Heights Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.199055,
    "lon": -118.230554,
    "osm": "way/471979194",
@@ -29889,13 +29889,13 @@
    "address": "16180 Mulholland Drive, Los Angeles"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.459319,
    "lon": -118.545073,
    "osm": "way/472501292"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.454515,
    "lon": -118.549228,
    "osm": "way/472501553"
@@ -29935,14 +29935,14 @@
   },
   {
    "name": "Old Orchard II Club House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.379708,
    "lon": -118.553344,
    "osm": "way/472536025",
    "address": "23919 Avenida Entrana, Valencia"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.405889,
    "lon": -118.553313,
    "osm": "way/472538522"
@@ -29955,19 +29955,19 @@
    "osm": "way/472539484"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.440254,
    "lon": -118.55784,
    "osm": "way/472545644"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.440353,
    "lon": -118.557595,
    "osm": "way/472545812"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.435577,
    "lon": -118.557725,
    "osm": "way/472547750"
@@ -30006,7 +30006,7 @@
   },
   {
    "name": "Copper Hill Community Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.447178,
    "lon": -118.563773,
    "osm": "way/472563369",
@@ -30039,13 +30039,13 @@
    "operator": "Los Angeles County Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.44006,
    "lon": -118.549698,
    "osm": "way/472599633"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.434069,
    "lon": -118.551193,
    "osm": "way/472600247"
@@ -30087,7 +30087,7 @@
   },
   {
    "name": "Lancaster Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.694352,
    "lon": -118.13498,
    "osm": "way/472707976",
@@ -30140,7 +30140,7 @@
    "operator": "United States Forest Service"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.605809,
    "lon": -117.831581,
    "osm": "way/472936053"
@@ -30260,7 +30260,7 @@
   },
   {
    "name": "Armstrong Ranch Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.702138,
    "lon": -117.893265,
    "osm": "way/476167215",
@@ -30682,7 +30682,7 @@
   },
   {
    "name": "Sea Country Senior and Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.556111,
    "lon": -117.700237,
    "osm": "way/492254845",
@@ -30693,7 +30693,7 @@
   },
   {
    "name": "Community and Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.04823,
    "lon": -117.654098,
    "osm": "way/492725432"
@@ -30938,7 +30938,7 @@
    "address": "17700 Dumont Avenue, Cerritos"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.734254,
    "lon": -117.789039,
    "osm": "way/532806993"
@@ -31041,7 +31041,7 @@
   },
   {
    "name": "Trabuco Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.695029,
    "lon": -117.759113,
    "osm": "way/541988362",
@@ -31111,7 +31111,7 @@
   },
   {
    "name": "Emerald Bay Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.554685,
    "lon": -117.807143,
    "osm": "way/543848387",
@@ -31137,7 +31137,7 @@
   },
   {
    "name": "Las Lomas Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.630066,
    "lon": -117.829035,
    "osm": "way/547545435",
@@ -31274,7 +31274,7 @@
   },
   {
    "name": "Simi Valley Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.289242,
    "lon": -118.720272,
    "osm": "way/556395650",
@@ -31534,7 +31534,7 @@
   },
   {
    "name": "Cypress Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.823533,
    "lon": -118.033858,
    "osm": "way/573117342"
@@ -31711,7 +31711,7 @@
   },
   {
    "name": "Tustin Area Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.743966,
    "lon": -117.825773,
    "osm": "way/587325392",
@@ -31733,7 +31733,7 @@
   },
   {
    "name": "The Commons at College Park",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.989392,
    "lon": -117.666056,
    "osm": "way/590573607"
@@ -31782,7 +31782,7 @@
   },
   {
    "name": "Costa Mesa Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.642922,
    "lon": -117.927246,
    "osm": "way/612434010",
@@ -31973,14 +31973,14 @@
    "osm": "way/623052552"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.900033,
    "lon": -117.789266,
    "osm": "way/623172285"
   },
   {
    "name": "Pippin Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.644802,
    "lon": -117.836827,
    "osm": "way/624107479",
@@ -32013,7 +32013,7 @@
   },
   {
    "name": "Krikor and Mariam Karamanoukian Glendale Youth Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.139575,
    "lon": -118.257039,
    "osm": "way/629639154",
@@ -32509,7 +32509,7 @@
   },
   {
    "name": "Senior Center in Central Park",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.700124,
    "lon": -118.007923,
    "osm": "way/675913830",
@@ -32840,7 +32840,7 @@
   },
   {
    "name": "Palo Verde Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.642082,
    "lon": -117.833025,
    "osm": "way/700769282",
@@ -33205,7 +33205,7 @@
   },
   {
    "name": "Ontario Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.065567,
    "lon": -117.648741,
    "osm": "way/733418603",
@@ -33222,7 +33222,7 @@
   },
   {
    "name": "Chino Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.014358,
    "lon": -117.689727,
    "osm": "way/733422877",
@@ -33241,7 +33241,7 @@
   },
   {
    "name": "Carolyn Owens Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.013554,
    "lon": -117.68859,
    "osm": "way/733435346",
@@ -33249,7 +33249,7 @@
   },
   {
    "name": "Chino Experience Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.013827,
    "lon": -117.698476,
    "osm": "way/733435350",
@@ -33350,7 +33350,7 @@
   },
   {
    "name": "Anthony Munoz Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.078429,
    "lon": -117.673971,
    "osm": "way/742050027"
@@ -33367,7 +33367,7 @@
   },
   {
    "name": "Armstrong Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.049771,
    "lon": -117.667177,
    "osm": "way/742360755",
@@ -33375,7 +33375,7 @@
   },
   {
    "name": "Chino Hills Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.992572,
    "lon": -117.733543,
    "osm": "way/743230071",
@@ -33426,7 +33426,7 @@
    "osm": "way/751461497"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.60389,
    "lon": -117.722942,
    "osm": "way/753446603",
@@ -34266,7 +34266,7 @@
   },
   {
    "name": "Dana Point Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.467998,
    "lon": -117.68405,
    "osm": "way/793537176",
@@ -34550,7 +34550,7 @@
   },
   {
    "name": "Fillmore Active Adult Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.398291,
    "lon": -118.914474,
    "osm": "way/805019807"
@@ -34636,7 +34636,7 @@
    "operator": "Chino Valley School District"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.487966,
    "lon": -117.677653,
    "osm": "way/817728881",
@@ -34677,7 +34677,7 @@
   },
   {
    "name": "Turtle Rock Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.633206,
    "lon": -117.805217,
    "osm": "way/823686576",
@@ -34686,7 +34686,7 @@
   },
   {
    "name": "Turtle Rock Nature Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.633542,
    "lon": -117.804799,
    "osm": "way/823686577",
@@ -35108,13 +35108,13 @@
    "address": "615 Sheills Drive, Fillmore"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.404744,
    "lon": -118.915484,
    "osm": "way/847840918"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.416808,
    "lon": -118.791193,
    "osm": "way/847926713"
@@ -35323,13 +35323,13 @@
   },
   {
    "name": "Vaughn Family and Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.273308,
    "lon": -118.417725,
    "osm": "way/861267862"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.273162,
    "lon": -118.417657,
    "osm": "way/861267863"
@@ -35525,7 +35525,7 @@
   },
   {
    "name": "Portola Springs Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.695548,
    "lon": -117.700288,
    "osm": "way/871769034",
@@ -35619,7 +35619,7 @@
   },
   {
    "name": "Pool House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.700516,
    "lon": -117.81372,
    "osm": "way/878417135"
@@ -35884,7 +35884,7 @@
   },
   {
    "name": "Girl Scouts",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.10827,
    "lon": -117.646776,
    "osm": "way/884242697"
@@ -35952,7 +35952,7 @@
    "address": "1558 West 9th Street, Upland"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.292023,
    "lon": -118.58175,
    "osm": "way/887956493"
@@ -36161,7 +36161,7 @@
   },
   {
    "name": "Chino Community Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.017034,
    "lon": -117.686321,
    "osm": "way/901591791"
@@ -36450,7 +36450,7 @@
    "operator": "Los Angeles Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.918439,
    "lon": -118.260933,
    "osm": "way/908231310"
@@ -36930,7 +36930,7 @@
   },
   {
    "name": "Buena Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.863771,
    "lon": -117.995611,
    "osm": "way/952495402",
@@ -37094,7 +37094,7 @@
   },
   {
    "name": "Guadalupe Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.196906,
    "lon": -118.600651,
    "osm": "way/997864260"
@@ -37196,7 +37196,7 @@
   },
   {
    "name": "Terasaki Budokan",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.049392,
    "lon": -118.244494,
    "osm": "way/1012945102",
@@ -37255,7 +37255,7 @@
   },
   {
    "name": "Rancho Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.664676,
    "lon": -117.830769,
    "osm": "way/1013174969",
@@ -37427,7 +37427,7 @@
   },
   {
    "name": "Green Valley Community Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.609214,
    "lon": -118.393671,
    "osm": "way/1041257854",
@@ -37511,7 +37511,7 @@
   },
   {
    "name": "Argyros Girl Scouts Leadership Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.608394,
    "lon": -117.924571,
    "osm": "way/1050415545",
@@ -37519,7 +37519,7 @@
   },
   {
    "name": "Douglas F. Dollarhide Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.898684,
    "lon": -118.222603,
    "osm": "way/1052347983"
@@ -37766,7 +37766,7 @@
   },
   {
    "name": "Santa Ana Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.746797,
    "lon": -117.872046,
    "osm": "way/1082945985",
@@ -37926,7 +37926,7 @@
   },
   {
    "name": "Northwood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.711537,
    "lon": -117.768514,
    "osm": "way/1105007251",
@@ -37934,7 +37934,7 @@
   },
   {
    "name": "Verano Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.646075,
    "lon": -117.831372,
    "osm": "way/1106761508",
@@ -38212,7 +38212,7 @@
   },
   {
    "name": "Cypress Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.830431,
    "lon": -118.041707,
    "osm": "way/1111676048",
@@ -38352,7 +38352,7 @@
    "address": "1244 East Cypress Street, Anaheim"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.278863,
    "lon": -118.594966,
    "osm": "way/1121926966"
@@ -38391,7 +38391,7 @@
   },
   {
    "name": "Southwest Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.735039,
    "lon": -117.898564,
    "osm": "way/1135288585",
@@ -38472,7 +38472,7 @@
   },
   {
    "name": "Las Palmas Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.104698,
    "lon": -118.335954,
    "osm": "way/1141927953",
@@ -38639,7 +38639,7 @@
   },
   {
    "name": "The Oasis",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.293062,
    "lon": -118.586513,
    "osm": "way/1148647443"
@@ -39542,7 +39542,7 @@
   },
   {
    "name": "The Club at Vantis",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.578459,
    "lon": -117.72852,
    "osm": "way/1168052366",
@@ -39709,7 +39709,7 @@
   },
   {
    "name": "Cliff Drive Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.622543,
    "lon": -117.923042,
    "osm": "way/1186902723",
@@ -40483,7 +40483,7 @@
   },
   {
    "name": "Lucy Avalos Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.913241,
    "lon": -118.19,
    "osm": "way/1257610217",
@@ -40953,7 +40953,7 @@
    "osm": "way/1278599534",
    "phone": "+1-661-253-44-00",
    "website": "https://hartdistrict.org/bowman",
-   "address": "21508 Centre Pointe Parkway, Santa Clarita"
+   "address": "21508 center Pointe Parkway, Santa Clarita"
   },
   {
    "type": "school",
@@ -41092,7 +41092,7 @@
   },
   {
    "name": "Canyon Country Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.41782,
    "lon": -118.454352,
    "osm": "way/1293303397",
@@ -41102,7 +41102,7 @@
   },
   {
    "name": "North Ranch Area Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.189188,
    "lon": -118.821633,
    "osm": "way/1295852178",
@@ -41385,25 +41385,25 @@
    "osm": "way/1341660209"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.181385,
    "lon": -118.772169,
    "osm": "way/1344807579"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.181191,
    "lon": -118.7726,
    "osm": "way/1344807580"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.181293,
    "lon": -118.771875,
    "osm": "way/1344807581"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.181409,
    "lon": -118.771885,
    "osm": "way/1344807584"
@@ -41617,7 +41617,7 @@
   },
   {
    "name": "Don Knabe Community Meeting Room",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.805212,
    "lon": -118.319514,
    "osm": "way/1366686004",
@@ -41701,7 +41701,7 @@
   },
   {
    "name": "Thelma Terry Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.021326,
    "lon": -118.468258,
    "osm": "way/1381578438"
@@ -41718,14 +41718,14 @@
    "operator": "Orange City Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.737978,
    "lon": -118.348685,
    "osm": "way/1385466185"
   },
   {
    "name": "Hermosa Beach Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.864411,
    "lon": -118.394149,
    "osm": "way/1408657920"
@@ -41744,7 +41744,7 @@
    "lon": -118.511854,
    "osm": "way/1410161434",
    "website": "https://www.hartdistrict.org/apps/pages/sequoia",
-   "address": "21445 Centre Pointe Parkway, Santa Clarita",
+   "address": "21445 center Pointe Parkway, Santa Clarita",
    "operator": "William S Hart High School District"
   },
   {
@@ -41764,7 +41764,7 @@
   },
   {
    "name": "Manhattan Torah Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.885849,
    "lon": -118.396236,
    "osm": "way/1414504458",
@@ -41951,7 +41951,7 @@
    "osm": "way/1424523750"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.031754,
    "lon": -118.092516,
    "osm": "way/1424927077"
@@ -41971,7 +41971,7 @@
    "osm": "way/1425203777"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.024296,
    "lon": -118.181855,
    "osm": "way/1425726066"
@@ -41986,7 +41986,7 @@
   },
   {
    "name": "Old Meadows Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.201889,
    "lon": -118.847786,
    "osm": "way/1431689890"
@@ -42008,7 +42008,7 @@
    "osm": "way/1445796988"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.212524,
    "lon": -118.848154,
    "osm": "way/1449474898",
@@ -42074,7 +42074,7 @@
   },
   {
    "name": "Melkon & Angel Melkonian Armenian Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.264538,
    "lon": -118.514049,
    "osm": "way/1479601776",
@@ -42156,7 +42156,7 @@
   },
   {
    "name": "San Marino Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.118759,
    "lon": -118.113153,
    "osm": "way/1496844511",
@@ -42220,7 +42220,7 @@
    "operator": "Los Angeles County Fire Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.491712,
    "lon": -117.674046,
    "osm": "way/1511675540",
@@ -42236,7 +42236,7 @@
   },
   {
    "name": "Silverado Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.746349,
    "lon": -117.646874,
    "osm": "way/1521094974",
@@ -42261,7 +42261,7 @@
   },
   {
    "name": "Alicia Broadous-Duncan Multipurpose Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.276095,
    "lon": -118.413126,
    "osm": "way/1529317735",
@@ -42278,7 +42278,7 @@
   },
   {
    "name": "Smart Gardening Learning Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.31648,
    "lon": -118.410897,
    "osm": "way/1531567755"
@@ -42598,7 +42598,7 @@
   },
   {
    "name": "Lynwood Senior Citizen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.925956,
    "lon": -118.198267,
    "osm": "relation/6740576",
@@ -42624,7 +42624,7 @@
    "osm": "relation/6818983"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.13895,
    "lon": -118.681926,
    "osm": "relation/6820814"
@@ -42678,7 +42678,7 @@
   },
   {
    "name": "Whittier Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.97213,
    "lon": -118.034145,
    "osm": "relation/6941157",
@@ -42688,7 +42688,7 @@
   },
   {
    "name": "Joslyn Adult Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.170527,
    "lon": -118.320368,
    "osm": "relation/6945516",
@@ -42952,7 +42952,7 @@
   },
   {
    "name": "Ehlers Event Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.843467,
    "lon": -118.010223,
    "osm": "relation/12825590",
@@ -43015,7 +43015,7 @@
    "address": "9034 Burnet Avenue, North Hills"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.715592,
    "lon": -117.821049,
    "osm": "relation/15006099",
@@ -43030,7 +43030,7 @@
   },
   {
    "name": "Southeast-Rio Vista YMCA",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 33.987857,
    "lon": -118.178228,
    "osm": "relation/16124676",
@@ -43039,7 +43039,7 @@
    "operator": "YMCA"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.173696,
    "lon": -118.502969,
    "osm": "relation/16456015"
@@ -43117,7 +43117,7 @@
   },
   {
    "name": "Lassen School Auditorium",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.246586,
    "lon": -118.459544,
    "osm": "relation/19273476",
@@ -43157,7 +43157,7 @@
   },
   {
    "name": "Ritchie Valens Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 34.265681,
    "lon": -118.438625,
    "osm": "relation/20107235",

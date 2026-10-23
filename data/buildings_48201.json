@@ -1965,7 +1965,7 @@
   },
   {
    "name": "Club Summerwood",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.921121,
    "lon": -95.18572,
    "osm": "node/2642333041"
@@ -2043,7 +2043,7 @@
   },
   {
    "name": "Windsong Trail",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.849057,
    "lon": -95.675664,
    "osm": "node/4306457398"
@@ -2058,14 +2058,14 @@
   },
   {
    "name": "Seabrook Community House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.564067,
    "lon": -95.024775,
    "osm": "node/4405245689"
   },
   {
    "name": "West University Community Building and Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.71662,
    "lon": -95.437721,
    "osm": "node/4473446250"
@@ -2093,35 +2093,35 @@
   },
   {
    "name": "Deer Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.689138,
    "lon": -95.118656,
    "osm": "node/4636525837"
   },
   {
    "name": "Jimmy Burke Activity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.699199,
    "lon": -95.127786,
    "osm": "node/4640845253"
   },
   {
    "name": "Ashrod Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.753548,
    "lon": -95.607204,
    "osm": "node/4725183393"
   },
   {
    "name": "the commons",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.737697,
    "lon": -95.624173,
    "osm": "node/4725188790"
   },
   {
    "name": "Ahead 29 Apartments",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.690566,
    "lon": -95.62815,
    "osm": "node/4728685193",
@@ -2129,14 +2129,14 @@
   },
   {
    "name": "Mustang Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.520061,
    "lon": -95.455507,
    "osm": "node/4812270190"
   },
   {
    "name": "Chinese Baptist Church",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.7818,
    "lon": -95.50496,
    "osm": "node/5027253422",
@@ -2144,14 +2144,14 @@
   },
   {
    "name": "Tavola Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.165511,
    "lon": -95.195401,
    "osm": "node/5213330727"
   },
   {
    "name": "Dance With Me",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.161097,
    "lon": -95.45693,
    "osm": "node/5235822552"
@@ -2165,7 +2165,7 @@
   },
   {
    "name": "Eagle Springs Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.97778,
    "lon": -95.188195,
    "osm": "node/5261521016"
@@ -2221,7 +2221,7 @@
   },
   {
    "name": "Harvest Green Farmhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.643688,
    "lon": -95.72214,
    "osm": "node/6634481701"
@@ -2236,7 +2236,7 @@
   },
   {
    "name": "The Lodge",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.054652,
    "lon": -95.654731,
    "osm": "node/6970641071",
@@ -2413,7 +2413,7 @@
   },
   {
    "name": "The Refuge",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.772934,
    "lon": -95.572036,
    "osm": "node/11916171349"
@@ -2434,7 +2434,7 @@
   },
   {
    "name": "Friendswood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.529908,
    "lon": -95.199237,
    "osm": "node/12037868826"
@@ -2479,7 +2479,7 @@
   },
   {
    "name": "Engineering For Kids",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.589708,
    "lon": -95.602559,
    "osm": "node/12748934900",
@@ -2489,7 +2489,7 @@
   },
   {
    "name": "Carl Walker, Jr. Multi-purpose Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.779904,
    "lon": -95.32833,
    "osm": "node/12834780001",
@@ -2497,7 +2497,7 @@
   },
   {
    "name": "House of J",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.748143,
    "lon": -95.338931,
    "osm": "node/12950445201",
@@ -2634,7 +2634,7 @@
   },
   {
    "name": "Cullen Running Trails Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.767068,
    "lon": -95.447807,
    "osm": "node/13509390478",
@@ -2673,7 +2673,7 @@
    "osm": "node/13812550910"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.041189,
    "lon": -95.176341,
    "osm": "node/13815526769",
@@ -2742,7 +2742,7 @@
   },
   {
    "name": "Missouri City Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.605524,
    "lon": -95.529319,
    "osm": "node/13923904905"
@@ -2779,7 +2779,7 @@
   },
   {
    "name": "Saigon Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.973684,
    "lon": -95.486693,
    "osm": "node/14130007961"
@@ -3532,7 +3532,7 @@
   },
   {
    "name": "The Jung Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.726782,
    "lon": -95.391374,
    "osm": "way/55563503",
@@ -3569,7 +3569,7 @@
    "osm": "way/60400125"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.735199,
    "lon": -95.382846,
    "osm": "way/61130356"
@@ -4664,7 +4664,7 @@
   },
   {
    "name": "Mason Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.723749,
    "lon": -95.294704,
    "osm": "way/172832646",
@@ -4851,7 +4851,7 @@
   },
   {
    "name": "Juergen's Hall Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.970313,
    "lon": -95.698561,
    "osm": "way/190512664",
@@ -5500,7 +5500,7 @@
   },
   {
    "name": "Stude Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.778758,
    "lon": -95.385455,
    "osm": "way/222704120",
@@ -5577,7 +5577,7 @@
   },
   {
    "name": "Clark Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.848512,
    "lon": -95.375604,
    "osm": "way/225763368",
@@ -6606,7 +6606,7 @@
   },
   {
    "name": "Bayland Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.694995,
    "lon": -95.496417,
    "osm": "way/312674281",
@@ -6649,7 +6649,7 @@
   },
   {
    "name": "Jim and JoAnn Fonteno Senior Education Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.69124,
    "lon": -95.500646,
    "osm": "way/317242524",
@@ -6660,7 +6660,7 @@
   },
   {
    "name": "James Driver Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.875042,
    "lon": -95.333753,
    "osm": "way/317257278"
@@ -6742,7 +6742,7 @@
   },
   {
    "name": "Clear Lake City Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.5603,
    "lon": -95.120562,
    "osm": "way/335894395"
@@ -6791,7 +6791,7 @@
   },
   {
    "name": "Proctor Plaza Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.793265,
    "lon": -95.382542,
    "osm": "way/341444621",
@@ -6852,7 +6852,7 @@
   },
   {
    "name": "Bay Area Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.568477,
    "lon": -95.066815,
    "osm": "way/343696602",
@@ -6894,7 +6894,7 @@
   },
   {
    "name": "MacGregor Park Fitness Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.70977,
    "lon": -95.339942,
    "osm": "way/363817957",
@@ -6924,14 +6924,14 @@
   },
   {
    "name": "Change Happens CDC",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.729574,
    "lon": -95.353464,
    "osm": "way/364548319"
   },
   {
    "name": "Westberry Engram Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.73005,
    "lon": -95.356176,
    "osm": "way/364548329"
@@ -6992,7 +6992,7 @@
   },
   {
    "name": "Blue Triangle Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.735865,
    "lon": -95.357193,
    "osm": "way/367137419"
@@ -7027,7 +7027,7 @@
   },
   {
    "name": "Robinson Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.716511,
    "lon": -95.381933,
    "osm": "way/368967751",
@@ -7090,7 +7090,7 @@
   },
   {
    "name": "Third Ward Multi-Services Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.728372,
    "lon": -95.361463,
    "osm": "way/375100378"
@@ -7133,7 +7133,7 @@
   },
   {
    "name": "Kingwood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.05444,
    "lon": -95.185105,
    "osm": "way/376614874",
@@ -7258,7 +7258,7 @@
   },
   {
    "name": "Ingrando Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.706045,
    "lon": -95.287631,
    "osm": "way/379502120",
@@ -7284,7 +7284,7 @@
   },
   {
    "name": "McPhail Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.668326,
    "lon": -95.467346,
    "osm": "way/388945053"
@@ -7420,7 +7420,7 @@
   },
   {
    "name": "Northbrook Club House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.661834,
    "lon": -95.499595,
    "osm": "way/396534118",
@@ -7446,7 +7446,7 @@
   },
   {
    "name": "Emancipation Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.735718,
    "lon": -95.364899,
    "osm": "way/398628439",
@@ -7664,7 +7664,7 @@
    "lon": -95.551973,
    "osm": "way/401012928",
    "website": "https://best.aliefisd.net/o/bes",
-   "address": "10000 Centre Parkway, Houston",
+   "address": "10000 center Parkway, Houston",
    "operator": "Alief Independent School District"
   },
   {
@@ -7840,7 +7840,7 @@
   },
   {
    "name": "Itallian Cultural & Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.729007,
    "lon": -95.392233,
    "osm": "way/425207262",
@@ -7850,7 +7850,7 @@
   },
   {
    "name": "Asia Society Texas Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.726278,
    "lon": -95.384677,
    "osm": "way/425207281",
@@ -7942,7 +7942,7 @@
   },
   {
    "name": "Fonde Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.762983,
    "lon": -95.375008,
    "osm": "way/434293945",
@@ -7980,7 +7980,7 @@
   },
   {
    "name": "MECA",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.765815,
    "lon": -95.377562,
    "osm": "way/438715623",
@@ -8007,7 +8007,7 @@
   },
   {
    "name": "Cactus Jack Cagle Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.090421,
    "lon": -95.41303,
    "osm": "way/440208792",
@@ -10769,7 +10769,7 @@
   },
   {
    "name": "Mustang Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.520103,
    "lon": -95.455517,
    "osm": "way/488942786"
@@ -10784,7 +10784,7 @@
   },
   {
    "name": "The Montrose Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.736515,
    "lon": -95.384805,
    "osm": "way/490800930",
@@ -10814,7 +10814,7 @@
   },
   {
    "name": "Greenwood Forest Clubhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.977122,
    "lon": -95.509884,
    "osm": "way/502803233",
@@ -10874,7 +10874,7 @@
   },
   {
    "name": "East End Event Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.714166,
    "lon": -95.287139,
    "osm": "way/520151088",
@@ -10931,7 +10931,7 @@
   },
   {
    "name": "Hartman Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.720931,
    "lon": -95.261711,
    "osm": "way/520370335",
@@ -10987,7 +10987,7 @@
   },
   {
    "name": "Crosby Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.92233,
    "lon": -95.068381,
    "osm": "way/520667309",
@@ -11008,27 +11008,27 @@
   },
   {
    "name": "Lakes on Eldridge North Community Association",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.856252,
    "lon": -95.59167,
    "osm": "way/520879338"
   },
   {
    "name": "Lakes on Eldridge North Community Association",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.856175,
    "lon": -95.591501,
    "osm": "way/520879340"
   },
   {
    "name": "Lakes on Eldridge North Community Association",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.85618,
    "lon": -95.591796,
    "osm": "way/520879342"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.856605,
    "lon": -95.613427,
    "osm": "way/521003294"
@@ -11041,7 +11041,7 @@
    "osm": "way/521340418"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.839054,
    "lon": -95.64152,
    "osm": "way/521632581"
@@ -11086,7 +11086,7 @@
   },
   {
    "name": "Thomas A. Glazier Senior Education Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.832904,
    "lon": -95.653916,
    "osm": "way/531298831",
@@ -11097,7 +11097,7 @@
   },
   {
    "name": "Korean Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.803921,
    "lon": -95.507,
    "osm": "way/532475026",
@@ -11129,7 +11129,7 @@
   },
   {
    "name": "Eastwood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.742377,
    "lon": -95.325482,
    "osm": "way/537053101",
@@ -11139,7 +11139,7 @@
   },
   {
    "name": "River Oaks Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.74187,
    "lon": -95.434016,
    "osm": "way/540429443",
@@ -11149,7 +11149,7 @@
   },
   {
    "name": "D. Bradley McWilliams YMCA at Cypress Creek",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.98338,
    "lon": -95.570307,
    "osm": "way/543412653",
@@ -11158,7 +11158,7 @@
   },
   {
    "name": "D. Bradley McWilliams YMCA at Cypress Creek Family Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.983251,
    "lon": -95.571924,
    "osm": "way/543412654",
@@ -11195,14 +11195,14 @@
    "osm": "way/550433971"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.858916,
    "lon": -95.679032,
    "osm": "way/550773016"
   },
   {
    "name": "Bear Creek Plantation Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.866279,
    "lon": -95.706115,
    "osm": "way/553866472"
@@ -11244,7 +11244,7 @@
   },
   {
    "name": "The Groves Amenity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.968164,
    "lon": -95.174129,
    "osm": "way/560403873"
@@ -11276,7 +11276,7 @@
   },
   {
    "name": "wonderlikewander",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.743315,
    "lon": -95.369694,
    "osm": "way/564738238",
@@ -11284,7 +11284,7 @@
    "address": "2506 La Branch Street, Houston"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.819554,
    "lon": -95.510289,
    "osm": "way/566863698"
@@ -11299,7 +11299,7 @@
   },
   {
    "name": "AHEPA 29",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.732993,
    "lon": -95.378596,
    "osm": "way/567655680",
@@ -11572,7 +11572,7 @@
   },
   {
    "name": "Richard & Meg Weekley Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.900097,
    "lon": -95.704189,
    "osm": "way/596248942",
@@ -11641,7 +11641,7 @@
   },
   {
    "name": "Houston Hillel",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.725983,
    "lon": -95.402308,
    "osm": "way/599085216",
@@ -11651,7 +11651,7 @@
   },
   {
    "name": "Tom Bass Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.589562,
    "lon": -95.353729,
    "osm": "way/600849951",
@@ -11662,7 +11662,7 @@
   },
   {
    "name": "Christia Adair Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.5892,
    "lon": -95.347694,
    "osm": "way/601724828",
@@ -11867,7 +11867,7 @@
    "osm": "way/608494295"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.781075,
    "lon": -95.599593,
    "osm": "way/608693184",
@@ -11895,7 +11895,7 @@
    "osm": "way/609996624"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.607186,
    "lon": -95.743191,
    "osm": "way/610045393"
@@ -12048,7 +12048,7 @@
   },
   {
    "name": "Metropolitan Multi-Services Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.752185,
    "lon": -95.400079,
    "osm": "way/611307466",
@@ -12296,7 +12296,7 @@
    "osm": "way/619195127"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.549911,
    "lon": -95.375898,
    "osm": "way/619211024"
@@ -12448,7 +12448,7 @@
   },
   {
    "name": "Julia C. Hester House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.779171,
    "lon": -95.32026,
    "osm": "way/620393221",
@@ -12729,7 +12729,7 @@
   },
   {
    "name": "Lakewood Residents' Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.990527,
    "lon": -95.592309,
    "osm": "way/634299558",
@@ -12766,7 +12766,7 @@
   },
   {
    "name": "Cross Creek Welcome Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.696083,
    "lon": -95.869804,
    "osm": "way/637935130",
@@ -12777,7 +12777,7 @@
   },
   {
    "name": "Cross Creek Ranch Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.696402,
    "lon": -95.869934,
    "osm": "way/637941217",
@@ -12795,7 +12795,7 @@
   },
   {
    "name": "Laurel Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.064096,
    "lon": -95.541746,
    "osm": "way/649291202"
@@ -12809,7 +12809,7 @@
    "operator": "Aldine Independent School District"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.856767,
    "lon": -95.699304,
    "osm": "way/653977850"
@@ -12828,14 +12828,14 @@
    "osm": "way/655427221"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.911757,
    "lon": -95.700281,
    "osm": "way/656357464"
   },
   {
    "name": "Moody Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.794089,
    "lon": -95.365193,
    "osm": "way/656608667",
@@ -12872,7 +12872,7 @@
   },
   {
    "name": "Hockley Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.032332,
    "lon": -95.861845,
    "osm": "way/658986533",
@@ -12915,7 +12915,7 @@
    "address": "900 Main Street, South Houston"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.897964,
    "lon": -95.709023,
    "osm": "way/659638366"
@@ -13066,7 +13066,7 @@
   },
   {
    "name": "Settlers Park Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.577464,
    "lon": -95.597228,
    "osm": "way/662118111",
@@ -13115,7 +13115,7 @@
   },
   {
    "name": "May Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.058356,
    "lon": -95.062722,
    "osm": "way/666202041",
@@ -13603,7 +13603,7 @@
   },
   {
    "name": "Independence Heights Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.818477,
    "lon": -95.390901,
    "osm": "way/670541160",
@@ -13631,7 +13631,7 @@
   },
   {
    "name": "Melrose Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.87701,
    "lon": -95.373587,
    "osm": "way/670748449",
@@ -13711,7 +13711,7 @@
   },
   {
    "name": "Hardy Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.874809,
    "lon": -95.367181,
    "osm": "way/672168541",
@@ -13721,19 +13721,19 @@
    "operator": "Harris County Precinct 2"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.07382,
    "lon": -95.199862,
    "osm": "way/672198880"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.0741,
    "lon": -95.199604,
    "osm": "way/672198881"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.074744,
    "lon": -95.201316,
    "osm": "way/672198885"
@@ -13779,7 +13779,7 @@
   },
   {
    "name": "Shape Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.72908,
    "lon": -95.366388,
    "osm": "way/677125167",
@@ -13803,14 +13803,14 @@
    "osm": "way/679972499"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.828727,
    "lon": -95.732516,
    "osm": "way/685076013"
   },
   {
    "name": "Evelyn Rubenstein Jewish Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.67407,
    "lon": -95.484574,
    "osm": "way/686578725",
@@ -13820,7 +13820,7 @@
   },
   {
    "name": "Chinese Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.712854,
    "lon": -95.554492,
    "osm": "way/686579558",
@@ -13830,7 +13830,7 @@
   },
   {
    "name": "Tracy Gee Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.726064,
    "lon": -95.55349,
    "osm": "way/686585373",
@@ -13841,21 +13841,21 @@
   },
   {
    "name": "Liberty Island Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.679613,
    "lon": -95.573778,
    "osm": "way/686587024"
   },
   {
    "name": "UTHealth Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.690734,
    "lon": -95.39799,
    "osm": "way/686588753"
   },
   {
    "name": "Baker-Ripley Neighborhood Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.710851,
    "lon": -95.497523,
    "osm": "way/688074729",
@@ -13863,7 +13863,7 @@
   },
   {
    "name": "Our Texas",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.725347,
    "lon": -95.414367,
    "osm": "way/688200621",
@@ -13898,7 +13898,7 @@
   },
   {
    "name": "Harvest Green Farmhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.643726,
    "lon": -95.722072,
    "osm": "way/706080272"
@@ -13966,7 +13966,7 @@
   },
   {
    "name": "Kendall Library & Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.773042,
    "lon": -95.620587,
    "osm": "way/746967233",
@@ -13993,14 +13993,14 @@
   },
   {
    "name": "H\u1ed9i Tr\u01b0\u1eddng M\u1eabu T\u00e2m",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.68587,
    "lon": -95.585243,
    "osm": "way/765321390"
   },
   {
    "name": "First Filipino American United Methodist Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.685184,
    "lon": -95.585927,
    "osm": "way/765321453"
@@ -14025,7 +14025,7 @@
   },
   {
    "name": "Sharpstown Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.708761,
    "lon": -95.509929,
    "osm": "way/766374054",
@@ -14043,7 +14043,7 @@
   },
   {
    "name": "Kolbe Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.908398,
    "lon": -95.569599,
    "osm": "way/766795098",
@@ -14051,7 +14051,7 @@
   },
   {
    "name": "Saint Martha Activity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.065415,
    "lon": -95.210075,
    "osm": "way/766800772",
@@ -14060,7 +14060,7 @@
   },
   {
    "name": "Family Life Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.064865,
    "lon": -95.210363,
    "osm": "way/766800775",
@@ -14084,7 +14084,7 @@
   },
   {
    "name": "Cherryhurst Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.744426,
    "lon": -95.398145,
    "osm": "way/769978371",
@@ -14122,20 +14122,20 @@
    "osm": "way/787118366"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.855997,
    "lon": -95.699146,
    "osm": "way/788337865"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.941108,
    "lon": -95.68511,
    "osm": "way/791112554"
   },
   {
    "name": "Samuel Mathews Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.118334,
    "lon": -95.595602,
    "osm": "way/798417533",
@@ -14227,7 +14227,7 @@
   },
   {
    "name": "Carverdale Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.847742,
    "lon": -95.539258,
    "osm": "way/847038016",
@@ -14237,7 +14237,7 @@
   },
   {
    "name": "Leonel J. Castillo Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.778251,
    "lon": -95.367059,
    "osm": "way/847975171",
@@ -14256,7 +14256,7 @@
   },
   {
    "name": "Finnigan Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.769627,
    "lon": -95.319643,
    "osm": "way/849180266",
@@ -14267,7 +14267,7 @@
   },
   {
    "name": "YET Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.769256,
    "lon": -95.31974,
    "osm": "way/849180269",
@@ -14278,7 +14278,7 @@
   },
   {
    "name": "Pokrova Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.890532,
    "lon": -95.398407,
    "osm": "way/849310943",
@@ -14461,13 +14461,13 @@
   },
   {
    "name": "Christian Community Service Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.736866,
    "lon": -95.432713,
    "osm": "way/874831859"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.736667,
    "lon": -95.432684,
    "osm": "way/874831860",
@@ -14475,7 +14475,7 @@
   },
   {
    "name": "Shady Lane Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.85981,
    "lon": -95.34249,
    "osm": "way/875650673",
@@ -14485,7 +14485,7 @@
   },
   {
    "name": "Lincoln Park Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.880309,
    "lon": -95.424773,
    "osm": "way/878542174",
@@ -14496,7 +14496,7 @@
   },
   {
    "name": "J. Robinson, Sr. Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.76356,
    "lon": -95.270643,
    "osm": "way/882078621",
@@ -14506,7 +14506,7 @@
   },
   {
    "name": "Scout Building",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.716433,
    "lon": -95.434132,
    "osm": "way/882398791"
@@ -14529,7 +14529,7 @@
   },
   {
    "name": "Edgewood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.666835,
    "lon": -95.331733,
    "osm": "way/902118392",
@@ -14539,7 +14539,7 @@
   },
   {
    "name": "Bessie Swindle Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.632319,
    "lon": -95.367637,
    "osm": "way/902135697",
@@ -14680,7 +14680,7 @@
   },
   {
    "name": "Arab American Cultural and Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.656425,
    "lon": -95.56607,
    "osm": "way/938549717",
@@ -14708,7 +14708,7 @@
   },
   {
    "name": "Barrett Station/Riley Chambers Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.867261,
    "lon": -95.075073,
    "osm": "way/942832607",
@@ -14718,7 +14718,7 @@
   },
   {
    "name": "San Jacinto Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.819805,
    "lon": -95.066263,
    "osm": "way/942834910",
@@ -14734,7 +14734,7 @@
    "osm": "way/943428006"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.946224,
    "lon": -95.681196,
    "osm": "way/948606701"
@@ -14814,7 +14814,7 @@
   },
   {
    "name": "Candlelight Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.836102,
    "lon": -95.436785,
    "osm": "way/978908787",
@@ -14824,7 +14824,7 @@
   },
   {
    "name": "Almeda Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.600715,
    "lon": -95.417074,
    "osm": "way/979683778",
@@ -14922,7 +14922,7 @@
   },
   {
    "name": "Highland Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.854689,
    "lon": -95.457218,
    "osm": "way/1021776804",
@@ -14932,7 +14932,7 @@
   },
   {
    "name": "Montie Beach Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.800214,
    "lon": -95.378727,
    "osm": "way/1022930009",
@@ -15004,7 +15004,7 @@
   },
   {
    "name": "George H.W. Bush Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.011925,
    "lon": -95.510206,
    "osm": "way/1038298244",
@@ -15022,7 +15022,7 @@
   },
   {
    "name": "Woodland Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.783338,
    "lon": -95.370432,
    "osm": "way/1055089769",
@@ -15046,7 +15046,7 @@
   },
   {
    "name": "DeZavala Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.73786,
    "lon": -95.288227,
    "osm": "way/1062138300",
@@ -15056,7 +15056,7 @@
   },
   {
    "name": "Leon Grayson / Baldree Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.782429,
    "lon": -95.179652,
    "osm": "way/1064214879",
@@ -15074,7 +15074,7 @@
   },
   {
    "name": "Sagemont Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.599912,
    "lon": -95.217069,
    "osm": "way/1066710765",
@@ -15101,7 +15101,7 @@
   },
   {
    "name": "Freed Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.796699,
    "lon": -95.472235,
    "osm": "way/1070617145",
@@ -15112,7 +15112,7 @@
   },
   {
    "name": "Trini Mendenhall Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.795776,
    "lon": -95.484143,
    "osm": "way/1070632437",
@@ -15139,7 +15139,7 @@
   },
   {
    "name": "Milroy Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.792663,
    "lon": -95.399587,
    "osm": "way/1072142625",
@@ -15149,7 +15149,7 @@
   },
   {
    "name": "Love Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.792694,
    "lon": -95.407796,
    "osm": "way/1072142777",
@@ -15159,7 +15159,7 @@
   },
   {
    "name": "Linkwood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.68739,
    "lon": -95.43368,
    "osm": "way/1073734776",
@@ -15183,7 +15183,7 @@
   },
   {
    "name": "Steve Radack Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.83206,
    "lon": -95.690623,
    "osm": "way/1077264674",
@@ -15194,7 +15194,7 @@
   },
   {
    "name": "Lansdale Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.699433,
    "lon": -95.528118,
    "osm": "way/1078372155",
@@ -15204,7 +15204,7 @@
   },
   {
    "name": "Sunnyside Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.66881,
    "lon": -95.372163,
    "osm": "way/1080551584",
@@ -15214,7 +15214,7 @@
   },
   {
    "name": "Meadowcreek Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.680034,
    "lon": -95.243349,
    "osm": "way/1080857345",
@@ -15241,7 +15241,7 @@
   },
   {
    "name": "Townwood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.621499,
    "lon": -95.429654,
    "osm": "way/1083304727",
@@ -15261,7 +15261,7 @@
   },
   {
    "name": "Windsor Village Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.617681,
    "lon": -95.474239,
    "osm": "way/1083315692",
@@ -15271,14 +15271,14 @@
   },
   {
    "name": "The Commons Amenity Center Bridge Creek",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.915952,
    "lon": -95.737858,
    "osm": "way/1083328771"
   },
   {
    "name": "Cavalcade Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.800573,
    "lon": -95.332786,
    "osm": "way/1083939899",
@@ -15327,7 +15327,7 @@
   },
   {
    "name": "Orissa Culture Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.612564,
    "lon": -95.376548,
    "osm": "way/1085497546",
@@ -15359,7 +15359,7 @@
   },
   {
    "name": "Platou Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.653794,
    "lon": -95.479128,
    "osm": "way/1088937194",
@@ -15377,7 +15377,7 @@
   },
   {
    "name": "Hobart Taylor Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.815058,
    "lon": -95.27776,
    "osm": "way/1089307767",
@@ -15387,7 +15387,7 @@
   },
   {
    "name": "Clinton Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.743605,
    "lon": -95.261913,
    "osm": "way/1090220528",
@@ -15397,7 +15397,7 @@
   },
   {
    "name": "Young Ranch Recreation Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.766565,
    "lon": -95.875439,
    "osm": "way/1090570824",
@@ -15406,7 +15406,7 @@
   },
   {
    "name": "Gauranga Hall",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.81849,
    "lon": -95.423723,
    "osm": "way/1091733830",
@@ -15433,14 +15433,14 @@
   },
   {
    "name": "Turquoise Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.654641,
    "lon": -95.546122,
    "osm": "way/1098995389"
   },
   {
    "name": "Hackberry Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.693157,
    "lon": -95.60353,
    "osm": "way/1099236638",
@@ -15449,7 +15449,7 @@
    "operator": "Houston Parks and Recreation Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.691374,
    "lon": -95.597296,
    "osm": "way/1099286642",
@@ -15457,7 +15457,7 @@
   },
   {
    "name": "Philippine Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.655878,
    "lon": -95.537231,
    "osm": "way/1099471493",
@@ -15515,7 +15515,7 @@
   },
   {
    "name": "Tuffly Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.790651,
    "lon": -95.331535,
    "osm": "way/1105962157",
@@ -15525,7 +15525,7 @@
    "operator": "Houston Parks and Recreation Department"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.83043,
    "lon": -95.537211,
    "osm": "way/1106648645"
@@ -15539,7 +15539,7 @@
   },
   {
    "name": "India House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.656813,
    "lon": -95.533011,
    "osm": "way/1106723739",
@@ -15550,7 +15550,7 @@
   },
   {
    "name": "Institute of Hispanic Culture of Houston",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.737063,
    "lon": -95.427098,
    "osm": "way/1106856360",
@@ -15559,7 +15559,7 @@
   },
   {
    "name": "Alief Neighborhood Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.702541,
    "lon": -95.58891,
    "osm": "way/1109715995",
@@ -15569,7 +15569,7 @@
   },
   {
    "name": "Agriculture Center Ford Bend County",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.51666,
    "lon": -95.809801,
    "osm": "way/1115712269",
@@ -15577,7 +15577,7 @@
   },
   {
    "name": "Extension Education Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.516805,
    "lon": -95.810262,
    "osm": "way/1115712270",
@@ -15740,7 +15740,7 @@
   },
   {
    "name": "Kemah Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.541042,
    "lon": -95.019437,
    "osm": "way/1188673897"
@@ -15756,7 +15756,7 @@
    "address": "5500 FM 2920, Spring"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.959884,
    "lon": -95.673162,
    "osm": "way/1198166086"
@@ -15800,14 +15800,14 @@
    "osm": "way/1225994172"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.745055,
    "lon": -95.569737,
    "osm": "way/1225996551"
   },
   {
    "name": "White Oak Conference Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.875272,
    "lon": -95.475024,
    "osm": "way/1226061411",
@@ -15823,7 +15823,7 @@
    "osm": "way/1227098711"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.05385,
    "lon": -95.582364,
    "osm": "way/1231194579"
@@ -15889,7 +15889,7 @@
    "osm": "way/1240852481"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.75445,
    "lon": -95.577392,
    "osm": "way/1242384417",
@@ -15897,7 +15897,7 @@
   },
   {
    "name": "Braeburn Glen Civic Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.677893,
    "lon": -95.531787,
    "osm": "way/1244285864",
@@ -15905,7 +15905,7 @@
   },
   {
    "name": "Four Corners Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.666,
    "lon": -95.658866,
    "osm": "way/1246995095"
@@ -15924,7 +15924,7 @@
   },
   {
    "name": "Administrative Building & Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.687631,
    "lon": -95.384527,
    "osm": "way/1267584188",
@@ -15950,7 +15950,7 @@
   },
   {
    "name": "Settegast Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.753027,
    "lon": -95.343987,
    "osm": "way/1277953371",
@@ -15977,7 +15977,7 @@
    "operator": "Houston Independent School District"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.049594,
    "lon": -95.507812,
    "osm": "way/1286895673"
@@ -15991,7 +15991,7 @@
   },
   {
    "name": "Rosenberg Boys and Girls Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.561512,
    "lon": -95.80821,
    "osm": "way/1289421454",
@@ -16002,7 +16002,7 @@
   },
   {
    "name": "Garden Villas Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.664132,
    "lon": -95.295096,
    "osm": "way/1289748277",
@@ -16012,7 +16012,7 @@
   },
   {
    "name": "Richmond Boys and Girls Club",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.590463,
    "lon": -95.775186,
    "osm": "way/1292111614",
@@ -16033,7 +16033,7 @@
   },
   {
    "name": "Charlton Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.687661,
    "lon": -95.2741,
    "osm": "way/1300772251",
@@ -16052,7 +16052,7 @@
    "operator": "Houston Public Library"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.03005,
    "lon": -95.622815,
    "osm": "way/1303116770"
@@ -16065,7 +16065,7 @@
    "osm": "way/1305990177"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.98988,
    "lon": -95.717823,
    "osm": "way/1306464465"
@@ -16318,7 +16318,7 @@
   },
   {
    "name": "Memorial Hills Community Improvement Association",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.025415,
    "lon": -95.391597,
    "osm": "way/1341507514",
@@ -16565,7 +16565,7 @@
   },
   {
    "name": "Godwin Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.672867,
    "lon": -95.469885,
    "osm": "way/1385492932",
@@ -16575,7 +16575,7 @@
   },
   {
    "name": "Burnett Bayland Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.714706,
    "lon": -95.478121,
    "osm": "way/1386019757",
@@ -16687,7 +16687,7 @@
   },
   {
    "name": "Clyde and Nancy Jacks Conference Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.574477,
    "lon": -95.606308,
    "osm": "way/1396730059",
@@ -16708,7 +16708,7 @@
   },
   {
    "name": "Mangum-Howell Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.922189,
    "lon": -95.45593,
    "osm": "way/1409601884",
@@ -16792,7 +16792,7 @@
   },
   {
    "name": "Marian Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.65978,
    "lon": -95.523792,
    "osm": "way/1417904711",
@@ -16835,7 +16835,7 @@
    "osm": "way/1425756576"
   },
   {
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.967268,
    "lon": -95.163435,
    "osm": "way/1425973370"
@@ -16852,7 +16852,7 @@
   },
   {
    "name": "Alexander Deussen Senior Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.917319,
    "lon": -95.151233,
    "osm": "way/1427415075",
@@ -16863,7 +16863,7 @@
   },
   {
    "name": "Barbara Jordan Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.899807,
    "lon": -95.293988,
    "osm": "way/1427416431",
@@ -16874,7 +16874,7 @@
   },
   {
    "name": "El Franco Lee Senior/Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.598366,
    "lon": -95.251622,
    "osm": "way/1427417454",
@@ -16885,7 +16885,7 @@
   },
   {
    "name": "J.D. Walker Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.806506,
    "lon": -95.017478,
    "osm": "way/1427420799",
@@ -16896,7 +16896,7 @@
   },
   {
    "name": "Martin L. Flukinger Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.775493,
    "lon": -95.120616,
    "osm": "way/1427421176",
@@ -16907,7 +16907,7 @@
   },
   {
    "name": "Deputy Darren Almendarez Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.87457,
    "lon": -95.334678,
    "osm": "way/1427422204",
@@ -16918,7 +16918,7 @@
   },
   {
    "name": "Pep Mueller Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.914666,
    "lon": -95.381112,
    "osm": "way/1427423006",
@@ -16929,7 +16929,7 @@
   },
   {
    "name": "East Harris County Activity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.66054,
    "lon": -95.125733,
    "osm": "way/1427423634",
@@ -16951,7 +16951,7 @@
   },
   {
    "name": "Crestmont Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.636136,
    "lon": -95.345366,
    "osm": "way/1427587394",
@@ -16961,7 +16961,7 @@
   },
   {
    "name": "Beverly Hills Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.613945,
    "lon": -95.235667,
    "osm": "way/1427588922",
@@ -16971,7 +16971,7 @@
   },
   {
    "name": "Lakewood Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.840277,
    "lon": -95.267837,
    "osm": "way/1427588923",
@@ -16981,7 +16981,7 @@
   },
   {
    "name": "Tidwell Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.851557,
    "lon": -95.304176,
    "osm": "way/1427590770",
@@ -17023,7 +17023,7 @@
   },
   {
    "name": "Kendall Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.772976,
    "lon": -95.620596,
    "osm": "way/1427622846",
@@ -17053,7 +17053,7 @@
   },
   {
    "name": "Beau and Merfish Teen Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.680218,
    "lon": -95.468767,
    "osm": "way/1430408932",
@@ -17180,7 +17180,7 @@
   },
   {
    "name": "Heathlake Community Clubhouse",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.755782,
    "lon": -95.593166,
    "osm": "way/1458949893",
@@ -17189,7 +17189,7 @@
   },
   {
    "name": "Kings River Pool House",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 30.018935,
    "lon": -95.173068,
    "osm": "way/1468603639",
@@ -17197,7 +17197,7 @@
   },
   {
    "name": "Houston Knanaya Catholic Society",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.594108,
    "lon": -95.53714,
    "osm": "way/1470391338",
@@ -17275,7 +17275,7 @@
   },
   {
    "name": "Landmark Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.617231,
    "lon": -95.539801,
    "osm": "way/1485137363"
@@ -17339,7 +17339,7 @@
   },
   {
    "name": "Mamie George Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.590378,
    "lon": -95.773152,
    "osm": "way/1490881842"
@@ -17353,7 +17353,7 @@
   },
   {
    "name": "Irene Stern Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.70232,
    "lon": -95.891104,
    "osm": "way/1491248418"
@@ -17435,7 +17435,7 @@
   },
   {
    "name": "Pioneer Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.527451,
    "lon": -95.746769,
    "osm": "way/1499161299"
@@ -17595,7 +17595,7 @@
   },
   {
    "name": "Morton Lodge No. 72, A. F. & A. M.",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.583077,
    "lon": -95.760525,
    "osm": "way/1546839240"
@@ -17673,7 +17673,7 @@
   },
   {
    "name": "R.L \"Bud\" O'Shieles Fort Bend County Community Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.517061,
    "lon": -95.809425,
    "osm": "way/1560033053",
@@ -17683,7 +17683,7 @@
   },
   {
    "name": "Extension Annex",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.516332,
    "lon": -95.809962,
    "osm": "way/1560033054",
@@ -17992,7 +17992,7 @@
   },
   {
    "name": "The Hangar Unity Center",
-   "type": "community_centre",
+   "type": "community_center",
    "lat": 29.788853,
    "lon": -95.953098,
    "osm": "relation/20407088",

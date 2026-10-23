@@ -32,6 +32,7 @@ function measure() {
   if (!animated) return;
 
   shell.style.transform = "none";
+  shell.style.setproperty("--glow", 1 - open);
   const P = pin.getBoundingClientRect();
   const M = shell.getBoundingClientRect();
   const w = Math.min(Math.max(P.width * 0.4, 420), 700);

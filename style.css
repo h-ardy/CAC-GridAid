@@ -102,18 +102,22 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .map-shell #map { height: 100%; }
 .stage .panel { max-height: 100%; overflow-y: auto; padding-right: 4px; }
 
-.launch { position: absolute; z-index: 2; width: 200px; height: 340px; }
-.tower { position: absolute; left: 0; bottom: 0; width: 80px; height: 320px; }
+.launch { position: absolute; z-index: 2; width: 300px; height: 510px; }
+.tower { position: absolute; left: 0; bottom: 0; width: 120px; height: 480px; }
 .arm { transform-box: fill-box; transform-origin: left center; transition: transform 0.4s ease-in-out; }
 .launched .arm { transform: rotate(-55deg); }
-.ship { position: absolute; left: 80px; bottom: 2px; width: 60px; will-change: transform; }
-.ship svg { display: block; width: 60px; }
-.flame { position: absolute; left: 18px; top: 172px; width: 24px !important; transform-origin: top center; transform: scaleY(0); opacity: 0; transition: opacity 0.2s, transform 0.2s; }
+.ship { position: absolute; left: 120px; bottom: 3px; width: 90px; will-change: transform; }
+.ship svg { display: block; width: 90px; }
+.flame { position: absolute; left: 27px; top: 258px; width: 36px !important; transform-origin: top center; transform: scaleY(0); opacity: 0; transition: opacity 0.2s, transform 0.2s; }
 .launched .flame { opacity: 1; animation: flicker 0.12s infinite alternate; }
 @keyframes flicker { from { transform: scaleY(1.2); } to { transform: scaleY(1.6); } }
-.smoke i { position: absolute; left: 90px; bottom: -8px; width: 40px; height: 40px; border-radius: 50%; background: #cfd3d6; opacity: 0; filter: blur(3px); transition: opacity 0.6s, transform 1.4s ease-out; }
-.launched .smoke i { opacity: 0.35; transform: translate(var(--dx), -14px) scale(2.4); }
-
+.trail { position: absolute; left: 45px; top: 300px; }
+.trail i { position: absolute; left: -16px; top: 0; width: 32px; height: 32px; border-radius: 50%; background: #cfd3d6; opacity: 0; filter: blur(2px); }
+.launched .trail i { animation: trail 0.9s linear var(--d) infinite; }
+@keyframes trail { from { opacity: 0.6; transform: translateY(0) scale(0.5); } to { opacity: 0; transform: translateY(160px) scale(2.8); } }
+.smoke i { position: absolute; left: 137px; bottom: -10px; width: 56px; height: 56px; border-radius: 50%; background: #cfd3d6; opacity: 0; filter: blur(3px); }
+.launched .smoke i { animation: puff 2.4s ease-out var(--d) infinite; }
+@keyframes puff { from { opacity: 0.55; transform: translate(0, 0) scale(0.6); } to { opacity: 0; transform: translate(calc(var(--dx) * 1.6), -70px) scale(3.4); } }
 .stage.static { height: auto; }
 .stage.static .stage-pin { position: static; height: auto; overflow: visible; }
 .stage.static .sky, .stage.static #grid, .stage.static .launch { display: none; }
@@ -123,7 +127,10 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .stage.static .panel { max-height: none; }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-logo, .hero-line, .launched .flame { animation: none; }
+  .astro-result { padding-right: 40px; }
+.astro-close { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; padding: 0 !important; font: 400 22px/1 var(--sans) !important; color: var(--muted) !important; background: none !important; border: 0; cursor: pointer; }
+.astro-close:hover { color: var(--ink) !important; }
+.astro-reopen { position: absolute; right: 12px; bottom: 12px; z-index: 900; font: 600 14px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }
 }
 
 .astro-dock { position: absolute; top: 12px; right: 12px; z-index: 900; display: flex; align-items: center; gap: 10px; max-width: 290px; padding: 8px 12px 8px 8px; background: #fff; border: 1px solid var(--line); border-radius: 6px; font-size: 13px; color: var(--muted); }
@@ -162,3 +169,8 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .power-back .count { font-weight: 600; color: var(--ink); }
 
 .home-join { max-width: 1100px; margin: 0 auto; padding: 72px 24px 24px; }
+
+.astro-result { padding-right: 40px; }
+.astro-close { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; padding: 0 !important; font: 400 22px/1 var(--sans) !important; color: var(--muted) !important; background: none !important; border: 0; cursor: pointer; }
+.astro-close:hover { color: var(--ink) !important; }
+.astro-reopen { position: absolute; right: 12px; bottom: 12px; z-index: 900; font: 600 14px var(--sans); color: #fff; background: var(--navy); border: 0; border-radius: 4px; padding: 9px 14px; cursor: pointer; }

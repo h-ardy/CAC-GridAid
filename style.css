@@ -180,3 +180,12 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .table tr.pick:hover td { background: #faf4ea; }
 .table tr.focus td { background: #f1e6d3; }
 .table tr.focus td:first-child { box-shadow: inset 4px 0 0 var(--gap); }
+
+.map-shell { box-shadow: 0 0 0 1px rgba(255, 255, 255, calc(0.6 * var(--glow, 0))), 0 0 40px 8px rgba(255, 255, 255, calc(0.2 * var(--glow, 0))); }
+
+.controls .slide { min-width: 240px; }
+.slide span { display: flex; align-items: baseline; gap: 6px; }
+.slide output { font: 600 16px var(--sans); color: var(--ink); }
+.slide em { font-style: normal; font-size: 12px; color: var(--muted); }
+.slide input[type="range"] { min-width: 0; width: 100%; padding: 0; border: 0; background: none; accent-color: var(--gap); height: 36px; }
+

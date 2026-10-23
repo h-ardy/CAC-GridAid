@@ -8,6 +8,21 @@ const shell = stage.querySelector(".map-shell");
 const launch = stage.querySelector(".launch");
 const ship = stage.querySelector(".ship");
 const docks = [...stage.querySelectorAll("[data-dock]")];
+const cloud = document.createElement("div");
+cloud.className = "cloud";
+cloud.setAttribute("aria-hidden", "true");
+pin.appendChild(cloud);
+const rand = (i, n) => {
+  const v = Math.sin(i * 12.9898 + n * 78.233) * 43758.5453;
+  return v - Math.floor(v);
+};
+const puffs = Array.from({ length: 56 }, (_, i) => {
+  const el = document.createElement("b");
+  el.innerHTML = "<i></i>";
+  el.style.setProperty("--d", `${-rand(i, 5) * 6}s`);
+  cloud.appendChild(el);
+  return { el, x: rand(i, 1), y: 0.56 + 0.5 * rand(i, 2), size: 240 + 300 * rand(i, 3), alpha: 0.8 + 0.2 * rand(i, 4) };
+});
 const animated = window.matchMedia("(min-width: 861px)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const SQ = 46;

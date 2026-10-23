@@ -18,6 +18,7 @@ const els = {
   compare: document.getElementById("compare"),
   sites: document.getElementById("sites"),
   fine: document.getElementById("fine"),
+    outageSource: document.getElementById("outageSource"),
 };
 
 const map = L.map("map", { scrollWheelZoom: false });
@@ -106,6 +107,9 @@ async function loadCounty(fips) {
   county = await loadCountyData(fips);
   const plan = costs.counties[fips];
   const recR = plan ? plan.reach : 10;
+    els.outageSource.innerHTML = plan && plan.outage
+    ? `Past outage in ${esc(plan.name)}, ${esc(plan.outage.date)}: ${esc(plan.outage.what)}. <a href="${esc(plan.outage.src)}" target="_blank" rel="noopener">Source</a>`
+    : "";
   const recK = pickSites(county.zips, county.sites, plan ? plan.sites.recommended : 3, recR).length;
   els.k.max = county.sites.length;  els.k.value = recK;
   els.reach.value = recR;

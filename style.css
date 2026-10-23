@@ -248,3 +248,13 @@ footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; hei
 .hero { top: 3vh; }
 .hero-line { margin-top: 12px; }
 .hero-credit { margin: 6px auto 0; font-size: 14px; color: #8f897d; animation: rise 0.9s 0.3s ease-out both; }
+
+.info { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 56px; }
+.info p { margin: 0 0 12px; max-width: 60ch; color: var(--muted); }
+.sources { margin: 0; padding: 0; list-style: none; }
+.sources li { padding: 10px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+.sources li:empty { display: none; }
+.sources a { font-weight: 600; }
+@media (max-width: 860px) {
+  .info { grid-template-columns: 1fr; gap: 8px; }
+}

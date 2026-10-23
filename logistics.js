@@ -85,8 +85,8 @@ async function start() {
 async function loadCounty(fips) {
   county = await loadCountyData(fips);
   const plan = costs.counties[fips];
-  const recK = plan ? plan.sites.recommended : 3;
   const recR = plan ? plan.reach : 10;
+  const recK = pickSites(county.zips, county.sites, plan ? plan.sites.recommended : 3, recR).length;
   els.k.max = Math.min(county.sites.length, Math.max(10, plan ? plan.sites.high : 10));
   els.k.value = recK;
   els.reach.value = recR;
@@ -163,13 +163,45 @@ function draw() {
   const visitors = reached * inp.turnout;
   const pct = total ? ((100 * reached) / total).toFixed(1) : "0";
 
+  const plan = costs.counties[county.fips];
+  const budget = plan ? plan.budget.recommended.diesel : setup;
+  const top = Math.max(budget, setup) || 1;
+  const left = budget - setup;
+  els.budget.innerHTML = `
+    <dl class="budget-top">
+      <div>
+        <dt>Estimated county budget</dt>
+        <dd>${money(budget)}</dd>
+        <p>${plan ? `Planned for ${plan.sites.recommended} diesel generators in the county plans workbook` : ""}</p>
+      </div>
+      <div class="plan">
+        <dt>This plan: ${n} ${n === 1 ? "site" : "sites"}, ${esc(g.name.toLowerCase())}</dt>
+        <dd>${money(setup)}</dd>
+        <p>FEMA could pay ${money(setup * inp.fema)}. The county pays ${money(setup * (1 - inp.fema))}.</p>
+      </div>
+    </dl>
+    <div class="budget-bar${left < 0 ? " over" : ""}" role="img" aria-label="Plan cost compared with budget">
+      <i style="width: ${(100 * setup) / top}%"></i>
+      <b style="left: ${(100 * budget) / top}%"></b>
+    </div>
+    <p class="budget-status${left < 0 ? " over" : ""}">${left < 0 ? `${money(-left)} over budget` : `${money(left)} under budget`}</p>
+    <div class="gens">
+      ${Object.entries(costs.generators).map(([key, t]) => {
+        const c = n * t.cost;
+        return `
+        <button type="button" class="${key === genKey ? "on" : ""}" data-gen="${key}">
+          <span class="name">${esc(t.name)}</span>
+          <span class="price">${money(c)}</span>
+          <span class="sub">County pays ${money(c * (1 - inp.fema))}</span>
+          <span class="sub ${c > budget ? "over" : ""}">${c > budget ? `${money(c - budget)} over budget` : "Fits the budget"}</span>
+        </button>`;
+      }).join("")}
+    </div>`;
+
   els.summary.innerHTML = `
     <div><dt>Sites</dt><dd>${n}</dd></div>
-    <div><dt>People within ${R} miles</dt><dd>${reached.toLocaleString()} of ${total.toLocaleString()} (${pct}%)</dd></div>
-    <div><dt>Setup cost</dt><dd>${money(setup)}</dd></div>
-    <div><dt>FEMA could pay (${Math.round(inp.fema * 100)}%)</dt><dd>${money(setup * inp.fema)}</dd></div>
-    <div><dt>County share</dt><dd>${money(setup * (1 - inp.fema))}</dd></div>
-    <div><dt>Running cost, ${inp.days}-day outage</dt><dd>${money(runningCost(g, n, inp.days))}</dd></div>
+    <div><dt>People within ${R} miles</dt><dd>${reached.toLocaleString()} of ${total.toLocaleString()} (${pct}%)</dd></div>      
+        <div><dt>Running cost, ${inp.days}-day outage</dt><dd>${money(runningCost(g, n, inp.days))}</dd></div>
     <div><dt>Power needed across sites</dt><dd>${kw((visitors * inp.wattsLow) / 1000)} to ${kw((visitors * inp.wattsHigh) / 1000)}</dd></div>`;
 
   els.compare.innerHTML = Object.entries(costs.generators)
@@ -211,6 +243,12 @@ els.sites.addEventListener("click", (e) => {
   if (e.target.closest("a")) return;
   const row = e.target.closest("tr.pick");
   if (row) focusSite(Number(row.dataset.i), false);
+});
+els.budget.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-gen]");
+  if (!btn) return;
+  els.gen.value = btn.dataset.gen;
+  draw();
 });
 els.county.addEventListener("change", () => loadCounty(els.county.value));
 [els.gen, els.k, els.reach].forEach((el) => el.addEventListener("input", draw));

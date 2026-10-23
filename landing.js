@@ -32,7 +32,6 @@ function measure() {
   if (!animated) return;
 
   shell.style.transform = "none";
-  shell.style.setproperty("--glow", 1 - open);
   const P = pin.getBoundingClientRect();
   const M = shell.getBoundingClientRect();
   const w = Math.min(Math.max(P.width * 0.4, 420), 700);
@@ -59,6 +58,7 @@ function update() {
   const open = ease(span(p, 0.1, 0.62));
   shell.style.transform = `translate(${geo.dx * (1 - open)}px, ${geo.dy * (1 - open)}px) scale(${geo.s + (1 - geo.s) * open})`;
   shell.style.pointerEvents = open > 0.98 ? "auto" : "none";
+  shell.style.setProperty("--glow", 1 - open);
 
   const fade = 1 - span(p, 0.3, 0.62);
   sky.style.opacity = fade;

@@ -181,8 +181,7 @@ textarea { padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
 .table tr.focus td { background: #f1e6d3; }
 .table tr.focus td:first-child { box-shadow: inset 4px 0 0 var(--gap); }
 
-.map-shell { box-shadow: 0 0 0 1px rgba(255, 255, 255, calc(0.6 * var(--glow, 0))), 0 0 40px 8px rgba(255, 255, 255, calc(0.2 * var(--glow, 0))); }
-
+.map-shell { box-shadow: 0 0 0 1px rgba(255, 255, 255, calc(0.9 * var(--glow, 0))), 0 0 24px 6px rgba(255, 255, 255, calc(0.5 * var(--glow, 0))), 0 0 80px 24px rgba(255, 255, 255, calc(0.24 * var(--glow, 0))), 0 0 160px 50px rgba(255, 255, 255, calc(0.08 * var(--glow, 0))); }
 .controls .slide { min-width: 240px; }
 .slide span { display: flex; align-items: baseline; gap: 6px; }
 .slide output { font: 600 16px var(--sans); color: var(--ink); }

@@ -271,7 +271,7 @@ function draw() {
           <td>${kw((v * inp.wattsLow) / 1000)} to ${kw((v * inp.wattsHigh) / 1000)}</td>
           <td>${contact || "None listed"}</td>
           <td>${flags.length ? `<ul>${flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</td>
-          <td><input type="checkbox" class="has-gen" data-s="${s}"${hasGen(b) ? " checked" : ""} aria-label="${esc(b.name)} already has a generator></td>
+          <td><input type="checkbox" class="has-gen" data-s="${s}"${hasGen(b) ? " checked" : ""} aria-label="${esc(b.name)} already has a generator>"</td>
         </tr>`;
     })
     .join("");

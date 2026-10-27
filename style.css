@@ -262,3 +262,6 @@ footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; hei
 .rover .dish { transform-box: fill-box; transform-origin: 50% 100%; animation: scan 4s ease-in-out infinite alternate; }
 @keyframes scan { from { transform: rotate(-12deg); } to { transform: rotate(10deg); } }
 @media (prefers-reduced-motion: reduce) { .rover .dish { animation: none; } }
+
+.pin.owned span { background: #fff; color: var(--ink); border-color: var(--ink); }
+.has-gen { width: 18px; height: 18px; accent-color: var(--gap); cursor: pointer; }

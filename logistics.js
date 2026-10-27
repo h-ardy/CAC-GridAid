@@ -36,6 +36,17 @@ let county = null;
 let pins = [];
 let fitNext = true;
 
+const OWNED_KEY = "gridaid-has-generator";
+let owned = new Set();
+try { owned = new Set(JSON.parse(localStorage.getItem(OWNED_KEY)) || []); } catch (e) {}
+const ownedId = (site) => '${county.fips}:${site.name}:${site.lat.toFixed(4)}';
+const hasGen = (site) => owned.has(ownedId(site));
+function setOwned(site, on) {
+  if (on) owned.add(ownedID(site));
+  else owned.delete(ownedId(site));
+  try { localStorage.setItem(OWNED_KEY, JSON.stringify([...owned])); } catch (e) {}
+}
+
 const money = (v) => (v >= 1e6 ? `$${(v / 1e6).toFixed(2)}M` : `$${Math.round(v).toLocaleString()}`);
 const kw = (v) => (v >= 1000 ? `${(v / 1000).toFixed(1)} MW` : `${Math.round(v)} kW`);
 
@@ -140,7 +151,7 @@ function drawMap(chosen, nearest, R) {
   chosen.forEach((s, i) => {
     const site = county.sites[s];
     L.circle([site.lat, site.lon], { radius: R * METERS_PER_MILE, color: INK, weight: 1, dashArray: "4 4", fill: false, interactive: false }).addTo(siteLayer);
-    const pin = L.marker([site.lat, site.lon], { icon: L.divIcon({ className: "pin", html: `<span>${i + 1}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }) })
+    const pin = L.marker([site.lat, site.lon], { icon: L.divIcon({ className: hasGen(site) ? "pin-owned" : "pin", html: `<span>${i + 1}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }) })
       .bindTooltip(`${i + 1}. ${esc(site.name)}`)
       .on("click", () => focusSite(i, true))
       .addTo(siteLayer);
@@ -182,7 +193,9 @@ function draw() {
   drawMap(chosen, nearest, R);
 
   const n = chosen.length;
-  const setup = n * g.cost;
+  const have = chosen.filter((s) => hasGen(county.sites[s])).length;
+  const buy = n-have;
+  const setup=buy* g.cost;
   const visitors = reached * inp.turnout;
   const pct = total ? ((100 * reached) / total).toFixed(1) : "0";
 
@@ -200,7 +213,7 @@ function draw() {
       <div class="plan">
         <dt>This plan: ${n} ${n === 1 ? "site" : "sites"}, ${esc(g.name.toLowerCase())}</dt>
         <dd>${money(setup)}</dd>
-        <p>FEMA could pay ${money(setup * inp.fema)}. The county pays ${money(setup * (1 - inp.fema))}.</p>
+        <p>${have ? '${have} already ${have ===1 ? "has" : "have"} a generator, so the county buys ${buy}. ' : ""} FEMA could pay ${money(setup * inp.fema)}. The county pays ${money(setup * (1-inp.fema))}.</p>
       </div>
     </dl>
     <div class="budget-bar${left < 0 ? " over" : ""}" role="img" aria-label="Plan cost compared with budget">
@@ -210,7 +223,7 @@ function draw() {
     <p class="budget-status${left < 0 ? " over" : ""}">${left < 0 ? `${money(-left)} over budget` : `${money(left)} under budget`}</p>
     <div class="gens">
       ${Object.entries(costs.generators).map(([key, t]) => {
-        const c = n * t.cost;
+        const c = buy * t.cost;
         return `
         <button type="button" class="${key === genKey ? "on" : ""}" data-gen="${key}">
           <span class="name">${esc(t.name)}</span>
@@ -231,8 +244,8 @@ function draw() {
     .map(([key, t]) => `
       <tr class="${key === genKey ? "on" : ""}">
         <td>${esc(t.name)}</td>
-        <td>${money(n * t.cost)}</td>
-        <td>${money(n * t.cost * (1 - inp.fema))}</td>
+        <td>${money(buy * t.cost)}</td>
+        <td>${money(buy * t.cost * (1 - inp.fema))}</td>
         <td>${money(runningCost(t, n, inp.days))}</td>
         <td>${READY[key] ?? ""}</td>
       </tr>`)
@@ -248,6 +261,7 @@ function draw() {
         b.website ? `<a href="${esc(b.website)}" target="_blank" rel="noopener">Website</a>` : null,
       ].filter(Boolean).join("<br>");
       const flags = flagsFor(b, people, v, genKey);
+      if(hasGen(b)) flags.unshift("Already has a generator: check its size and fuel supply")
       return `
         <tr class="pick" id="site-${i}" data-i="${i}">
           <td>${i + 1}</td>
@@ -257,15 +271,22 @@ function draw() {
           <td>${kw((v * inp.wattsLow) / 1000)} to ${kw((v * inp.wattsHigh) / 1000)}</td>
           <td>${contact || "None listed"}</td>
           <td>${flags.length ? `<ul>${flags.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</td>
+          <td><input type="checkbox" class="has-gen" data-s="${s}"${hasGen(b) ? " checked" : ""} aria-label="${esc(b.name)} already has a generator></td>
         </tr>`;
     })
     .join("");
 }
 
 els.sites.addEventListener("click", (e) => {
-  if (e.target.closest("a")) return;
+  if (e.target.closest("a, input")) return;
   const row = e.target.closest("tr.pick");
   if (row) focusSite(Number(row.dataset.i), false);
+});
+els.sites.addEventListener("change", (e) => {
+  const box = e.target.closest(".has-gen");
+  if (!box) return;
+  setOwned(county.sites[Number(box.dataset.s)], box.checked);
+  draw();
 });
 els.budget.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-gen]");
